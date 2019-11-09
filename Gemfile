@@ -8,6 +8,7 @@ gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'omniauth-twitter', '~> 1.4'
 gem 'bootstrap', '~> 4.1.1'  
 gem 'jquery-rails'
+gem  'songkickr'
 
 # Progetto AAFAkaton
 gem 'twitter'
