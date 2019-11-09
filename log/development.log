@@ -4982,3 +4982,50 @@ Processing by StaticPagesController#concerts as HTML
 Completed 200 OK in 580ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 14056)
 
 
+Started GET "/" for 127.0.0.1 at 2019-11-09 19:55:34 +0100
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 1.0ms | Allocations: 221)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 108)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 214)
+Completed 200 OK in 81ms (Views: 78.9ms | ActiveRecord: 0.0ms | Allocations: 17258)
+
+
+Started GET "/artists" for 127.0.0.1 at 2019-11-09 19:55:37 +0100
+Processing by StaticPagesController#artists as HTML
+  Rendering static_pages/artists.html.erb within layouts/application
+  Rendered static_pages/artists.html.erb within layouts/application (Duration: 0.3ms | Allocations: 74)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 77)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 5672)
+
+
+Started GET "/artists" for 127.0.0.1 at 2019-11-09 19:55:39 +0100
+Processing by StaticPagesController#artists as HTML
+  Rendering static_pages/artists.html.erb within layouts/application
+  Rendered static_pages/artists.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 71)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 5486)
+
+
+Started GET "/artists" for 127.0.0.1 at 2019-11-09 19:55:39 +0100
+Processing by StaticPagesController#artists as HTML
+  Rendering static_pages/artists.html.erb within layouts/application
+  Rendered static_pages/artists.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 71)
+Completed 200 OK in 16ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 5485)
+
+
+Started GET "/artists" for 127.0.0.1 at 2019-11-09 19:55:51 +0100
+Processing by StaticPagesController#artists as HTML
+  Rendering static_pages/artists.html.erb within layouts/application
+  Rendered static_pages/artists.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 71)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 5479)
+
+
