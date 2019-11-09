@@ -4,8 +4,13 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.6.5'
 
 # Gemme applicazioni esterne
-gem 'devise'
-gem 'omniauth-twitter'
+gem 'devise', '~> 4.7', '>= 4.7.1'
+gem 'omniauth-twitter', '~> 1.4'
+
+# Progetto AAFAkaton
+gem 'twitter'
+#bootstrap di twitter
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.1'
