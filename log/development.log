@@ -2613,3 +2613,1172 @@ Processing by StaticPagesController#homepage as HTML
 Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 8856)
 
 
+Started GET "/" for 127.0.0.1 at 2019-11-09 16:32:54 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 149)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 6982)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-09 16:33:42 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 144)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 6973)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-09 17:05:29 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 144)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 6983)
+
+
+Started GET "/login" for 127.0.0.1 at 2019-11-09 17:07:02 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/login"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.0) lib/puma/configuration.rb:228:in `call'
+puma (4.3.0) lib/puma/server.rb:667:in `handle_request'
+puma (4.3.0) lib/puma/server.rb:470:in `process_client'
+puma (4.3.0) lib/puma/server.rb:328:in `block in run'
+puma (4.3.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-11-09 17:07:04 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 144)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 6973)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-09 17:08:09 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 79)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 320)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 169)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 8852)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-09 17:09:51 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 104)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 8648)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-09 17:10:19 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 104)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 191)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 8648)
+
+
+Started GET "/concerts" for 127.0.0.1 at 2019-11-09 17:10:23 +0100
+Processing by StaticPagesController#concerts as HTML
+  Rendering static_pages/concerts.html.erb within layouts/application
+  Rendered static_pages/concerts.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 77)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 7059)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-09 17:10:28 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 71)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms | Allocations: 6857)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-09 17:10:39 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 104)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 191)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 8657)
+
+
+Started GET "/concerts" for 127.0.0.1 at 2019-11-09 17:10:40 +0100
+Processing by StaticPagesController#concerts as HTML
+  Rendering static_pages/concerts.html.erb within layouts/application
+  Rendered static_pages/concerts.html.erb within layouts/application (Duration: 0.3ms | Allocations: 71)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 77)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 7041)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:10:42 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 71)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 6857)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:11:00 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 104)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 191)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 8648)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:11:10 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 104)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 191)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 8648)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:11:16 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 104)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 191)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 8648)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:11:21 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 104)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 8648)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:11:26 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 104)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 8648)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:11:32 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 83)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 104)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 8671)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:11:32 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 71)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 6860)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:11:36 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 104)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 191)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 8648)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:11:40 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.7ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 104)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 8648)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:11:45 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.7ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 104)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.0ms | Allocations: 8648)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:11:49 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 104)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 191)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 8648)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:11:52 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 104)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 191)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 8648)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:11:58 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 104)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 8648)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:12:22 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 83)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 191)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 8673)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:12:52 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 8650)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:12:56 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 8650)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:12:59 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.6ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 191)
+Completed 200 OK in 27ms (Views: 25.4ms | ActiveRecord: 0.0ms | Allocations: 8650)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:13:06 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 191)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 8650)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:13:27 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 191)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 8650)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:13:47 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 108)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 191)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 8652)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:14:07 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 112)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 25ms (Views: 24.8ms | ActiveRecord: 0.0ms | Allocations: 8669)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:14:12 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 107)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 191)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 8658)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:14:34 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 107)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 191)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 8651)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:14:35 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 71)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 6860)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:14:35 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 71)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 6856)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:14:42 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 191)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 8650)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:14:48 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 191)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 8650)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:14:55 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 191)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 8650)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:15:02 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 111)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms | Allocations: 8668)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:15:08 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 191)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 8657)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:15:14 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 8650)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:15:19 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 191)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 8650)
+
+
+Started GET "/concerts" for 127.0.0.1 at 2019-11-09 17:15:28 +0100
+Processing by StaticPagesController#concerts as HTML
+  Rendering static_pages/concerts.html.erb within layouts/application
+  Rendered static_pages/concerts.html.erb within layouts/application (Duration: 0.4ms | Allocations: 71)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 77)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 7042)
+
+
+Started GET "/artists" for 127.0.0.1 at 2019-11-09 17:15:29 +0100
+Processing by StaticPagesController#artists as HTML
+  Rendering static_pages/artists.html.erb within layouts/application
+  Rendered static_pages/artists.html.erb within layouts/application (Duration: 0.2ms | Allocations: 73)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 77)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 7044)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-11-09 17:15:30 +0100
+Processing by StaticPagesController#tweets as HTML
+  Rendering static_pages/tweets.html.erb within layouts/application
+  Rendered static_pages/tweets.html.erb within layouts/application (Duration: 0.4ms | Allocations: 73)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 77)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 7044)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:15:31 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 71)
+Completed 200 OK in 27ms (Views: 25.3ms | ActiveRecord: 0.0ms | Allocations: 6857)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:15:42 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 8650)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:15:47 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 191)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 8650)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:15:52 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.7ms | Allocations: 83)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 25ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 8675)
+
+
+Started GET "/concerts" for 127.0.0.1 at 2019-11-09 17:15:53 +0100
+Processing by StaticPagesController#concerts as HTML
+  Rendering static_pages/concerts.html.erb within layouts/application
+  Rendered static_pages/concerts.html.erb within layouts/application (Duration: 0.2ms | Allocations: 71)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 77)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 7042)
+
+
+Started GET "/artists" for 127.0.0.1 at 2019-11-09 17:15:55 +0100
+Processing by StaticPagesController#artists as HTML
+  Rendering static_pages/artists.html.erb within layouts/application
+  Rendered static_pages/artists.html.erb within layouts/application (Duration: 0.5ms | Allocations: 73)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 77)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 7044)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-11-09 17:15:55 +0100
+Processing by StaticPagesController#tweets as HTML
+  Rendering static_pages/tweets.html.erb within layouts/application
+  Rendered static_pages/tweets.html.erb within layouts/application (Duration: 0.3ms | Allocations: 73)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 77)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 7044)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-09 17:15:55 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.2ms | Allocations: 73)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 77)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 7044)
+
+
+Started GET "/concerts" for 127.0.0.1 at 2019-11-09 17:15:56 +0100
+Processing by StaticPagesController#concerts as HTML
+  Rendering static_pages/concerts.html.erb within layouts/application
+  Rendered static_pages/concerts.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 71)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 6857)
+
+
+Started GET "/artists" for 127.0.0.1 at 2019-11-09 17:15:57 +0100
+Processing by StaticPagesController#artists as HTML
+  Rendering static_pages/artists.html.erb within layouts/application
+  Rendered static_pages/artists.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 71)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 6856)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:15:58 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 71)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 6856)
+
+
+Started GET "/concerts" for 127.0.0.1 at 2019-11-09 17:16:07 +0100
+Processing by StaticPagesController#concerts as HTML
+  Rendering static_pages/concerts.html.erb within layouts/application
+  Rendered static_pages/concerts.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 71)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 6856)
+
+
+Started GET "/artists" for 127.0.0.1 at 2019-11-09 17:16:07 +0100
+Processing by StaticPagesController#artists as HTML
+  Rendering static_pages/artists.html.erb within layouts/application
+  Rendered static_pages/artists.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 71)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 6856)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:16:08 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 71)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.0ms | Allocations: 6856)
+
+
+Started GET "/concerts" for 127.0.0.1 at 2019-11-09 17:16:17 +0100
+Processing by StaticPagesController#concerts as HTML
+  Rendering static_pages/concerts.html.erb within layouts/application
+  Rendered static_pages/concerts.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 71)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.0ms | Allocations: 6876)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:16:19 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 71)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 6856)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:16:29 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 8650)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:16:36 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 83)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 191)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 8673)
+
+
+Started GET "/concerts" for 127.0.0.1 at 2019-11-09 17:16:59 +0100
+Processing by StaticPagesController#concerts as HTML
+  Rendering static_pages/concerts.html.erb within layouts/application
+  Rendered static_pages/concerts.html.erb within layouts/application (Duration: 0.4ms | Allocations: 71)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 8643)
+
+
+Started GET "/artists" for 127.0.0.1 at 2019-11-09 17:17:00 +0100
+Processing by StaticPagesController#artists as HTML
+  Rendering static_pages/artists.html.erb within layouts/application
+  Rendered static_pages/artists.html.erb within layouts/application (Duration: 0.2ms | Allocations: 72)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 77)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 7043)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-11-09 17:17:00 +0100
+Processing by StaticPagesController#tweets as HTML
+  Rendering static_pages/tweets.html.erb within layouts/application
+  Rendered static_pages/tweets.html.erb within layouts/application (Duration: 0.8ms | Allocations: 72)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 77)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms | Allocations: 7043)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-09 17:17:01 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.6ms | Allocations: 72)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 77)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.0ms | Allocations: 7043)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:17:02 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.7ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 77)
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 7048)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:17:08 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 191)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 8650)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:17:25 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.6ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 8649)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:17:46 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 8653)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:17:59 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 111)
+  Rendered layouts/_footer.html.erb (Duration: 1.2ms | Allocations: 191)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms | Allocations: 8669)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:18:38 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 8657)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:19:31 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 71)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms | Allocations: 6860)
+
+
+Started GET "/artists" for 127.0.0.1 at 2019-11-09 17:19:32 +0100
+Processing by StaticPagesController#artists as HTML
+  Rendering static_pages/artists.html.erb within layouts/application
+  Rendered static_pages/artists.html.erb within layouts/application (Duration: 0.3ms | Allocations: 72)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 77)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 7042)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-11-09 17:19:33 +0100
+Processing by StaticPagesController#tweets as HTML
+  Rendering static_pages/tweets.html.erb within layouts/application
+  Rendered static_pages/tweets.html.erb within layouts/application (Duration: 0.2ms | Allocations: 72)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 77)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 7043)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-09 17:19:34 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.3ms | Allocations: 72)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 77)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 7043)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:19:35 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 71)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 6863)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:20:32 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 191)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 8650)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:20:45 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.7ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 191)
+Completed 200 OK in 30ms (Views: 28.9ms | ActiveRecord: 0.0ms | Allocations: 8650)
+
+
+Started GET "/artists" for 127.0.0.1 at 2019-11-09 17:21:11 +0100
+Processing by StaticPagesController#artists as HTML
+  Rendering static_pages/artists.html.erb within layouts/application
+  Rendered static_pages/artists.html.erb within layouts/application (Duration: 0.4ms | Allocations: 71)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 191)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 8643)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:21:13 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 77)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 7048)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:21:18 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 83)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 191)
+Completed 200 OK in 31ms (Views: 30.2ms | ActiveRecord: 0.0ms | Allocations: 8671)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:21:24 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 191)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 8655)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:21:40 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 8650)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:21:50 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 191)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 8649)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:22:00 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 71)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 6860)
+
+
+Started GET "/concerts" for 127.0.0.1 at 2019-11-09 17:22:01 +0100
+Processing by StaticPagesController#concerts as HTML
+  Rendering static_pages/concerts.html.erb within layouts/application
+  Rendered static_pages/concerts.html.erb within layouts/application (Duration: 0.2ms | Allocations: 71)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 77)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 7041)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:22:03 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 71)
+Completed 200 OK in 10ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 6857)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:22:38 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 192)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 8650)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:22:50 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 192)
+Completed 200 OK in 12ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 8650)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:23:13 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 83)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 195)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 8679)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:23:25 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 104)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 8562)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:23:31 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms | Allocations: 6794)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:24:19 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 104)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 8564)
+
+
+Started GET "/artists" for 127.0.0.1 at 2019-11-09 17:24:23 +0100
+Processing by StaticPagesController#artists as HTML
+  Rendering static_pages/artists.html.erb within layouts/application
+  Rendered static_pages/artists.html.erb within layouts/application (Duration: 0.6ms | Allocations: 72)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 6971)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:24:25 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.0ms | Allocations: 6791)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:24:48 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 191)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 8649)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:24:55 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 8649)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:25:19 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 191)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 8569)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:25:20 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 71)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 6860)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:25:20 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 71)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 6844)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:25:21 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 71)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms | Allocations: 6844)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:25:27 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 83)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 8564)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:25:32 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 8649)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:25:41 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 8649)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:25:46 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.7ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 1.0ms | Allocations: 191)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 0.0ms | Allocations: 8649)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:25:55 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 7034)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:25:57 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 71)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 5272)
+
+
+Started GET "/concerts" for 127.0.0.1 at 2019-11-09 17:25:59 +0100
+Processing by StaticPagesController#concerts as HTML
+  Rendering static_pages/concerts.html.erb within layouts/application
+  Rendered static_pages/concerts.html.erb within layouts/application (Duration: 0.8ms | Allocations: 76)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 77)
+Completed 200 OK in 16ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 5448)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:26:00 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 71)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 5259)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:26:06 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.7ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 191)
+Completed 200 OK in 26ms (Views: 24.4ms | ActiveRecord: 0.0ms | Allocations: 7043)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:26:37 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 191)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 7035)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:26:40 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 71)
+Completed 200 OK in 19ms (Views: 18.6ms | ActiveRecord: 0.0ms | Allocations: 5262)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:26:50 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 7035)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:27:02 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 191)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 7035)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:27:35 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 7034)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:27:39 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 191)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 7035)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:28:11 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 83)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 191)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 7061)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:28:28 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 7034)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:28:31 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 191)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 7034)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:28:31 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 71)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 5262)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:28:46 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 71)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 5258)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-09 17:28:46 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 71)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 5258)
+
+

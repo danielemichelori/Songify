@@ -1,14 +1,25 @@
-<header class="navbar navbar-fixed-top navbar-inverse">
-  <div class="container">
-    <%= link_to "Songify", root_path, id: "logo" %>
-    <nav>
-      <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "Concerts", concerts_path %></li>
-        <li><%= link_to "Artists", artists_path %></li>
-        <li><%= link_to "Tweets", tweets_path %></li>
-        <li><%= link_to "Signin", signin_path %></li>
-
-      </ul>
-    </nav>
+<header class="navbar navbar-light bg-light">
+  <div style="padding-left: 15%;">
+    <a class="navbar-brand" href="/homepage">Songify</a>
   </div>
+  <form class="form-inline">
+      <a class="btn btn-outline-info" href="/concerts" role="button">
+        Concerts
+      </a>
+    <div style="padding-left: 10px;">
+      <a class="btn btn-outline-info" href="/artists" role="button">
+      Artists
+      </a>
+    </div>
+    <div style="padding-left: 10px;">
+      <a class="btn btn-outline-info" href="/tweets" role="button">
+      Tweets
+      </a>
+    </div>
+    <div style="padding-left: 10px; padding-right: 300px">
+      <a class="btn btn-outline-info" href="/signin" role="button">
+      Signin
+      </a>
+    </div>
+  </form>
 </header>
