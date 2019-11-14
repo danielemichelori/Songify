@@ -1,6 +1,6 @@
 App.chat = App.cable.subscriptions.create "ChatChannel",
   connected: ->
-    console.log("WEBSOCKET CLIENT CONNECTED")
+    console.log("Websocket client connected!")
 
   disconnected: ->
     # Called when the subscription has been terminated by the server
@@ -10,4 +10,3 @@ App.chat = App.cable.subscriptions.create "ChatChannel",
 
   send_msg: (data) ->
     @perform 'send_msg', message:data
-#

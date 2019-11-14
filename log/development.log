@@ -12261,3 +12261,1548 @@ Processing by StaticPagesController#chatroom as HTML
 Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 8286)
 
 
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 16:17:11 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.5ms | Allocations: 282)
+  Rendered layouts/_header.html.erb (Duration: 1.9ms | Allocations: 117)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 97)
+Completed 200 OK in 125ms (Views: 124.1ms | ActiveRecord: 0.0ms | Allocations: 38667)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:05:15 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 8290)
+
+
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:07:47 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 1.7ms | Allocations: 282)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 117)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 97)
+Completed 200 OK in 80ms (Views: 79.2ms | ActiveRecord: 0.0ms | Allocations: 25623)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:07:50 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 26ms (Views: 25.8ms | ActiveRecord: 0.0ms | Allocations: 8290)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:07:51 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 8287)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:07:52 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 8285)
+
+
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:09:45 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.5ms | Allocations: 306)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 112)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 97)
+Completed 200 OK in 74ms (Views: 73.2ms | ActiveRecord: 0.0ms | Allocations: 25498)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:09:46 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 8294)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:09:51 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms | Allocations: 8287)
+
+
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:10:29 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.5ms | Allocations: 284)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 117)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 97)
+Completed 200 OK in 87ms (Views: 85.3ms | ActiveRecord: 0.0ms | Allocations: 25665)
+
+
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:10:48 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 1.2ms | Allocations: 304)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 117)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 97)
+Completed 200 OK in 77ms (Views: 76.6ms | ActiveRecord: 0.0ms | Allocations: 25596)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:10:48 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 18ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 8290)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:10:48 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 27ms (Views: 27.0ms | ActiveRecord: 0.0ms | Allocations: 8285)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:10:50 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 8287)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:10:51 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 8285)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:10:52 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 8286)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:10:53 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 8286)
+
+
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:11:05 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 1.2ms | Allocations: 302)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 117)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 97)
+Completed 200 OK in 89ms (Views: 87.5ms | ActiveRecord: 0.0ms | Allocations: 25631)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:11:20 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.3ms | Allocations: 161)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 109)
+  Rendered layouts/_footer.html.erb (Duration: 1.4ms | Allocations: 94)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.0ms | Allocations: 10019)
+
+
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:11:29 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 1.1ms | Allocations: 318)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 117)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 97)
+Completed 200 OK in 70ms (Views: 69.0ms | ActiveRecord: 0.0ms | Allocations: 25544)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:11:31 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 28ms (Views: 28.0ms | ActiveRecord: 0.0ms | Allocations: 8290)
+
+
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:11:49 +0100
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 1.2ms | Allocations: 284)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 117)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 97)
+Completed 200 OK in 79ms (Views: 78.5ms | ActiveRecord: 0.0ms | Allocations: 25619)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-14 18:11:54 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 1.3ms | Allocations: 104)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 24ms (Views: 23.9ms | ActiveRecord: 0.0ms | Allocations: 8512)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:11:56 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 8287)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-14 18:11:59 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 8285)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:12:02 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 8287)
+
+
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:13:07 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 1.0ms | Allocations: 284)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 117)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 97)
+Completed 200 OK in 94ms (Views: 91.9ms | ActiveRecord: 0.0ms | Allocations: 25434)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:13:12 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 8290)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:13:14 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 24ms (Views: 23.9ms | ActiveRecord: 0.0ms | Allocations: 8287)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:13:21 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 8286)
+
+
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:13:59 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.5ms | Allocations: 282)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 117)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 97)
+Completed 200 OK in 77ms (Views: 76.4ms | ActiveRecord: 0.0ms | Allocations: 25594)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:14:01 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.0ms | Allocations: 8290)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:14:03 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 8287)
+
+
+Started GET "/" for ::1 at 2019-11-14 18:14:29 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 109)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 8515)
+
+
+Started GET "/" for ::1 at 2019-11-14 18:14:31 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 8286)
+
+
+Started GET "/chatroom" for ::1 at 2019-11-14 18:14:36 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 8285)
+
+
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:15:18 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.5ms | Allocations: 328)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 117)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 97)
+Completed 200 OK in 312ms (Views: 311.4ms | ActiveRecord: 0.0ms | Allocations: 67873)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:15:21 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 8420)
+
+
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:15:31 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 1.6ms | Allocations: 302)
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:15:31 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:15:31 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 1.3ms | Allocations: 117)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 97)
+Completed 200 OK in 232ms (Views: 230.6ms | ActiveRecord: 0.0ms | Allocations: 62461)
+
+
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 198ms (Views: 197.9ms | ActiveRecord: 0.0ms | Allocations: 51586)
+
+
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 43ms (Views: 42.8ms | ActiveRecord: 0.0ms | Allocations: 14965)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:15:31 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 8420)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:15:47 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 8462)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:15:49 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 8417)
+
+
+Started GET "/concerts" for 127.0.0.1 at 2019-11-14 18:16:10 +0100
+Processing by StaticPagesController#concerts as HTML
+  Rendering static_pages/concerts.html.erb within layouts/application
+  Rendered static_pages/concerts.html.erb within layouts/application (Duration: 0.6ms | Allocations: 430)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 660ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 15398)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-14 18:16:12 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 103)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 8629)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:16:40 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 8418)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:26:06 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 8417)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:26:18 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 8417)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-14 18:26:19 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 8417)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:26:20 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.0ms | Allocations: 8421)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-14 18:33:00 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 8417)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:33:57 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 8417)
+
+
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:36:13 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.5ms | Allocations: 287)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 117)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 97)
+Completed 200 OK in 80ms (Views: 79.1ms | ActiveRecord: 0.0ms | Allocations: 25949)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:36:14 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.0ms | Allocations: 8422)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:36:16 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 8419)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:36:17 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 8417)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:36:19 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 8418)
+
+
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:36:57 +0100
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.5ms | Allocations: 305)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 117)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 97)
+Completed 200 OK in 75ms (Views: 73.7ms | ActiveRecord: 0.0ms | Allocations: 25921)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:36:58 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 28ms (Views: 26.5ms | ActiveRecord: 0.0ms | Allocations: 8422)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:36:59 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 8422)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:37:00 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 7ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 8417)
+
+
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:38:02 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.5ms | Allocations: 306)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 111)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 97)
+Completed 200 OK in 75ms (Views: 73.6ms | ActiveRecord: 0.0ms | Allocations: 26058)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:38:08 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.0ms | Allocations: 8422)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-14 18:38:11 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 104)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 8629)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:38:15 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 8418)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:38:18 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 8417)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:38:18 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 8420)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:38:18 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 8417)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:38:26 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.3ms | Allocations: 159)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 103)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 94)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 10142)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:38:26 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 8420)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-14 18:38:33 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 100)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 8625)
+
+
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/" for 127.0.0.1 at 2019-11-14 18:38:47 +0100
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 224)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 111)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 97)
+Completed 200 OK in 75ms (Views: 73.7ms | ActiveRecord: 0.0ms | Allocations: 25991)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:38:49 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.3ms | Allocations: 158)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.0ms | Allocations: 8685)
+
+
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:39:05 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.4ms | Allocations: 278)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 111)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 92)
+Completed 200 OK in 87ms (Views: 85.6ms | ActiveRecord: 0.0ms | Allocations: 26015)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:39:08 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.0ms | Allocations: 8422)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:39:09 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 8417)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:39:11 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 8417)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-14 18:39:13 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 109)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 8635)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:39:15 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 8418)
+
+
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:40:18 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 1.8ms | Allocations: 292)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 110)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 90)
+Completed 200 OK in 75ms (Views: 74.2ms | ActiveRecord: 0.0ms | Allocations: 25926)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-14 18:40:20 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 104)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 5)
+Completed 200 OK in 26ms (Views: 25.1ms | ActiveRecord: 0.0ms | Allocations: 8631)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:40:22 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 8418)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:40:23 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 8418)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:41:00 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.3ms | Allocations: 155)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 107)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms | Allocations: 10146)
+
+
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:41:06 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 1.2ms | Allocations: 316)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 110)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 90)
+Completed 200 OK in 75ms (Views: 73.8ms | ActiveRecord: 0.0ms | Allocations: 25987)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-14 18:41:10 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 104)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 0.0ms | Allocations: 8631)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:41:11 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 8419)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:42:30 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.3ms | Allocations: 159)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 10041)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:42:33 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 6ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 8405)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:42:40 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.3ms | Allocations: 154)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 10123)
+
+
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:43:16 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 1.1ms | Allocations: 278)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 110)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 90)
+Completed 200 OK in 89ms (Views: 88.8ms | ActiveRecord: 0.0ms | Allocations: 25995)
+
+
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:45:53 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 1.0ms | Allocations: 298)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 110)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 90)
+Completed 200 OK in 322ms (Views: 321.4ms | ActiveRecord: 0.0ms | Allocations: 72600)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:45:54 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:45:54 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:45:54 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:45:54 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:45:54 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:45:54 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-14 18:45:54 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:45:54 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:45:54 +0100
+ChatChannel stopped streaming from room
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:45:54 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 8551)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:45:54 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:45:54 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:45:54 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:45:54 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:45:54 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:45:54 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-14 18:45:54 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:45:54 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:45:55 +0100
+ChatChannel stopped streaming from room
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:45:55 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 8549)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:45:55 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:45:55 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:45:55 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:45:55 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:45:55 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:45:55 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-14 18:45:55 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:45:55 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:45:56 +0100
+ChatChannel stopped streaming from room
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:45:56 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 8547)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:45:56 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:45:56 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:45:56 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:45:56 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:45:56 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:45:56 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-14 18:45:56 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:45:56 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:46:05 +0100
+ChatChannel stopped streaming from room
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:46:05 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.3ms | Allocations: 159)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 87)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 10268)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:46:05 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:46:05 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:46:05 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:46:05 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:46:05 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:46:05 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-14 18:46:05 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:46:05 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:46:11 +0100
+ChatChannel stopped streaming from room
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:46:11 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.3ms | Allocations: 154)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 10254)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:46:11 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:46:11 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:46:11 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:46:11 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:46:11 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:46:11 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-14 18:46:11 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:46:11 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+ChatChannel#send_msg({"message"=>"sda\n"})
+[ActionCable] Broadcasting to room: {:message=>"sda\n"}
+ChatChannel transmitting {"message"=>"sda\n"} (via streamed from room)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:46:40 +0100
+ChatChannel stopped streaming from room
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:46:40 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 8552)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:46:40 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:46:40 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:46:40 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:46:40 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:46:40 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:46:40 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-14 18:46:40 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:46:40 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+ChatChannel#send_msg({"message"=>"scdx \n\n"})
+[ActionCable] Broadcasting to room: {:message=>"scdx \n\n"}
+ChatChannel transmitting {"message"=>"scdx \n\n"} (via streamed from room)
+ChatChannel#send_msg({"message"=>"scdx \n\ncas"})
+[ActionCable] Broadcasting to room: {:message=>"scdx \n\ncas"}
+ChatChannel transmitting {"message"=>"scdx \n\ncas"} (via streamed from room)
+ChatChannel#send_msg({"message"=>"scdx \n\ncas"})
+[ActionCable] Broadcasting to room: {:message=>"scdx \n\ncas"}
+ChatChannel transmitting {"message"=>"scdx \n\ncas"} (via streamed from room)
+ChatChannel#send_msg({"message"=>"scdx \n\ncas"})
+[ActionCable] Broadcasting to room: {:message=>"scdx \n\ncas"}
+ChatChannel transmitting {"message"=>"scdx \n\ncas"} (via streamed from room)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:47:29 +0100
+ChatChannel stopped streaming from room
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:47:29 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.3ms | Allocations: 159)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 10268)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:47:29 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:47:29 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:47:29 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:47:29 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:47:29 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:47:29 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-14 18:47:29 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:47:29 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:47:38 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.5ms | Allocations: 278)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 110)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 90)
+Completed 200 OK in 73ms (Views: 72.3ms | ActiveRecord: 0.0ms | Allocations: 26083)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:47:38 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:47:38 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:47:38 +0100
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:47:38 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 38ms (Views: 36.7ms | ActiveRecord: 0.0ms | Allocations: 11727)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:47:38 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:47:38 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:47:38 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:47:38 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:47:38 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:47:38 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-14 18:47:38 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:47:38 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:47:51 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 1.4ms | Allocations: 317)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 110)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 90)
+Completed 200 OK in 92ms (Views: 90.7ms | ActiveRecord: 0.0ms | Allocations: 25967)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:47:52 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:47:52 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:47:52 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:47:52 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:47:52 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:47:52 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-14 18:47:52 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:47:52 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:48:24 +0100
+ChatChannel stopped streaming from room
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:48:24 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.3ms | Allocations: 157)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 25ms (Views: 24.9ms | ActiveRecord: 0.0ms | Allocations: 10267)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:48:24 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:48:24 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:48:24 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:48:25 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:48:25 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:48:25 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-14 18:48:25 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:48:25 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+ChatChannel#send_msg({"message"=>"dsa\n"})
+[ActionCable] Broadcasting to room: {:message=>"dsa\n"}
+ChatChannel transmitting {"message"=>"dsa\n"} (via streamed from room)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:49:32 +0100
+ChatChannel stopped streaming from room
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:49:32 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.3ms | Allocations: 151)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 10263)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:49:32 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:49:32 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:49:32 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:49:32 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:49:32 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:49:32 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-14 18:49:32 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:49:32 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:50:01 +0100
+ChatChannel stopped streaming from room
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:50:01 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 205ms (Views: 204.2ms | ActiveRecord: 0.0ms | Allocations: 50995)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:50:01 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:50:01 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:50:01 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:50:02 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:50:02 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:50:02 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-14 18:50:02 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:50:02 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:50:10 +0100
+ChatChannel stopped streaming from room
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:50:10 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 8589)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:50:10 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:50:10 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:50:10 +0100
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:50:10 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 8547)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:50:10 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:50:10 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:50:10 +0100
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:50:10 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 8548)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:50:10 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:50:10 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:50:10 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:50:10 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:50:10 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:50:10 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-14 18:50:10 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:50:10 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+ChatChannel#send_msg({"message"=>"cdas "})
+[ActionCable] Broadcasting to room: {:message=>"cdas "}
+ChatChannel transmitting {"message"=>"cdas "} (via streamed from room)
+ChatChannel#send_msg({"message"=>"csa"})
+[ActionCable] Broadcasting to room: {:message=>"csa"}
+ChatChannel transmitting {"message"=>"csa"} (via streamed from room)
+ChatChannel#send_msg({"message"=>"dsa"})
+[ActionCable] Broadcasting to room: {:message=>"dsa"}
+ChatChannel transmitting {"message"=>"dsa"} (via streamed from room)
+Started GET "/" for 127.0.0.1 at 2019-11-14 18:50:27 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 109)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 8764)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:50:27 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:50:27 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:50:27 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:50:27 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:50:27 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:50:27 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-14 18:50:27 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:50:27 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:50:31 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 8548)
+
+
+ChatChannel#send_msg({"message"=>"cs"})
+[ActionCable] Broadcasting to room: {:message=>"cs"}
+ChatChannel transmitting {"message"=>"cs"} (via streamed from room)
+ChatChannel transmitting {"message"=>"cs"} (via streamed from room)
+ChatChannel#send_msg({"message"=>"caio\n"})
+[ActionCable] Broadcasting to room: {:message=>"caio\n"}
+ChatChannel transmitting {"message"=>"caio\n"} (via streamed from room)
+ChatChannel transmitting {"message"=>"caio\n"} (via streamed from room)
+ChatChannel#send_msg({"message"=>"ciao"})
+[ActionCable] Broadcasting to room: {:message=>"ciao"}
+ChatChannel transmitting {"message"=>"ciao"} (via streamed from room)
+ChatChannel transmitting {"message"=>"ciao"} (via streamed from room)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:50:53 +0100
+ChatChannel stopped streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:50:57 +0100
+ChatChannel stopped streaming from room
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:50:57 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 8547)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:50:57 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:50:57 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:50:57 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:50:58 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:50:58 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:50:58 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-14 18:50:58 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:50:58 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:51:06 +0100
+ChatChannel stopped streaming from room
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-14 18:51:06 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 8547)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:51:06 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:51:06 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:51:06 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-14 18:51:06 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:51:06 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-14 18:51:06 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-14 18:51:06 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-14 18:51:06 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room

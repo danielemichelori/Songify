@@ -1,3 +1,22 @@
+<script>
+	$(document).ready(function(){
+
+		/* RECEIVE MESSAGE */
+		App.chat.received = function(data)
+		{
+			$("#chat").append(data['message']+"<br>")
+		}
+
+		$("#send").click(function(){
+			msg = $("#msg").val()
+
+			/* SEND MESSAGE */
+			App.chat.send_msg(msg)
+			msg = $("#msg").val(null)  //resetta il box del messagio
+		})
+	})
+</script>
+
 <div class="comments-container">
 	<h1>Chatroom <a class="disable" style="color: #595959;">interact with other users</a></h1>
 
@@ -41,36 +60,3 @@
   <button id="send" type="button" class="btn btn-light" style="margin-bottom: 8%;">Send Message</button>
 
 </div>
-
-
-
-
-
-
-<!--
-  <span id="chat"></span>
-  <hr>
-  Message:
-  <br>
-  <textarea id="msg" style="width:380px; height: 80px;"></textarea>
-  <hr>
-
-  <button id="send">Send Message</button>
--->
-<script>
-	$(document).ready(function(){
-
-		/* RECEIVE MESSAGE */
-		App.chat.received = function(data)
-		{
-			$("#chat").append(data['message']+"<br>")
-		}
-
-		$("#send").click(function(){
-			msg = $("#msg").val()
-
-			/* SEND MESSAGE */
-			App.chat.send_msg(msg)
-		})
-	})
-</script>
