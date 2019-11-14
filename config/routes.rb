@@ -4,7 +4,8 @@ Rails.application.routes.draw do
 
   root             'static_pages#homepage'
 
-  mount ActionCable.server => "/cable"
+  #
+  mount ActionCable.server => '/cable'
 
   # rotte _header
   get 'homepage'       => 'static_pages#homepage'  #rotta homepage

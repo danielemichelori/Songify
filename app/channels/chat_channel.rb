@@ -11,3 +11,5 @@ class ChatChannel < ApplicationCable::Channel
   	ActionCable.server.broadcast "room", message:data['message']
   end
 end
+
+#
