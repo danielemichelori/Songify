@@ -16212,3 +16212,3128 @@ Processing by StaticPagesController#homepage as HTML
 Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.0ms | Allocations: 9953)
 
 
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:36:36 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:36:36 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 1315ms (Views: 1315.0ms | ActiveRecord: 0.0ms | Allocations: 135015)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:36:38 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:36:38 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:36:38 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:36:38 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:36:38 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:36:38 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:36:38 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:36:38 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:36:39 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 10190)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:36:40 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 10190)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-15 15:36:41 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.0ms | Allocations: 10191)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:36:41 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 19ms (Views: 18.7ms | ActiveRecord: 0.0ms | Allocations: 10190)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:36:42 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 10190)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-11-15 15:36:44 +0100
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 219)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 10405)
+
+
+Started GET "/artists" for 127.0.0.1 at 2019-11-15 15:36:45 +0100
+Processing by StaticPagesController#artists as HTML
+  Rendering static_pages/artists.html.erb within layouts/application
+  Rendered static_pages/artists.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1232)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1522)
+
+
+  
+ActionView::Template::Error (undefined method `each_with_index' for nil:NilClass):
+    1: <li class="list-group" style="margin-top: 20px">
+    2: <% @results.each_with_index do |result, index| %>
+    3: <ul class ="media">
+    4:     <img style="padding-right: 20px" class="img-responsive circle" src="https://images.sk-static.com/images/media/profile_images/events/<%= result.id %>/avatar">
+    5:     <li class="list-group item list-group-item-action">
+  
+app/views/static_pages/artists.html.erb:2
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:36:47 +0100
+ChatChannel stopped streaming from room
+Started GET "/tweets" for 127.0.0.1 at 2019-11-15 15:36:47 +0100
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 219)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 25ms (Views: 24.6ms | ActiveRecord: 0.0ms | Allocations: 10409)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:36:47 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:36:47 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:36:47 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:36:47 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:36:47 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:36:47 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:36:48 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:36:48 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:36:48 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 10191)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:36:50 +0100
+ChatChannel stopped streaming from room
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:36:50 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.0ms | Allocations: 10191)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:36:50 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:36:50 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:36:50 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:36:50 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:36:50 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:36:50 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:36:50 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:36:50 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:36:53 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 10190)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:37:11 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:37:11 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 10190)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:37:11 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:37:11 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:37:11 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:37:11 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:37:11 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:37:11 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:37:11 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:37:11 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:37:13 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 10190)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-11-15 15:37:14 +0100
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 219)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 10405)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:37:15 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 10190)
+
+
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:37:21 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.5ms | Allocations: 330)
+Completed 500 Internal Server Error in 113ms (ActiveRecord: 0.0ms | Allocations: 39938)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:37:21 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.0ms | Allocations: 20034)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:37:22 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 110)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 90)
+Completed 200 OK in 65ms (Views: 63.9ms | ActiveRecord: 0.0ms | Allocations: 21263)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:37:22 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:37:22 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:37:22 +0100
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:37:22 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 10197)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:37:22 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:37:22 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:37:22 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:37:22 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:37:22 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:37:22 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:37:22 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:37:22 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:37:24 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 17ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 10194)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-11-15 15:37:26 +0100
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 420)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.0ms | Allocations: 11291)
+
+
+Started GET "/artists" for 127.0.0.1 at 2019-11-15 15:37:26 +0100
+Processing by StaticPagesController#artists as HTML
+  Rendering static_pages/artists.html.erb within layouts/application
+  Rendered static_pages/artists.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1395)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 1793)
+
+
+  
+ActionView::Template::Error (undefined method `each_with_index' for nil:NilClass):
+    1: <li class="list-group" style="margin-top: 20px">
+    2: <% @results.each_with_index do |result, index| %>
+    3: <ul class ="media">
+    4:     <img style="padding-right: 20px" class="img-responsive circle" src="https://images.sk-static.com/images/media/profile_images/events/<%= result.id %>/avatar">
+    5:     <li class="list-group item list-group-item-action">
+  
+app/views/static_pages/artists.html.erb:2
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:37:28 +0100
+ChatChannel stopped streaming from room
+Started GET "/tweets" for 127.0.0.1 at 2019-11-15 15:37:28 +0100
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 228)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 10443)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:37:28 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:37:28 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:37:28 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:37:28 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:37:28 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:37:28 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:37:28 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:37:28 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:37:28 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 108)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 10412)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:37:30 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 10195)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:37:31 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 10194)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:37:32 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms | Allocations: 10194)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:37:44 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:37:44 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.3ms | Allocations: 159)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 87)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 11925)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:37:44 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:37:44 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:37:44 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:37:44 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:37:44 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:37:44 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:37:44 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:37:44 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:38:05 +0100
+ChatChannel stopped streaming from room
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:38:21 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.5ms | Allocations: 296)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 90)
+Completed 200 OK in 67ms (Views: 66.4ms | ActiveRecord: 0.0ms | Allocations: 23538)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:38:21 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:38:21 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:38:21 +0100
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:38:21 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 33ms (Views: 33.1ms | ActiveRecord: 0.0ms | Allocations: 14998)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:38:21 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:38:21 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:38:21 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:38:21 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:38:21 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:38:21 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:38:21 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:38:21 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:38:50 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:38:50 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.4ms | Allocations: 177)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 107)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 29ms (Views: 28.2ms | ActiveRecord: 0.0ms | Allocations: 11936)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:38:50 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:38:50 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:38:50 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:38:51 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:38:51 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:38:51 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:38:51 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:38:51 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:38:57 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:38:57 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 10199)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:38:57 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:38:57 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:38:57 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:38:57 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:38:57 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:38:57 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:38:57 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:38:57 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:39:08 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:39:08 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.4ms | Allocations: 178)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 21ms (Views: 20.8ms | ActiveRecord: 0.0ms | Allocations: 11934)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:39:08 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:39:08 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:39:08 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:39:08 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:39:08 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:39:08 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:39:08 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:39:08 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:39:38 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:39:38 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.3ms | Allocations: 169)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 11929)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:39:38 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:39:38 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:39:38 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:39:38 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:39:38 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:39:38 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:39:38 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:39:38 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:39:40 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 109)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 10414)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-15 15:39:41 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.3ms | Allocations: 156)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 10459)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-11-15 15:39:42 +0100
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 419)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 11288)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:39:43 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 10197)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:39:45 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:39:45 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 10194)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:39:46 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:39:46 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:39:46 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:39:46 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:39:46 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:39:46 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:39:46 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:39:46 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:39:46 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:39:46 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 10194)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:39:46 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:39:46 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:39:46 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:39:46 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:39:46 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:39:46 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:39:46 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:39:46 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:39:58 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:39:58 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.3ms | Allocations: 172)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 11937)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:39:58 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:39:58 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:39:58 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:39:58 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:39:58 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:39:58 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:39:58 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:39:58 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-15 15:40:00 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.4ms | Allocations: 150)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 10453)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:40:01 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 100)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 10403)
+
+
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:40:06 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.5ms | Allocations: 258)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 90)
+Completed 200 OK in 65ms (Views: 64.5ms | ActiveRecord: 0.0ms | Allocations: 23446)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:40:07 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:40:07 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:40:07 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:40:07 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:40:07 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:40:07 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:40:07 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:40:07 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-15 15:40:09 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.4ms | Allocations: 157)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms | Allocations: 10461)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:40:27 +0100
+ChatChannel stopped streaming from room
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-15 15:40:27 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.3ms | Allocations: 151)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 11906)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:40:27 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:40:27 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:40:27 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:40:27 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:40:27 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:40:27 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:40:27 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:40:27 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-15 15:40:29 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 10200)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:40:30 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.3ms | Allocations: 175)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 10477)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:40:36 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:40:36 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.4ms | Allocations: 168)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 87)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 11928)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:40:36 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:40:36 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:40:36 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:40:36 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:40:36 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:40:36 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:40:36 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:40:36 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:40:39 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:40:39 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.5ms | Allocations: 167)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.0ms | Allocations: 11920)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:40:39 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:40:39 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:40:39 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:40:39 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:40:39 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:40:39 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:40:39 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:40:39 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:41:00 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:41:00 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.3ms | Allocations: 167)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 87)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 11920)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:41:00 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:00 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:00 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:41:00 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:00 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:00 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:41:00 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:41:00 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:41:04 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:41:04 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.3ms | Allocations: 172)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 11936)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:41:04 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:04 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:04 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:41:04 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:04 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:04 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:41:04 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:41:04 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:41:05 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:41:05 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 10197)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:41:05 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:05 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:05 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:41:05 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:05 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:05 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:41:05 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:41:05 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:41:07 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:41:07 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.3ms | Allocations: 167)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 11919)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:41:07 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:07 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:07 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:41:07 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:07 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:07 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:41:07 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:41:07 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:41:08 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:41:08 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 10197)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:41:08 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:08 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:08 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:41:08 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:08 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:08 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:41:08 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:41:08 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:41:09 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:41:09 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 10195)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:41:09 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:09 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:09 +0100
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:41:09 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 10194)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:41:09 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:09 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:09 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:41:09 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:09 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:09 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:41:09 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:41:09 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:41:28 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:41:28 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.3ms | Allocations: 172)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 11931)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:41:28 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:28 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:28 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:41:28 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:28 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:28 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:41:28 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:41:28 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:41:35 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:41:35 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.3ms | Allocations: 167)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 92)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms | Allocations: 11925)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:41:35 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:35 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:35 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:41:35 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:35 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:41:35 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:41:35 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:41:35 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:41:36 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 101)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 10404)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:41:38 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 10195)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-15 15:41:40 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.3ms | Allocations: 153)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 10455)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-15 15:41:58 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 10195)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-15 15:42:00 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.0ms | Allocations: 10214)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:42:01 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 10194)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:42:16 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:42:16 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 1112ms (Views: 1111.7ms | ActiveRecord: 0.0ms | Allocations: 74641)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:42:17 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:42:17 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:42:17 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:42:17 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:42:17 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:42:17 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:42:17 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:42:17 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Started GET "/concerts" for 127.0.0.1 at 2019-11-15 15:42:21 +0100
+Processing by StaticPagesController#concerts as HTML
+Started GET "/concerts" for 127.0.0.1 at 2019-11-15 15:42:21 +0100
+Processing by StaticPagesController#concerts as HTML
+  Rendering static_pages/concerts.html.erb within layouts/application
+  Rendering static_pages/concerts.html.erb within layouts/application
+  Rendered static_pages/concerts.html.erb within layouts/application (Duration: 0.6ms | Allocations: 438)
+  Rendered static_pages/concerts.html.erb within layouts/application (Duration: 0.8ms | Allocations: 716)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 304ms (Views: 23.2ms | ActiveRecord: 0.0ms | Allocations: 33565)
+
+
+Completed 200 OK in 365ms (Views: 23.0ms | ActiveRecord: 0.0ms | Allocations: 35695)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:42:22 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.0ms | Allocations: 10195)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:42:24 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.0ms | Allocations: 10194)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:42:25 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.0ms | Allocations: 10194)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:42:26 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms | Allocations: 10194)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:46:14 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:46:14 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.4ms | Allocations: 171)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 87)
+Completed 200 OK in 763ms (Views: 762.0ms | ActiveRecord: 0.0ms | Allocations: 69410)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:46:15 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:46:15 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:46:15 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:46:15 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:46:15 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:46:15 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:46:15 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:46:15 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:46:33 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:46:33 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.3ms | Allocations: 166)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 87)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 11916)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:46:33 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:46:33 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:46:33 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:46:33 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:46:33 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:46:33 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:46:33 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:46:33 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:46:47 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:46:47 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.3ms | Allocations: 171)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 87)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 11930)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:46:47 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:46:47 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:46:47 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:46:47 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:46:47 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:46:47 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:46:47 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:46:47 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:46:53 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:46:53 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.4ms | Allocations: 166)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 11916)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:46:53 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:46:53 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:46:53 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:46:53 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:46:53 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:46:53 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:46:53 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:46:53 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:47:00 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:47:00 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.6ms | Allocations: 166)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 87)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.0ms | Allocations: 11916)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:47:00 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:47:00 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:47:00 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:47:00 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:47:00 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:47:00 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:47:00 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:47:00 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:47:09 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 103)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 11864)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:47:10 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 10197)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-15 15:47:11 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.5ms | Allocations: 150)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 10452)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:47:12 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 10195)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-15 15:47:14 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 10194)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:47:15 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.3ms | Allocations: 165)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 10467)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:47:31 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 10251)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:47:38 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:47:38 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.4ms | Allocations: 163)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 11913)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:47:38 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:47:38 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:47:38 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:47:38 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:47:38 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:47:38 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:47:38 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:47:38 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:47:42 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:47:42 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.4ms | Allocations: 169)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 11928)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:47:42 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:47:42 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:47:42 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:47:43 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:47:43 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:47:43 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:47:43 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:47:43 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:47:46 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:47:46 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.3ms | Allocations: 165)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 87)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 11915)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:47:46 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:47:46 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:47:46 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:47:47 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:47:47 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:47:47 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:47:47 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:47:47 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:48:57 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 10197)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:48:59 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 10214)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:50:02 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:50:02 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.3ms | Allocations: 167)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 107)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 87)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms | Allocations: 11927)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:50:02 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:50:02 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:50:02 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:50:02 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:50:02 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:50:02 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:50:02 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:50:02 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:50:09 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:50:09 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 10197)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:50:09 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:50:10 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:50:10 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:50:10 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:50:10 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:50:10 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:50:10 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:50:10 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:50:11 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 10194)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:50:12 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 10194)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:50:12 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 10194)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:51:04 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:04 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 187ms (Views: 185.7ms | ActiveRecord: 0.0ms | Allocations: 57470)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:51:04 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:04 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:04 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:51:04 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:04 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:04 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:51:04 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:51:04 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:06 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 9943)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:07 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 9943)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:07 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 9943)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:07 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 9943)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:08 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 31ms (Views: 30.5ms | ActiveRecord: 0.0ms | Allocations: 9946)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:08 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 9943)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:51:08 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 9943)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 9943)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 9943)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 9945)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 9943)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:51:09 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:15 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.5ms | Allocations: 290)
+Completed 500 Internal Server Error in 94ms (ActiveRecord: 0.0ms | Allocations: 35507)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:16 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 0.0ms | Allocations: 18362)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:16 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 110)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 90)
+Completed 200 OK in 19ms (Views: 18.6ms | ActiveRecord: 0.0ms | Allocations: 19650)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:51:16 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:16 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:16 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:51:16 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:16 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:16 +0100
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:16 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.0ms | Allocations: 9949)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:51:16 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:16 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:16 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:51:17 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:17 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:17 +0100
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:17 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.0ms | Allocations: 9954)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:51:17 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:17 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:17 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:51:17 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:17 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:51:17 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:51:17 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:51:17 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:18 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 9947)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:19 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 9948)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:19 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 9946)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:20 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 9946)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:20 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 9946)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:20 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 9947)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:20 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 9946)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:20 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 9946)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:51:45 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:45 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 146ms (ActiveRecord: 0.0ms | Allocations: 39127)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:1:20: reserved word 'function'):
+    15:     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    16:     <script src="../cable.js"></script>
+    17:     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  <!--GOOGLE-->
+    18:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    19:   </head>
+    20: 
+    21:   <body>
+  
+(execjs):7539:8
+(execjs):7545:14
+(execjs):1:40
+app/views/layouts/application.html.erb:18
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:51:47 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 500 Internal Server Error in 105ms (ActiveRecord: 0.0ms | Allocations: 20858)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:1:20: reserved word 'function'):
+    15:     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    16:     <script src="../cable.js"></script>
+    17:     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  <!--GOOGLE-->
+    18:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    19:   </head>
+    20: 
+    21:   <body>
+  
+(execjs):7539:8
+(execjs):7545:14
+(execjs):1:40
+app/views/layouts/application.html.erb:18
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:52:20 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 69ms (ActiveRecord: 0.0ms | Allocations: 21192)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:1:20: reserved word 'function'):
+    15:     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    16:     <script src="../cable.js"></script>
+    17:     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  <!--GOOGLE-->
+    18:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    19:   </head>
+    20: 
+    21:   <body>
+  
+(execjs):7539:8
+(execjs):7545:14
+(execjs):1:40
+app/views/layouts/application.html.erb:18
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:52:21 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 500 Internal Server Error in 104ms (ActiveRecord: 0.0ms | Allocations: 20626)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:1:20: reserved word 'function'):
+    15:     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    16:     <script src="../cable.js"></script>
+    17:     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  <!--GOOGLE-->
+    18:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    19:   </head>
+    20: 
+    21:   <body>
+  
+(execjs):7539:8
+(execjs):7545:14
+(execjs):1:40
+app/views/layouts/application.html.erb:18
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:52:21 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:52:21 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 127ms (ActiveRecord: 0.0ms | Allocations: 112747)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:1:20: reserved word 'function'):
+    15:     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    16:     <script src="../cable.js"></script>
+    17:     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  <!--GOOGLE-->
+    18:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    19:   </head>
+    20: 
+    21:   <body>
+  
+(execjs):7539:8
+(execjs):7545:14
+(execjs):1:40
+app/views/layouts/application.html.erb:18
+Completed 500 Internal Server Error in 275ms (ActiveRecord: 0.0ms | Allocations: 291250)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:1:20: reserved word 'function'):
+    15:     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    16:     <script src="../cable.js"></script>
+    17:     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  <!--GOOGLE-->
+    18:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    19:   </head>
+    20: 
+    21:   <body>
+  
+(execjs):7539:8
+(execjs):7545:14
+(execjs):1:40
+app/views/layouts/application.html.erb:18
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:52:25 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 73ms (ActiveRecord: 0.0ms | Allocations: 21058)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:1:20: reserved word 'function'):
+    15:     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    16:     <script src="../cable.js"></script>
+    17:     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  <!--GOOGLE-->
+    18:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    19:   </head>
+    20: 
+    21:   <body>
+  
+(execjs):7539:8
+(execjs):7545:14
+(execjs):1:40
+app/views/layouts/application.html.erb:18
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:52:25 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:52:25 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 123ms (ActiveRecord: 0.0ms | Allocations: 114270)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:1:20: reserved word 'function'):
+    15:     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    16:     <script src="../cable.js"></script>
+    17:     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  <!--GOOGLE-->
+    18:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    19:   </head>
+    20: 
+    21:   <body>
+  
+(execjs):7539:8
+(execjs):7545:14
+(execjs):1:40
+app/views/layouts/application.html.erb:18
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:52:26 +0100
+Completed 500 Internal Server Error in 469ms (ActiveRecord: 0.0ms | Allocations: 722434)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:1:20: reserved word 'function'):
+    15:     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    16:     <script src="../cable.js"></script>
+    17:     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  <!--GOOGLE-->
+    18:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    19:   </head>
+    20: 
+    21:   <body>
+  
+(execjs):7539:8
+(execjs):7545:14
+(execjs):1:40
+app/views/layouts/application.html.erb:18
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:52:26 +0100
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:52:26 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:52:26 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 163ms (ActiveRecord: 0.0ms | Allocations: 209839)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:1:20: reserved word 'function'):
+    15:     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    16:     <script src="../cable.js"></script>
+    17:     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  <!--GOOGLE-->
+    18:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    19:   </head>
+    20: 
+    21:   <body>
+  
+(execjs):7539:8
+(execjs):7545:14
+(execjs):1:40
+app/views/layouts/application.html.erb:18
+Completed 500 Internal Server Error in 571ms (ActiveRecord: 0.0ms | Allocations: 911495)
+
+
+Completed 500 Internal Server Error in 565ms (ActiveRecord: 0.0ms | Allocations: 909729)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:1:20: reserved word 'function'):
+    15:     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    16:     <script src="../cable.js"></script>
+    17:     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  <!--GOOGLE-->
+    18:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    19:   </head>
+    20: 
+    21:   <body>
+  
+(execjs):7539:8
+(execjs):7545:14
+(execjs):1:40
+app/views/layouts/application.html.erb:18
+  
+ActionView::Template::Error (SyntaxError: [stdin]:1:20: reserved word 'function'):
+    15:     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    16:     <script src="../cable.js"></script>
+    17:     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  <!--GOOGLE-->
+    18:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    19:   </head>
+    20: 
+    21:   <body>
+  
+(execjs):7539:8
+(execjs):7545:14
+(execjs):1:40
+app/views/layouts/application.html.erb:18
+Completed 500 Internal Server Error in 1418ms (ActiveRecord: 0.0ms | Allocations: 2332463)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:1:20: reserved word 'function'):
+    15:     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    16:     <script src="../cable.js"></script>
+    17:     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  <!--GOOGLE-->
+    18:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    19:   </head>
+    20: 
+    21:   <body>
+  
+(execjs):7539:8
+(execjs):7545:14
+(execjs):1:40
+app/views/layouts/application.html.erb:18
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:52:51 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.3ms | Allocations: 166)
+Completed 500 Internal Server Error in 81ms (ActiveRecord: 0.0ms | Allocations: 21901)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:1:20: reserved word 'function'):
+    16:     <script src="../cable.js"></script>
+    17:     <script src="../signin.coffee"></script>
+    18:     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  <!--GOOGLE-->
+    19:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    20:   </head>
+    21: 
+    22:   <body>
+  
+(execjs):7539:8
+(execjs):7545:14
+(execjs):1:40
+app/views/layouts/application.html.erb:19
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:52:53 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 78ms (ActiveRecord: 0.0ms | Allocations: 20624)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:1:20: reserved word 'function'):
+    16:     <script src="../cable.js"></script>
+    17:     <script src="../signin.coffee"></script>
+    18:     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  <!--GOOGLE-->
+    19:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    20:   </head>
+    21: 
+    22:   <body>
+  
+(execjs):7539:8
+(execjs):7545:14
+(execjs):1:40
+app/views/layouts/application.html.erb:19
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:52:54 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 500 Internal Server Error in 82ms (ActiveRecord: 0.0ms | Allocations: 20623)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:1:20: reserved word 'function'):
+    16:     <script src="../cable.js"></script>
+    17:     <script src="../signin.coffee"></script>
+    18:     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  <!--GOOGLE-->
+    19:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    20:   </head>
+    21: 
+    22:   <body>
+  
+(execjs):7539:8
+(execjs):7545:14
+(execjs):1:40
+app/views/layouts/application.html.erb:19
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:53:02 +0100
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.5ms | Allocations: 312)
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:53:02 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:53:02 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+Completed 500 Internal Server Error in 154ms (ActiveRecord: 0.0ms | Allocations: 24754)
+
+
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 11391)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+and restart your server):
+    3:   <head>
+    4:     <title>Songify</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <!--[if lt IE 9]>
+    8:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+    9:       </script>
+  
+app/views/layouts/application.html.erb:6
+Completed 500 Internal Server Error in 442ms (ActiveRecord: 0.0ms | Allocations: 250952)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:53:21 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.3ms | Allocations: 167)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 7876)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+and restart your server):
+    3:   <head>
+    4:     <title>Songify</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <!--[if lt IE 9]>
+    8:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+    9:       </script>
+  
+app/views/layouts/application.html.erb:6
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:53:22 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms | Allocations: 6572)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+and restart your server):
+    3:   <head>
+    4:     <title>Songify</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <!--[if lt IE 9]>
+    8:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+    9:       </script>
+  
+app/views/layouts/application.html.erb:6
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:53:22 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 6571)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+and restart your server):
+    3:   <head>
+    4:     <title>Songify</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <!--[if lt IE 9]>
+    8:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+    9:       </script>
+  
+app/views/layouts/application.html.erb:6
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:53:23 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 21107)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+and restart your server):
+    3:   <head>
+    4:     <title>Songify</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <!--[if lt IE 9]>
+    8:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+    9:       </script>
+  
+app/views/layouts/application.html.erb:6
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:53:23 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.0ms | Allocations: 38393)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+and restart your server):
+    3:   <head>
+    4:     <title>Songify</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <!--[if lt IE 9]>
+    8:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+    9:       </script>
+  
+app/views/layouts/application.html.erb:6
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:53:23 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 6558)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+and restart your server):
+    3:   <head>
+    4:     <title>Songify</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <!--[if lt IE 9]>
+    8:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+    9:       </script>
+  
+app/views/layouts/application.html.erb:6
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:53:24 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 6558)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+and restart your server):
+    3:   <head>
+    4:     <title>Songify</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <!--[if lt IE 9]>
+    8:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+    9:       </script>
+  
+app/views/layouts/application.html.erb:6
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:53:36 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.5ms | Allocations: 290)
+Completed 500 Internal Server Error in 50ms (ActiveRecord: 0.0ms | Allocations: 15265)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+and restart your server):
+    3:   <head>
+    4:     <title>Songify</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <!--[if lt IE 9]>
+    8:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+    9:       </script>
+  
+app/views/layouts/application.html.erb:6
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:53:36 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms | Allocations: 22572)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+and restart your server):
+    3:   <head>
+    4:     <title>Songify</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <!--[if lt IE 9]>
+    8:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+    9:       </script>
+  
+app/views/layouts/application.html.erb:6
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:53:37 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms | Allocations: 44611)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+and restart your server):
+    3:   <head>
+    4:     <title>Songify</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <!--[if lt IE 9]>
+    8:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+    9:       </script>
+  
+app/views/layouts/application.html.erb:6
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:53:38 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 6573)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+and restart your server):
+    3:   <head>
+    4:     <title>Songify</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <!--[if lt IE 9]>
+    8:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+    9:       </script>
+  
+app/views/layouts/application.html.erb:6
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:53:40 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 6573)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+and restart your server):
+    3:   <head>
+    4:     <title>Songify</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <!--[if lt IE 9]>
+    8:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+    9:       </script>
+  
+app/views/layouts/application.html.erb:6
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:53:41 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 6571)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+and restart your server):
+    3:   <head>
+    4:     <title>Songify</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <!--[if lt IE 9]>
+    8:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+    9:       </script>
+  
+app/views/layouts/application.html.erb:6
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:53:41 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 22736)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+and restart your server):
+    3:   <head>
+    4:     <title>Songify</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <!--[if lt IE 9]>
+    8:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+    9:       </script>
+  
+app/views/layouts/application.html.erb:6
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:53:41 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 13286)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+and restart your server):
+    3:   <head>
+    4:     <title>Songify</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <!--[if lt IE 9]>
+    8:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+    9:       </script>
+  
+app/views/layouts/application.html.erb:6
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:53:41 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 131ms (ActiveRecord: 0.0ms | Allocations: 199700)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+and restart your server):
+    3:   <head>
+    4:     <title>Songify</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <!--[if lt IE 9]>
+    8:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+    9:       </script>
+  
+app/views/layouts/application.html.erb:6
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:53:57 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.3ms | Allocations: 166)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms | Allocations: 14500)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+and restart your server):
+    3:   <head>
+    4:     <title>Songify</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <!--[if lt IE 9]>
+    8:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+    9:       </script>
+  
+app/views/layouts/application.html.erb:6
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:55:05 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms | Allocations: 22463)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:55:07 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 16912)
+
+
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:55:12 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.6ms | Allocations: 294)
+Completed 500 Internal Server Error in 65ms (ActiveRecord: 0.0ms | Allocations: 26327)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:55:12 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 90)
+Completed 200 OK in 36ms (Views: 35.9ms | ActiveRecord: 0.0ms | Allocations: 22078)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:55:12 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:55:12 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:55:12 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:55:12 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:55:12 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:55:12 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:55:12 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:55:12 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:55:12 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:55:12 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 10199)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:55:12 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:55:12 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:55:12 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:55:13 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:55:13 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:55:13 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:55:13 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:55:13 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:55:13 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:55:13 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms | Allocations: 10194)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:55:13 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:55:13 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:55:13 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:55:13 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:55:13 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:55:13 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:55:13 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:55:13 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:55:13 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:55:13 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 10196)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:55:13 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:55:13 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:55:13 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:55:13 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:55:13 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:55:13 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:55:13 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:55:13 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:55:14 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 108)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 10411)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:55:16 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 10196)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-15 15:55:17 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.4ms | Allocations: 157)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 10459)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:55:18 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 5)
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.0ms | Allocations: 10195)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-15 15:55:19 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.2ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 38ms (Views: 36.8ms | ActiveRecord: 0.0ms | Allocations: 10194)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-15 15:55:19 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 10194)
+
+
+ChatChannel#send_msg({"message"=>"undefined: sd"})
+[ActionCable] Broadcasting to room: {:message=>"undefined: sd"}
+ChatChannel transmitting {"message"=>"undefined: sd"} (via streamed from room)
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-15 15:55:28 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 0.0ms | Allocations: 10194)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:55:29 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 24ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 10197)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:55:41 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:55:41 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.3ms | Allocations: 171)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 11929)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:55:41 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:55:41 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:55:41 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:55:41 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:55:41 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:55:41 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:55:41 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:55:41 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:56:14 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:56:14 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.4ms | Allocations: 166)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 11918)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:56:14 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:56:14 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:56:14 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:56:14 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:56:14 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:56:14 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:56:14 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:56:14 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:56:36 +0100
+ChatChannel stopped streaming from room
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:56:36 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.4ms | Allocations: 166)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 11917)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:56:36 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:56:36 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:56:36 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:56:36 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:56:36 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:56:36 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:56:36 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:56:36 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:56:37 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.3ms | Allocations: 99)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 10402)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-15 15:56:39 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.4ms | Allocations: 150)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 10453)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:56:39 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 10195)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:56:41 +0100
+ChatChannel stopped streaming from room
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:56:41 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms | Allocations: 10197)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:56:41 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:56:41 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:56:41 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:56:41 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:56:41 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:56:41 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:56:41 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:56:41 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:56:43 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 10194)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:56:47 +0100
+ChatChannel stopped streaming from room
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:56:47 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.2ms | Allocations: 102)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 11861)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:56:47 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:56:47 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:56:47 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:56:48 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:56:48 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:56:48 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:56:48 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:56:48 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:56:48 +0100
+ChatChannel stopped streaming from room
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:56:48 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 10197)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:56:48 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:56:48 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:56:48 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:56:49 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:56:49 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:56:49 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:56:49 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:56:49 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-15 15:56:52 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.3ms | Allocations: 150)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 10452)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:56:54 +0100
+ChatChannel stopped streaming from room
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-15 15:56:54 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 10195)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:56:54 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:56:54 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:56:54 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:56:54 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:56:54 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:56:54 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:56:54 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:56:54 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:56:55 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 10195)
+
+
+DEPRECATION WARNING: Single arity template handlers are deprecated. Template handlers must
+now accept two parameters, the view object and the source for the view object.
+Change:
+  >> Coffee::Rails::TemplateHandler.call(template)
+To:
+  >> Coffee::Rails::TemplateHandler.call(template, source)
+ (called from <main> at /home/daniele/Scrivania/Computer_Security/Songify/config/environment.rb:5)
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:57:03 +0100
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.5ms | Allocations: 236)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 105)
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 90)
+Completed 200 OK in 70ms (Views: 69.8ms | ActiveRecord: 0.0ms | Allocations: 23070)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:57:03 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:57:03 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:57:03 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:57:03 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:57:03 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:57:03 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:57:03 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:57:03 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:57:04 +0100
+ChatChannel stopped streaming from room
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:57:04 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms | Allocations: 10199)
+
+
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:57:04 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:57:04 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:57:04 +0100
+Started GET "/cable.js" for 127.0.0.1 at 2019-11-15 15:57:04 +0100
+Started GET "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:57:04 +0100
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/.js"[non-WebSocket] for 127.0.0.1 at 2019-11-15 15:57:04 +0100
+Started GET "/cable" for 127.0.0.1 at 2019-11-15 15:57:04 +0100
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2019-11-15 15:57:04 +0100
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+ChatChannel is transmitting the subscription confirmation
+ChatChannel is streaming from room
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-15 15:57:06 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.4ms | Allocations: 162)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 10467)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:57:07 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.3ms | Allocations: 170)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 10473)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:57:08 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 10195)
+
+
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:57:09 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 10194)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2019-11-15 15:57:11 +0100
+Processing by StaticPagesController#chatroom as HTML
+  Rendering static_pages/chatroom.html.erb within layouts/application
+  Rendered static_pages/chatroom.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 10195)
+
+
+ChatChannel#send_msg({"message"=>"undefined: ds\n"})
+[ActionCable] Broadcasting to room: {:message=>"undefined: ds\n"}
+ChatChannel transmitting {"message"=>"undefined: ds\n"} (via streamed from room)
+Started GET "/homepage" for 127.0.0.1 at 2019-11-15 15:57:16 +0100
+Processing by StaticPagesController#homepage as HTML
+  Rendering static_pages/homepage.html.erb within layouts/application
+  Rendered static_pages/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms | Allocations: 10194)
+
+
+Started GET "/signin" for 127.0.0.1 at 2019-11-15 15:57:17 +0100
+Processing by StaticPagesController#signin as HTML
+  Rendering static_pages/signin.html.erb within layouts/application
+  Rendered static_pages/signin.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 26ms (Views: 25.6ms | ActiveRecord: 0.0ms | Allocations: 10194)
+
+
