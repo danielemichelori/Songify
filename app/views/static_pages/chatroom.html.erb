@@ -8,11 +8,14 @@
 		}
 
 		$("#send").click(function(){
-			msg = $("#msg").val()
+			name = $("#name").val()  // "#name" da definire
+			msg =  $("#msg").val()
 
 			/* SEND MESSAGE */
-			App.chat.send_msg(msg)
-			msg = $("#msg").val(null)  //resetta il box del messagio
+			if(msg) {  // il messagio non può essere vuoto
+				App.chat.send_msg(name+': '+msg)
+				msg = $("#msg").val(null)  // resetta il box del messagio
+			}
 		})
 	})
 </script>

@@ -5,6 +5,17 @@ Rails.application.routes.draw do
 
   mount ActionCable.server => '/cable'
 
+  devise_for :users , controllers: {
+    session: 'users/session',
+    registration: 'users/registration',
+    omniauth: 'users/omniauth',
+    omniauth_callbacks: "users/omniauth_callbacks",
+    confirmations: 'users/confirmations'}
+
+  get 'profile/:id'    => 'users#show', as: 'user'
+  resources :tweets
+  resources :users, :only =>[:show, :index]
+
   # rotte _header
   get 'homepage'       => 'static_pages#homepage'  #rotta homepage
   get 'concerts'       => 'static_pages#concerts'  #rotta concerti
