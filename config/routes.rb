@@ -23,7 +23,7 @@ Rails.application.routes.draw do
   get 'tweets'         => 'static_pages#tweets'    #rotta tweets
   get 'signin'         => 'static_pages#signin'    #rotta signin
   get 'chatroom'       => 'static_pages#chatroom'  #rotta chatroom
-
+  
   # rotte _footer
   get 'about'          => 'static_pages#about'     #rotta informazioni
   get 'contact'        => 'static_pages#contact'   #rotta contatti
