@@ -4,13 +4,31 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.6.5'
 
 # Gemme applicazioni esterne
-gem 'devise', '~> 4.7', '>= 4.7.1'    #OAuth
-gem 'omniauth'                        #OAuth
-gem 'omniauth-twitter', '~> 1.4'      #OAuth
-gem 'bootstrap', '~> 4.1.1'           #bootstrap
-gem 'jquery-rails'                    #bootstrap
-gem  'songkickr'                      #API songkickr
 
+# Use for bootstrap
+gem 'bootstrap', '~> 4.1.1'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+# Use API songkickr
+gem  'songkickr'
+
+gem 'rake', '~> 12.3.3'
+# twitter api
+gem 'twitter'
+# set up devise
+gem 'devise', '~> 4.2'
+# Use Omniauth Twitter plugin
+gem 'omniauth-twitter', '~> 1.2', '>= 1.2.1'
+# Use ActiveModel has_secure_password
+gem 'bcrypt-ruby', '3.1.1.rc1', :require => 'bcrypt'
+
+# Use CoffeeScript for .coffee assets and views
+gem 'coffee-rails', '~> 4.2'
+
+# Use Uglifier as compressor for JavaScript assets
+gem 'uglifier', '>= 1.3.0'
+
+
+gem 'activerecord-session_store', '~> 1.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.1'
 # Use sqlite3 as the database for Active Record
@@ -26,9 +44,7 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production
-# gem 'redis', '~> 4.0'
-# Use Active Model has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'redis', '~> 4.0'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
