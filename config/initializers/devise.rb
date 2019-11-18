@@ -1,17 +1,14 @@
 # frozen_string_literal: true
-
+require "omniauth-twitter"
 # Use this hook to configure devise mailer, warden hooks and so forth.
 # Many of these configuration options can be set straight in your model.
 Devise.setup do |config|
-  # OAuth twitter
-  config.omniauth :twitter, '3uJYPJ6PzHEeH6OL7hjMt23nP', '5b00MNDBDlchHm4tp6Oisdao9ufhPlZZubyOzOPG2YQ1cUI3Rl', scope: 'user:email'
-
   # The secret key used by Devise. Devise uses this key to generate
   # random tokens. Changing this key will render invalid all existing
   # confirmation, reset password and unlock tokens in the database.
   # Devise will use the `secret_key_base` as its `secret_key`
   # by default. You can change it below and use your own secret key.
-  # config.secret_key = '418faae7a750dc235310ab1813c5affca57b5bc67e3d2540d83b02abef514b892eaa2eeb67d2abeb0215b2ac4893a2948612085460190586c727134c425ca01d'
+  # config.secret_key = '875fc055534bf5826c79a1dd2c39f9f4ea9e012096b9a4a080cdc623daa282bbad998750fa6f5c0fb5160d365e401fbd73a7331be6785af1f1e33eea1513cb0c'
 
   # ==> Controller configuration
   # Configure the parent class to the devise controllers.
@@ -117,7 +114,7 @@ Devise.setup do |config|
   config.stretches = Rails.env.test? ? 1 : 11
 
   # Set up a pepper to generate the hashed password.
-  # config.pepper = '278689f33f6f21b04237e1f1d1de773a6ff2ec86c9a177f761a0ace3bc0ea16f61b2bf9f9b5a1ecee92153661f4cd90f4c610f42e2dc9991468af8811c2327b5'
+  # config.pepper = '430c78ac78f922aa800e67337d2d2c09769f396d410b572cb7017a8ebbd1e5e64bd927d2d56acf75781e3d9ff24050c53f1e793989f9d8af26effaa121b10179'
 
   # Send a notification to the original email when the user's email is changed.
   # config.send_email_changed_notification = false
@@ -134,7 +131,7 @@ Devise.setup do |config|
   # without confirming their account.
   # Default is 0.days, meaning the user cannot access the website without
   # confirming their account.
-  # config.allow_unconfirmed_access_for = 2.days
+  config.allow_unconfirmed_access_for = 10.days
 
   # A period that the user is allowed to confirm their account before their
   # token becomes invalid. For example, if set to 3.days, the user can confirm
@@ -262,8 +259,10 @@ Devise.setup do |config|
   # ==> OmniAuth
   # Add a new OmniAuth provider. Check the wiki for more information on setting
   # up on your models and hooks.
-  # config.omniauth :github, 'APP_ID', 'APP_SECRET', scope: 'user,public_repo'
-
+  # config.omniauth :github, 'APP_ID', 'APP_SECRET', scope: 'user,public_repo'==> Controller configuration
+  # Configure the parent class to the devise controllers.
+  # config.parent_  # ==> Controller configuration
+  # Configure the parent class to the devi
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or
   # change the failure app, you can configure them inside the config.warden block.
@@ -272,6 +271,7 @@ Devise.setup do |config|
   #   manager.intercept_401 = false
   #   manager.default_strategies(scope: :user).unshift :some_external_strategy
   # end
+  config.omniauth :twitter, ENV['TWITTER_APP_ID'], ENV['TWITTER_APP_SECRET']
 
   # ==> Mountable engine configurations
   # When using Devise inside an engine, let's call it `MyEngine`, and this engine
