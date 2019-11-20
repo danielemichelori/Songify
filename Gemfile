@@ -11,7 +11,7 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 # Use API songkickr
 gem  'songkickr'
 
-gem 'rake', '~> 12.3.3'
+gem 'rake', '~> 13.0.1'
 # twitter api
 gem 'twitter'
 # set up devise

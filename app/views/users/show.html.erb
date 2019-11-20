@@ -1,4 +1,34 @@
-<h1>
-    <%= @user.name %><br/>
-    <%= @user.email %><br/>
-</h1>
+<!--
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+-->
+<nav class="profile-page" style="padding-bottom: 5%;">
+    <div class="page-header header-filter profile-page" data-parallax="true" style="background-image:url('http://wallpapere.org/wp-content/uploads/2012/02/black-and-white-city-night.png');"></div>
+    <div class="main main-raised">
+		<div class="profile-content">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-6 ml-auto mr-auto">
+
+                 <div class="profile">
+                      <div class="avatar">
+                          <img src="https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU0NjQzOTk4OTQ4OTkyMzQy/ansel-elgort-poses-for-a-portrait-during-the-baby-driver-premiere-2017-sxsw-conference-and-festivals-on-march-11-2017-in-austin-texas-photo-by-matt-winkelmeyer_getty-imagesfor-sxsw-square.jpg" alt="Circle Image" class="img-raised rounded-circle img-fluid">
+                      </div>
+                      <div class="name">
+                          <h3 class="title"><%= current_user.first_name%> <%=current_user.last_name%></h3>
+  					                  <h6><%= current_user.gender%></h6>
+                      </div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="description text-center">
+                <p><%= current_user.username %></p>
+                <p><%= current_user.twittername %></p>
+                <p><%= current_user.email %></p>
+                <p><%= current_user.date_of_birth%></p>
+                <br/>
+            </div>
+        </div>
+    </div>
+    </div>
+</nav>
