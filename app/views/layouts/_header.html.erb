@@ -2,11 +2,18 @@
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="/homepage" style="padding-right: 100px; color: darksalmon;">Songify</a>
-      <a class="nav navbar-brand" href="/concerts">Concerts</a>
-      <a class="nav navbar-brand" href="/artists">Artists</a>
-      <a class="nav navbar-brand" href="/tweets">Tweets</a>
-      <a class="nav navbar-brand" href="/signin">Signin</a>
-      <a class="nav navbar-brand" href="/chatroom">Chat</a>
+        <ul class="nav navbar-nav navbar-right" style="display: inline;">
+          <li><%= link_to "Concerts", concerts_path %></li>
+          <li><%= link_to "Artists", artists_path %></li>
+          <% if user_signed_in? %>
+            <li><%= link_to "Profile", user_path(current_user) %></li>
+            <li><%= link_to "Tweets", tweets_path %></li>
+            <li><%= link_to "Chat", chatroom_path %></li>
+            <li><%= link_to "Logout", destroy_user_session_path, method: :delete %></li>
+          <% else %>
+            <li><%= link_to "Login", new_user_session_path %></li>
+          <% end %>
+        </ul>
     </div>
     <form class="navbar-form navbar-left" action="/action_page.php">
       <div class="input-group">

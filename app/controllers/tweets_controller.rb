@@ -1,7 +1,7 @@
 class TweetsController < ApplicationController
     require 'twitter'
     def index
-        
+
     end
 
     def create
@@ -19,7 +19,7 @@ class TweetsController < ApplicationController
               sleep error.rate_limit.reset_in + 1
           retry
     end
-    
+
     #private
     #def tweet_param
     #    params.require(:tweets).permit(:text)
