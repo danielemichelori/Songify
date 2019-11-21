@@ -416,3 +416,117 @@ form .error {
 }
 #second{display:none;}
 // fine CSS signin
+
+
+
+
+// inizio CSS tweets
+/*
+body {
+    background-color: rgb(230, 236, 240) !important;
+    overflow-y: scroll;
+}
+nav.navbar  {
+    padding: 0 !important;
+    //border-bottom: 1px solid rgb(101, 119, 134);
+}
+*/
+nav.navbar > .container {
+    max-width: 1000px !important;
+    padding: 0px 10px !important;
+}
+ul.navbar-nav > li.nav-item > a.nav-link {
+    width: 90px !important;
+    height: 52.5px !important;
+    line-height: 34.5px !important;
+    text-align: center !important;
+    border-bottom: 2px solid #fff;
+    font-size: 15px !important;
+}
+ul.navbar-nav > li.active > a.nav-link {
+    border-bottom-color: rgba(29,161,242,1.00);
+}
+ul.navbar-nav > li.nav-item > a.nav-link > svg {
+    max-width: 100%;
+    height: 1.640625rem;
+    fill: rgb(101, 119, 134) !important;
+}
+ul.navbar-nav > li.active > a.nav-link > svg {
+    max-width: 100%;
+    height: 1.640625rem;
+    fill: rgba(29,161,242,1.00) !important;
+}
+.search {
+    background-color: rgba(101, 119, 134, 0.15) !important;
+    font-family: Helvetica, sans-serif;
+}
+.search:focus {
+    box-shadow: none !important;
+}
+// fine CSS tweets
+
+
+
+
+// inizio CSS profile (show.html.erb)
+.profile-page .page-header {
+    height: 380px;
+    background-position:center;
+}
+
+.main-raised {
+    margin: -60px 30px 0;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+}
+
+.main {
+    background: #FFF;
+    position: relative;
+    z-index: 3;
+}
+
+.profile-page .profile {
+    margin-left: 26.5%;
+}
+
+.profile-page .profile img {
+    max-width: 160px;
+    width: 100%;
+    margin: 0 auto;
+    -webkit-transform: translate3d(0,-50%,0);
+    -moz-transform: translate3d(0,-50%,0);
+    -o-transform: translate3d(0,-50%,0);
+    -ms-transform: translate3d(0,-50%,0);
+    transform: translate3d(0,-50%,0);
+}
+
+.profile-page .description {
+    margin: 1.071rem auto 0;
+    max-width: 600px;
+    color: #999;
+    font-weight: 300;
+}
+
+.profile-page .profile-tabs {
+    margin-top: 4.284rem;
+}
+
+.profile-page .gallery {
+    margin-top: 3.213rem;
+    padding-bottom: 50px;
+}
+
+.profile-page .gallery img {
+    width: 100%;
+    margin-bottom: 2.142rem;
+}
+
+.profile-page .profile .name{
+    margin-top: -80px;
+}
+
+img.rounded {
+    border-radius: 6px!important;
+}
+// fine CSS profile (show.html.erb)

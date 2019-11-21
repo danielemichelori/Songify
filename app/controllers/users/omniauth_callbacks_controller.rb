@@ -13,7 +13,7 @@ class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
     else
       flash[:error] = 'There was a problem signing you in through Twitter. Please register or try signing in later.'
       redirect_to new_user_registration_url
-    end 
+    end
   end
 
   # More info at:
@@ -30,12 +30,12 @@ class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
     else
       finish_signup_path(resource)
     end
-  end 
+  end
 =end
-  
+
   # GET|POST /users/auth/twitter/callback
   def failure
-    flash[:error] = 'There was a problem signing you in. Please register or try signing in later.' 
+    flash[:error] = 'There was a problem signing you in. Please register or try signing in later.'
     redirect_to new_user_registration_url
   end
 
