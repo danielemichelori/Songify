@@ -233,11 +233,6 @@ ul.navbar-nav > li.active > a.nav-link > svg {
 
 
 // inizio CSS profile (show.html.erb)
-.profile-page .page-header {
-    height: 380px;
-    background-position:center;
-}
-
 .main-raised {
     margin: -60px 30px 0;
     border-radius: 6px;
@@ -272,25 +267,7 @@ ul.navbar-nav > li.active > a.nav-link > svg {
     font-weight: 300;
 }
 
-.profile-page .profile-tabs {
-    margin-top: 4.284rem;
-}
-
-.profile-page .gallery {
-    margin-top: 3.213rem;
-    padding-bottom: 50px;
-}
-
-.profile-page .gallery img {
-    width: 100%;
-    margin-bottom: 2.142rem;
-}
-
 .profile-page .profile .name{
     margin-top: -80px;
-}
-
-img.rounded {
-    border-radius: 6px!important;
 }
 // fine CSS profile (show.html.erb)

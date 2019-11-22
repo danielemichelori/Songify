@@ -1,8 +1,4 @@
-<!--
-  <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
--->
-<nav class="profile-page" style="padding-bottom: 5%;">
-    <div class="page-header header-filter profile-page" data-parallax="true" style="background-image:url('https://cdn.dribbble.com/users/537591/screenshots/3432519/loader.gif');"></div>
+<nav class="profile-page" style="padding-bottom: 5%; padding-top: 20%;">
     <div class="main main-raised">
 		<div class="profile-content">
         <div class="container">
@@ -19,15 +15,15 @@
                   </div>
               </div>
             </div>
-            <div class="description" style="margin-left: 37.4%;">
+            <div class="description" style="margin-left: 35%;">
                 <p>Date of birth: <%= current_user.date_of_birth %></p>
                 <p>Email: <%= current_user.email %></p>
                 <p>Username: <%= current_user.username %></p>
                 <p>Twittername: <%= current_user.twittername %></p>
+                <p>Created time: <%= current_user.created_at %></p>
                 <p>User id: <%= current_user.uid %></p>
                 <br/>
             </div>
         </div>
-    </div>
     </div>
 </nav>
