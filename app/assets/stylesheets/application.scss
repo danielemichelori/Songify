@@ -15,15 +15,22 @@
 @import "bootstrap";
 
 // inizio CSS homepage
+.imghp {
+  background-image: url('https://img2.goodfon.ru/wallpaper/nbig/e/a7/lyudi-diskoteka-klub-stil.jpg');
+  padding: 27.5%;
+  background-size: cover;
+  margin-bottom: 5%;
+}
+
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:700");
 
 .alrazy-title {
    font-family: 'Open Sans', Helvetica, sans-serif;
    font-weight: 700;
-   font-size: 6vw;
-   font-size: calc( 104vw / var(--char-total) );
-   position: relative;
+   font-size: 4.7vw;
+   //font-size: calc( 104vw / var(--char-total) );
    padding: 0.4em 0;
+   position: relative;
    overflow: hidden;
 }
 .alrazy-title:after {
@@ -33,7 +40,7 @@
    bottom: 0;
    left: 0;
    right: 0;
-   border-bottom: solid 0.2em;
+   border-bottom: solid 0.18em;
    -webkit-animation: underline 1s cubic-bezier(0.8, 0, 0, 1);
            animation: underline 1s cubic-bezier(0.8, 0, 0, 1);
    -webkit-animation-fill-mode: both;
@@ -72,9 +79,12 @@
              transform: translateY(125%);
    }
 }
+
+/*
 .splitting-mark {
   color: #FFF !important;
 }
+*/
 // fine CSS homepage
 
 
