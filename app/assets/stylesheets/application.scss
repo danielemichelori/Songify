@@ -15,9 +15,14 @@
 @import "bootstrap";
 
 // inizio CSS homepage
+.value-message {
+    color: #fff;
+    text-align: center;
+}
+
 .imghp {
   background-image: url('https://img2.goodfon.ru/wallpaper/nbig/e/a7/lyudi-diskoteka-klub-stil.jpg');
-  padding: 27.5%;
+  padding: 20%;
   background-size: cover;
   margin-bottom: 5%;
 }
@@ -27,10 +32,11 @@
 .alrazy-title {
    font-family: 'Open Sans', Helvetica, sans-serif;
    font-weight: 700;
-   font-size: 4.7vw;
+   font-size: 4.5vw;
    //font-size: calc( 104vw / var(--char-total) );
    padding: 0.4em 0;
    position: relative;
+   text-align: center;
    overflow: hidden;
 }
 .alrazy-title:after {
@@ -243,6 +249,11 @@ ul.navbar-nav > li.active > a.nav-link > svg {
 
 
 // inizio CSS profile (show.html.erb)
+.message {
+    color: black;
+    text-align: center;
+}
+
 .main-raised {
     margin: -60px 30px 0;
     border-radius: 6px;
