@@ -8,8 +8,8 @@ class TweetsController < ApplicationController
         client = Twitter::REST::Client.new do |config|
             config.consumer_key        = '3uJYPJ6PzHEeH6OL7hjMt23nP'
             config.consumer_secret     = '5b00MNDBDlchHm4tp6Oisdao9ufhPlZZubyOzOPG2YQ1cUI3Rl'
-            config.access_token        = "1014146447665659904-kBw19rr4EdWNyzhR9MjjCFwgjhaeQ3"
-            config.access_token_secret = "CyyqnVhwsdTcpzEruvMhmD5lE9fJBBTsgGjS1KGXuA903"
+            config.access_token        = "725263204985769984-OIpFTS4EoMA1xNz7S4EoiuDMUUjrBkO"
+            config.access_token_secret = "f9OSff55rYbLSfmVUNXlI94zfGHl3eKk6G7fReHlkyzVW"
           end
           '%#{params[:tweet]}%'
           @tweets = client.search(params[:tweet], :result_type => "recent").take(20)
