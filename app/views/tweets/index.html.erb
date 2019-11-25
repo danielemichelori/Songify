@@ -1,12 +1,11 @@
 <% provide(:title, 'Tweets') %>
 
 <%= form_tag(tweets_path method: :post) do %>
-    search for tweets <%= text_field_tag :tweet %>
+    search for tweets <%= text_field_tag :tweet%>
     <%= submit_tag 'Search' %>
 <% end %>
 
-<!--
-<nav class="navbar navbar-expand navbar-light bg-white">
+<nav class="navbar navbar-expand navbar-light bg">
     <div class="container">
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav">
@@ -57,12 +56,6 @@
             <form action="" class="form-inline w-100 d-none d-md-block ml-2">
                 <input type="text" class="form-control form-control-sm rounded-pill search border-0 px-3 w-100" placeholder="Search Twitter">
             </form>
-            <ul class="navbar-nav d-none d-md-block">
-                <li class="nav-item">
-                    <a class="nav-link"></a>
-                </li>
-            </ul>
         </div>
     </div>
 </nav>
--->

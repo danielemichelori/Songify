@@ -249,6 +249,11 @@ ul.navbar-nav > li.active > a.nav-link > svg {
 
 
 // inizio CSS profile (show.html.erb)
+.avatar {
+  margin-left: 4%;
+  margin-bottom: 10%;
+}
+
 .message {
     color: black;
     text-align: center;
@@ -272,7 +277,7 @@ ul.navbar-nav > li.active > a.nav-link > svg {
 
 .profile-page .profile img {
     max-width: 160px;
-    width: 100%;
+    width: 35%;
     margin: 0 auto;
     -webkit-transform: translate3d(0,-50%,0);
     -moz-transform: translate3d(0,-50%,0);

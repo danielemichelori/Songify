@@ -12,7 +12,7 @@ class TweetsController < ApplicationController
             config.access_token_secret = "f9OSff55rYbLSfmVUNXlI94zfGHl3eKk6G7fReHlkyzVW"
           end
           '%#{params[:tweet]}%'
-          @tweets = client.search(params[:tweet], :result_type => "recent").take(20)
+          @tweets = client.search(params[:tweet], :result_type => "recent").take(10)
           rescue Twitter::Error::TooManyRequests => error
               # NOTE: Your process could go to sleep for up to 15 minutes but if you
               # retry any sooner, it will almost certainly fail with the same exception.
