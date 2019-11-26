@@ -14,7 +14,7 @@ Rails.application.routes.draw do
   get 'homepage'       => 'static_pages#homepage'  #rotta homepage
   get 'concerts'       => 'static_pages#concerts'  #rotta concerti
   get 'artists'        => 'static_pages#artists'   #rotta artisti
-  get 'tweets'         => 'static_pages#tweets'    #rotta tweets
+  #get 'tweets'         => 'static_pages#tweets'    #rotta tweets
   get 'chatroom'       => 'static_pages#chatroom'  #rotta chatroom
   # rotte _footer
   get 'about'          => 'static_pages#about'     #rotta informazioni

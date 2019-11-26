@@ -14,6 +14,8 @@ gem  'songkickr'
 gem 'rake', '~> 13.0.1'
 # twitter api
 gem 'twitter'
+# ENV Variables
+gem 'dotenv-rails'
 # set up devise
 gem 'devise', '~> 4.2'
 # Use Omniauth Twitter plugin
