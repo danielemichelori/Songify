@@ -9,5 +9,7 @@ class UpdateUsers < ActiveRecord::Migration[5.2]
       add_column :users, :gender, :string, default: ''
       add_column :users, :email, :string, default: ''
       add_column :users, :twittername, :string, limit:20, null: false, unique: true, default: ''
+      add_column :users, :profile_image_url, :string
+      add_column :users, :location, :string
     end
 end
