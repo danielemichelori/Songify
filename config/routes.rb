@@ -14,7 +14,6 @@ Rails.application.routes.draw do
 
   # rotte _header
   get 'homepage'       => 'static_pages#homepage'  #rotta homepage
-  get 'concerts'       => 'static_pages#concerts'  #rotta concerti
   get 'artists'        => 'static_pages#artists'   #rotta artisti
   #get 'tweets'         => 'static_pages#tweets'    #rotta tweets
   get 'chatroom'       => 'static_pages#chatroom'  #rotta chatroom
@@ -24,6 +23,6 @@ Rails.application.routes.draw do
 
   mount ActionCable.server => '/cable'
 
-  resources :tweets
+  resources :tweets, :concerts
   resources :users, :only =>[:show, :index]
 end

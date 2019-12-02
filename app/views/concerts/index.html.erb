@@ -1,5 +1,5 @@
 <li class="list-group" style="margin-top: 20px">
-<% @results.each_with_index do |result, index| %>
+<% @results.each do |result| %>
 <ul class ="media">
     <img style="padding-right: 20px" class="img-responsive circle" src="https://images.sk-static.com/images/media/profile_images/events/<%= result.id %>/avatar">
     <li class="list-group item list-group-item-action">
@@ -7,6 +7,7 @@
         <h5 class="mt-0 mb-1"><strong><%= result.display_name %></strong></h5>
         <span class="badge badge-pill badge-primary"><%= result.type%></span>
     </div>
+    <%= link_to "Show", concert_path(result.id) %>
 </ul>
 <% end %>
 </li>
