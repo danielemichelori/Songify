@@ -1,0 +1,9 @@
+<div class = "container">
+<h3><%= @event.start %></h3>
+<h4><strong><%= @event.type %></strong></h4>
+<% @event.performances.each do |performance| %>
+    <% @imgj = "https://images.sk-static.com/images/media/profile_images/artists/" + performance.artist.id.to_s + "/huge_avatar"%>
+    <img src = <%= @imgj %> alt="No image" />
+    <p>Artist Name: <strong><%= performance.display_name %></strong></p>
+<% end %>
+</div>
