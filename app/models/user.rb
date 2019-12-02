@@ -1,4 +1,6 @@
-class User < ActiveRecord::Base
+class User < ApplicationRecord
+  has_many :favorites
+
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable,
@@ -29,5 +31,4 @@ class User < ActiveRecord::Base
   def email_required?
     super && provider.blank?
   end
-
 end

@@ -11,4 +11,11 @@ class ApplicationController < ActionController::Base
     devise_parameter_sanitizer.permit(:account_update, keys: [:username, :date_of_birth, :gender,
                                       :first_name, :last_name, :twittername, :created_at])
   end
+
+
+  def favorite_text
+    return @favorite_exists ? "UnFavorite" : "Favorite"
+  end
+
+  helper_method :favorite_text
 end
