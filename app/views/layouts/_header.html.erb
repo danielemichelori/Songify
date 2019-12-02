@@ -9,6 +9,7 @@
             <li><%= link_to "Profile", user_path(current_user) %></li>
             <li><%= link_to "Tweets", tweets_path %></li>
             <li><%= link_to "Chat", chatroom_path %></li>
+            <li><%= link_to "Music Events", music_events_path  %></li>
             <li><%= link_to "Logout", destroy_user_session_path, method: :delete %></li>
           <% else %>
             <li><%= link_to "Login", new_user_session_path %></li>
