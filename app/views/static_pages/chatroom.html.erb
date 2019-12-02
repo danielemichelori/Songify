@@ -4,7 +4,7 @@
 		/* RECEIVE MESSAGE */
 		App.chat.received = function(data)
 		{
-			$('<li>' + data['message'] + '</li>').appendTo($('ul'));
+			$('<li>' + data['message'] + '</li>').appendTo($('p'));
 		}
 
 		$("#send").click(function(){
@@ -12,7 +12,7 @@
 
 			/* SEND MESSAGE */
 			if(msg) {  // il messagio non può essere vuoto
-				msg_tot ='<%= current_user.email %>' + ": " + msg
+				msg_tot ='<%= current_user.username %>' + ": " + msg  //cambiare con email una volta ottenuta da twitter
 				App.chat.send_msg(msg_tot)
 				msg = $("#msg").val(null)  // resetta il box del messagio
 			}
@@ -28,9 +28,9 @@
 				<h1>Chatroom <a class="disable" style="color: #595959;">interact with other users</a></h1>
 			</div>
 			<div class = 'comment-content' id="chat">
-				<ul>
-					<!-- Message zone -->
-				</ul>
+					<div class="container" style="margin-left: -40%; margin-top: -40%">
+					  <p><!-- Message zone --></p>
+					</div>
 			</div>
 		</div>
 	</div>

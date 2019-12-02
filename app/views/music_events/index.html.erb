@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Your Favorite Posts</h1>
+
+<% current_user.favorites.each do |favorite| %>
+[<%= favorite.created_at.strftime("%I:%M %p")%>] You favorited this post:
+  <%= link_to favorite.music_event.title, favorite.music_event %>
+<br>
+<% end %>
+
+<h1>Music Events</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Body</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @music_events.each do |music_event| %>
+      <tr>
+        <td><%= music_event.title %></td>
+        <td><%= music_event.body %></td>
+        <td><%= link_to 'Show', music_event %></td>
+        <td><%= link_to 'Edit', edit_music_event_path(music_event) %></td>
+        <td><%= link_to 'Destroy', music_event, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Music Event', new_music_event_path %>
