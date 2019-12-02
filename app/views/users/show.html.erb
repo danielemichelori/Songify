@@ -6,7 +6,7 @@
 
 <div class="container">
     <div class="card cardpr">
-        <div class="row stylerow">
+        <div class="row stylerow" style="border-bottom: 1px solid #E5E5E5;">
             <div class="col-sm-2 col-md-2" style="margin-left: 4%;">
                 <img style="width: 85%; height: 65%; margin-top: 20%;" src="<%= current_user.profile_image_url %>" alt="No Image" class="img-raised rounded-circle img-fluid">
             </div>
@@ -21,6 +21,16 @@
                     <br/> Gender: <%= current_user.gender%>
                 </p>
             </div>
+        </div>
+        <div style="margin-left: 4%; margin-bottom: 1%; margin-top: -2%">
+          <h4>Favorite music events:</h4>
+          <p>
+            <% current_user.favorites.each do |favorite| %>
+            [<%= favorite.created_at.strftime("%I:%M %p")%>] You favorited this post:
+              <%= link_to favorite.music_event.title, favorite.music_event %>
+            <br>
+            <% end %>
+          </p>
         </div>
     </div>
 </div>
