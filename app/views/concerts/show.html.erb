@@ -1,9 +1,10 @@
-<div class = "container">
-<h3><%= @event.start %></h3>
-<h4><strong><%= @event.type %></strong></h4>
+<h3><strong><%= @event.type %></strong></h3>
+<h4><strong><%= @event.start.to_formatted_s(:long) %></strong></h4>
+<h4><%= @event.venue.display_name %> - <%= @event.venue.metro_area.display_name %></h4>
 <% @event.performances.each do |performance| %>
+    <div class="row" style="margin-left: inherit; margin-top: 40px; margin-bottom: 40px">
     <% @imgj = "https://images.sk-static.com/images/media/profile_images/artists/" + performance.artist.id.to_s + "/huge_avatar"%>
     <img src = <%= @imgj %> alt="No image" />
-    <p>Artist Name: <strong><%= performance.display_name %></strong></p>
+    <p style= "margin-left: 20px; font-size: 20px;"><strong><%= performance.display_name %></strong></p>
+    </div>
 <% end %>
-</div>
