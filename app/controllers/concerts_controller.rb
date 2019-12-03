@@ -1,9 +1,17 @@
 class ConcertsController < ApplicationController
+    before_action :require_login
+
+    def require_login
+      unless current_user != nil
+      flash[:error] =  "You require to login!"
+        redirect_to new_user_session_path # halts request cycle
+      end
+    end
 
     remote = Songkickr::Remote.new ENV["SONGKICK_API_KEY"]
     @@results = remote.events(location: "clientip").results
-    
-    def index 
+
+    def index
         @results = @@results
     end
 
@@ -30,7 +38,7 @@ class ConcertsController < ApplicationController
     private
     def get_artist_bio(artist)
         lastfm = Lastfm.new(ENV["LASTFM_API_KEY"], ENV["LASTFM_API_SECRET"])
-        token = lastfm.auth.get_token 
+        token = lastfm.auth.get_token
         lastfm.session = lastfm.auth.get_session(token: token)['key']
 
         return lastfm.artist.getInfo(artist: artist)
