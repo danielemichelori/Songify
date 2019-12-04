@@ -29,6 +29,12 @@ ActiveRecord::Schema.define(version: 2019_11_30_180538) do
     t.index ["user_id"], name: "index_favorites_on_user_id"
   end
 
+  create_table "films", force: :cascade do |t|
+    t.string "film_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
   create_table "music_events", force: :cascade do |t|
     t.string "title"
     t.text "body"

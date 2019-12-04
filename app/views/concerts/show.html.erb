@@ -4,7 +4,7 @@
 </blockquote>
 <% @event.performances.each do |performance| %>
     <div class="row" style="margin-left: inherit; margin-top: 40px; margin-bottom: 40px">
-      <% @imgj = "https://images.sk-static.com/images/media/profile_images/artists/" + performance.artist.id.to_s + "/huge_avatar"%>
+      <% @imgj = "https://images.sk-static.com/images/media/profile_images/artists/" + performance.artist.id.to_s + "/huge_avatar" %>
       <img style="border-radius: 6px;" src = <%= @imgj %> alt="No image" />
       <p style= "margin-left: 20px; font-size: 20px;"><strong><%= performance.display_name %></strong></p>
     </div>
@@ -16,12 +16,8 @@
       <h4><strong>Share this festival</strong></h4>
   <% end %>
   <p class="btn-social btn-twitter">
-      <a action="post" href="@client.update" class="btn btn-primary"><i class="fa fa-twitter"></i> on Twitter</a>
+    <% @mes = "https://twitter.com/intent/tweet?url=" + @event.uri %>
+      <%= link_to @mes, class: "btn btn-primary" do %><i class="fa fa-twitter"></i> on Twitter
+    <% end %>
   </p>
-  <%= @event.uri %>
 </div>
-
-<!--
-https://www.songkick.com/concerts/39292680-softone-at-na-cosetta
-?utm_campaign=event-page&utm_content=ZD0yNDU4ODIy&utm_medium=shared&utm_source=twitter di @songkick
-  -->
