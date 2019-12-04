@@ -1,10 +1,27 @@
 <h3><strong><%= @event.type %></strong></h3>
-<h4><strong><%= @event.start.to_formatted_s(:long) %></strong></h4>
-<h4><%= @event.venue.display_name %> - <%= @event.venue.metro_area.display_name %></h4>
+<blockquote>
+    <p>Date: <strong><%= @event.start.to_formatted_s(:long) %></p> <small><cite> <%= @event.venue.display_name %> - <%= @event.venue.metro_area.display_name %> <i class="glyphicon glyphicon-map-marker"></i></cite></small>
+</blockquote>
 <% @event.performances.each do |performance| %>
     <div class="row" style="margin-left: inherit; margin-top: 40px; margin-bottom: 40px">
-    <% @imgj = "https://images.sk-static.com/images/media/profile_images/artists/" + performance.artist.id.to_s + "/huge_avatar"%>
-    <img src = <%= @imgj %> alt="No image" />
-    <p style= "margin-left: 20px; font-size: 20px;"><strong><%= performance.display_name %></strong></p>
+      <% @imgj = "https://images.sk-static.com/images/media/profile_images/artists/" + performance.artist.id.to_s + "/huge_avatar"%>
+      <img style="border-radius: 6px;" src = <%= @imgj %> alt="No image" />
+      <p style= "margin-left: 20px; font-size: 20px;"><strong><%= performance.display_name %></strong></p>
     </div>
 <% end %>
+<div style="margin-bottom: 5%">
+  <% if @event.type == "Concert"%>
+      <h4><strong>Share this concert</strong></h4>
+  <%else%>
+      <h4><strong>Share this festival</strong></h4>
+  <% end %>
+  <p class="btn-social btn-twitter">
+      <a action="post" href="@client.update" class="btn btn-primary"><i class="fa fa-twitter"></i> on Twitter</a>
+  </p>
+  <%= @event.uri %>
+</div>
+
+<!--
+https://www.songkick.com/concerts/39292680-softone-at-na-cosetta
+?utm_campaign=event-page&utm_content=ZD0yNDU4ODIy&utm_medium=shared&utm_source=twitter di @songkick
+  -->
