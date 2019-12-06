@@ -21,12 +21,18 @@ class ConcertsController < ApplicationController
         @events = @@results
         @event = search_id(@events, params[:id])
         my_loc = BingLocator.new()
-        my_loc.api_key = 'AjCnyg3J-cQx0PfxOJd8GD_XYZqqba8-tNAem7JgPVd_LN0H-DY_TlwDzYktf4lt'  
-        my_loc.latitude = @event.venue.lat 
-        my_loc.longitude = @event.venue.lng
-        my_loc.zoom_level = '16'
-        @location = my_loc.get_img_url_by_point(600,300)
+        my_loc.api_key = 'AjCnyg3J-cQx0PfxOJd8GD_XYZqqba8-tNAem7JgPVd_LN0H-DY_TlwDzYktf4lt'
         @venue = get_venue_by_id(@event.venue.id)
+        if(@event.venue.lat == nil && @event.venue.lat == nil)
+            my_loc.query = @venue.metro_area.display_name
+            @location = my_loc.get_img_url_by_query(600,300)
+        else 
+            my_loc.latitude = @event.venue.lat 
+            my_loc.longitude = @event.venue.lng
+            @location = my_loc.get_img_url_by_point(600,300)
+           
+        end
+        my_loc.zoom_level = '16'
         # @bio = get_artist_bio('')
     end
 
