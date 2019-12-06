@@ -1,3 +1,5 @@
+require 'location'
+
 class ConcertsController < ApplicationController
     before_action :require_login
 
@@ -17,11 +19,19 @@ class ConcertsController < ApplicationController
 
     def show
         @events = @@results
-        @event = search(@events, params[:id])
+        @event = search_id(@events, params[:id])
+        my_loc = BingLocator.new()
+        my_loc.api_key = 'AjCnyg3J-cQx0PfxOJd8GD_XYZqqba8-tNAem7JgPVd_LN0H-DY_TlwDzYktf4lt'  
+        my_loc.latitude = @event.venue.lat 
+        my_loc.longitude = @event.venue.lng
+        my_loc.zoom_level = '16'
+        @location = my_loc.get_img_url_by_point(600,300)
+        @venue = get_venue_by_id(@event.venue.id)
+        # @bio = get_artist_bio('')
     end
 
     private
-    def search(results, id)
+    def search_id(results, id)
         results.each do |event|
             if(event.id ==  id.to_i)
                 return event
@@ -36,11 +46,19 @@ class ConcertsController < ApplicationController
     end
 
     private
-    def get_artist_bio(artist)
-        lastfm = Lastfm.new(ENV["LASTFM_API_KEY"], ENV["LASTFM_API_SECRET"])
-        token = lastfm.auth.get_token
-        lastfm.session = lastfm.auth.get_session(token: token)['key']
-
-        return lastfm.artist.getInfo(artist: artist)
+    def get_venue_by_id(id)
+        remote = Songkickr::Remote.new ENV["SONGKICK_API_KEY"]
+        @venue = remote.venue(id)
+        return @venue
     end
+
+
+    # private
+    # def get_artist_bio(artist)
+    #     lastfm = Lastfm.new(ENV["LASTFM_API_KEY"], ENV["LASTFM_API_SECRET"])
+    #     token = lastfm.auth.get_token
+    #     lastfm.session = lastfm.auth.get_session(token: token)['key']
+
+    #     return lastfm.artist.getInfo(artist: artist)
+    # end
 end

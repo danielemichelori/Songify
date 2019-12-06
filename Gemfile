@@ -10,8 +10,8 @@ gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 # Use API songkickr
 gem  'songkickr'
-# Use Spotify gem
-gem "spotify", "~> 12.5.3"
+# Use Bing maps gem
+gem 'bing-location', '~> 0.0.2b'
 
 gem 'rake', '~> 13.0.1'
 # twitter api

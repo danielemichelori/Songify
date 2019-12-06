@@ -20,4 +20,19 @@
       <%= link_to @mes, class: "btn btn-primary" do %><i class="fa fa-twitter"></i> on Twitter
     <% end %>
   </p>
+  <br>
+  <br>
+  <div class="row" style="margin-left: inherit;">
+    <%= image_tag @location , alt: "Map" %>
+    <p style="margin-left: 20px;">
+      <%= @venue.display_name %><br>
+      <%= @venue.street %><br>
+      <%= @venue.zip %><br>
+      <%= @venue.metro_area.display_name %><br>
+      <%= @venue.website %><br>
+      <%= @venue.capacity %><br>
+      <%= @venue.phone %><br>
+      <%= @venue.description %>
+    </p>
+  </div>
 </div>
