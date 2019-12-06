@@ -1,4 +1,4 @@
-Rails.application.routes.draw do
+Rails.application.routes.draw do  
   get 'favorites/update'
   resources :music_events
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
@@ -6,12 +6,15 @@ Rails.application.routes.draw do
   root             'static_pages#homepage'
 
   devise_for :users , controllers: {
-    session: 'users/session',
-    registration: 'users/registration',
+    session: 'users/sessions',
+    registration: 'users/registrations',
     omniauth: 'users/omniauth',
     omniauth_callbacks: "users/omniauth_callbacks",
     confirmations: 'users/confirmations'}
 
+
+  get 'sign_in' => "sessions#new" # custom path to login/sign_in
+  get 'sign_up' => "registrations#new", as: "new_user_registration_path" # custom path to sign_up/registration
   # rotte _header
   get 'homepage'       => 'static_pages#homepage'  #rotta homepage
   get 'artists'        => 'static_pages#artists'   #rotta artisti
