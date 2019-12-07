@@ -14,7 +14,7 @@ class ArtistsController < ApplicationController
        @topArtists = show_top_artists
     end
 
-    def show 
+    def show
         @artists = show_top_artists
         @artist = get_artist_by_name(@artists,params[:id])
     end
@@ -27,7 +27,7 @@ class ArtistsController < ApplicationController
     end
 
     private
-    def get_artist_by_name(artists,name) 
+    def get_artist_by_name(artists,name)
         artists.each do |artist|
             if(name == artist['name'])
                 return artist
@@ -41,5 +41,5 @@ class ArtistsController < ApplicationController
         render :file => "#{Rails.root}/public/404.html",  :status => 404
     end
 
-    
+
 end
