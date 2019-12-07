@@ -1,4 +1,4 @@
-Rails.application.routes.draw do  
+Rails.application.routes.draw do
   get 'favorites/update'
   resources :music_events
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
@@ -17,7 +17,7 @@ Rails.application.routes.draw do
   get 'sign_up' => "registrations#new", as: "new_user_registration_path" # custom path to sign_up/registration
   # rotte _header
   get 'homepage'       => 'static_pages#homepage'  #rotta homepage
-  get 'artists'        => 'static_pages#artists'   #rotta artisti
+  #get 'artists'        => 'static_pages#artists'   #rotta artisti
   #get 'tweets'         => 'static_pages#tweets'    #rotta tweets
   get 'chatroom'       => 'static_pages#chatroom'  #rotta chatroom
   # rotte _footer
@@ -26,6 +26,6 @@ Rails.application.routes.draw do
 
   mount ActionCable.server => '/cable'
 
-  resources :tweets, :concerts
+  resources :tweets, :concerts, :artists
   resources :users, :only =>[:show, :index]
 end
