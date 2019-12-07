@@ -1,27 +1,65 @@
-<% provide(:title, 'Sign up') %>
-<h2>Logggggggggin</h2>
+<div class="container" style="margin-bottom: 8%; margin-top: 5%;">
+  <div class="row">
+		<div class="col-md-5 mx-auto">
+		  <div id="first">
+			  <div class="myform form ">
+				   <div class="logo mb-3">
+				      <div class="col-md-12 text-center">
+				         <h1>Login</h1>
+				      </div>
+				   </div>
+           <% provide(:title, 'Sign up') %>
 
-<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-  <div class="field">
-    <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
-  </div>
+           <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+               <div class="field" name="login">
+                 <%= f.label :email_address %><br />
+                 <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control", placeholder: "Enter email" %>
+               </div>
+               <br/>
+               <div class="field">
+                 <%= f.label :password %><br />
+                 <%= f.password_field :password, autocomplete: "current-password", class: "form-control", placeholder: "Enter Password" %>
+               </div>
+               <br/>
+               <% if devise_mapping.rememberable? %>
+                 <div class="field">
+                   <%= f.check_box :remember_me %>
+                   <%= f.label :remember_me %>
+                 </div>
+               <% end %>
+               <br/>
+               <div class="form-group">
+                  <p class="text-center">By signing up you accept our <a href="#">Terms Of Use</a></p>
+               </div>
+               <div class="col-md-12 text-center ">
+                  <button type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">Login</button>
+               </div>
+               <div class="col-md-12 ">
+                  <div class="login-or">
+                     <hr class="hr-or">
+                     <span class="span-or">or</span>
+                  </div>
+               </div>
+               <%- if devise_mapping.omniauthable? %>
+                 <%- resource_class.omniauth_providers.each do |provider| %>
+                   <%= link_to " Signin using #{OmniAuth::Utils.camelize(provider)}", omniauth_authorize_path(resource_name, provider), class: "google btn mybtn fa fa-twitter " %><br />
+                 <% end %>
+               <% end %>
+               <div class="form-group">
+                  <p class="text-center">Don't have account?
+                    <%- if devise_mapping.registerable? && controller_name != 'registrations' %>
+                      <%= link_to "Sign up here", new_user_registration_path %><br />
+                    <% end %>
+                  </p>
+               </div>
+           <% end %>
 
-  <div class="field">
-    <%= f.label :password %><br />
-    <%= f.password_field :password, autocomplete: "current-password" %>
-  </div>
+           <!--
+             <%= render "users/shared/links" %>
+           -->
 
-  <% if devise_mapping.rememberable? %>
-    <div class="field">
-      <%= f.check_box :remember_me %>
-      <%= f.label :remember_me %>
+       </div>
+	  </div>
+	  </div>
     </div>
-  <% end %>
-
-  <div class="actions">
-    <%= f.submit "Log in" %>
-  </div>
-<% end %>
-
-<%= render "users/shared/links" %>
+    </div>
