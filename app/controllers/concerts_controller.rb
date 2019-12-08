@@ -1,4 +1,5 @@
 require 'location'
+require 'lastfm'
 
 class ConcertsController < ApplicationController
     before_action :require_login
@@ -21,7 +22,7 @@ class ConcertsController < ApplicationController
         @events = @@results
         @event = search_id(@events, params[:id])
         my_loc = BingLocator.new()
-        my_loc.api_key = 'AjCnyg3J-cQx0PfxOJd8GD_XYZqqba8-tNAem7JgPVd_LN0H-DY_TlwDzYktf4lt'
+        my_loc.api_key = ENV['BING_API']
         @venue = get_venue_by_id(@event.venue.id)
         if(@event.venue.lat == nil && @event.venue.lat == nil)
             my_loc.query = @venue.metro_area.display_name
@@ -33,7 +34,7 @@ class ConcertsController < ApplicationController
            
         end
         my_loc.zoom_level = '16'
-        # @bio = get_artist_bio('')
+        @bio = get_artist_bio('Full Crate')
     end
 
     private
@@ -59,12 +60,12 @@ class ConcertsController < ApplicationController
     end
 
 
-    # private
-    # def get_artist_bio(artist)
-    #     lastfm = Lastfm.new(ENV["LASTFM_API_KEY"], ENV["LASTFM_API_SECRET"])
-    #     token = lastfm.auth.get_token
-    #     lastfm.session = lastfm.auth.get_session(token: token)['key']
+    private
+    def get_artist_bio(artist)
+        lastfm = Lastfm.new(ENV["LASTFM_API_KEY"], ENV["LASTFM_API_SECRET"])
+        token = lastfm.auth.get_token
+        #lastfm.session = lastfm.auth.get_session(token: token)['key']
 
-    #     return lastfm.artist.getInfo(artist: artist)
-    # end
+        return lastfm.artist.get_info(artist: artist)
+    end
 end
