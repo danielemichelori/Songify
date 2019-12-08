@@ -1,14 +1,17 @@
 <%= @albums %>
-<h3><strong><%= @artist['name'] %></strong></h3>
+<h3><strong><%= link_to @artist['name'], @artist['url'] %></strong></h3>
   <blockquote>
-      <p>Artist: <strong></strong></p>
-      <p>Album: <strong></strong></p> <small><cite><i class="glyphicon glyphicon-map-marker"></i></cite></small>
+      <p><i class='fa fa-chevron-circle-right' title="playcount."></i> <%= @artist['playcount'] %></p>
+      <p><i class='fa fa-microphone' title="listeners."></i> <%= @artist['listeners'] %></p> <small><cite>TAG</cite></small>
   </blockquote>
   <div class="row" style="margin-left: inherit; margin-top: 40px; margin-bottom: 40px">
-    <% @imgj = "https://images.sk-static.com/images/media/profile_images/artists/" + @id.to_s + "/huge_avatar" %>
-    <img style="border-radius: 6px;" src = <%= @imgj %> alt="No image" />
+    <div class="col">
+      <% @imgj = "https://images.sk-static.com/images/media/profile_images/artists/" + @id.to_s + "/huge_avatar" %>
+      <img style="border-radius: 6px;" src = <%= @imgj %> alt="No image" />
+    </div>
+    <div class="col-8" style="text-align: justify;">
+      <h3 style="margin-top: inherit;">Biography</h3>
+      <%= @bio['bio']['content'].html_safe %>
+    </div>
   </div>
-      <p>playcount: <strong><%= @artist['playcount'] %></strong></p>
-      <p>listeners: <strong><%= @artist['listeners'] %></strong></p>
-      <p>url: <strong><%= @artist['url'] %></strong></p>
-      <p>mbid: <strong><%= @artist['mbid'] %></strong></p>
+      <h3><%= @artist['name'] %>'albums</h3>
