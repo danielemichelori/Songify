@@ -3,7 +3,7 @@
     <% @topArtists.each do |artist| %>
         <a class="list-group-item clearfix" style="margin-bottom: 0.5%; border-radius: 6px" href= <%= artist_path(artist['name'])%>>
             <div>
-                <strong><%= artist %></strong>
+                <strong><%= artist['name'] %></strong>
                 <br>
                 <br>
                 <span class="pull-right">

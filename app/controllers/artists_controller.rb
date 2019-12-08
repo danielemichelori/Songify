@@ -29,7 +29,8 @@ class ArtistsController < ApplicationController
         return lastfm.chart.get_top_artists
     end
 
-    private def get_artist_bio(name)
+    private
+    def get_artist_bio(name)
          lastfm = Lastfm.new(ENV["LASTFM_API_KEY"], ENV["LASTFM_API_SECRET"])
          token = lastfm.auth.get_token
          bio =  lastfm.artist.get_info(artist: name)
