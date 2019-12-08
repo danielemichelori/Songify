@@ -1,4 +1,5 @@
 require 'lastfm'
+require 'httparty'
 
 class ArtistsController < ApplicationController
     before_action :require_login
@@ -11,12 +12,14 @@ class ArtistsController < ApplicationController
     end
 
     def index
-       @topArtists = show_top_artists
+        @topArtists = show_top_artists
     end
 
     def show
         @artists = show_top_artists
         @artist = get_artist_by_name(@artists,params[:id])
+        @bio = get_artist_bio(params[:id])
+        @id = get_id_by_name(params[:id])
     end
 
     private
@@ -24,6 +27,13 @@ class ArtistsController < ApplicationController
         lastfm = Lastfm.new(ENV["LASTFM_API_KEY"], ENV["LASTFM_API_SECRET"])
         token = lastfm.auth.get_token
         return lastfm.chart.get_top_artists
+    end
+
+    private def get_artist_bio(name)
+         lastfm = Lastfm.new(ENV["LASTFM_API_KEY"], ENV["LASTFM_API_SECRET"])
+         token = lastfm.auth.get_token
+         bio =  lastfm.artist.get_info(artist: name)
+         return bio
     end
 
     private
@@ -34,6 +44,13 @@ class ArtistsController < ApplicationController
             end
         end
         render_not_found
+    end
+
+    private
+    def get_id_by_name(name)
+        response = HTTParty.get('https://api.songkick.com/api/3.0/search/artists.json?apikey='+ ENV['SONGKICK_API_KEY'] + '&query='+name+'')
+        @resultsPage = JSON.parse(response.body)
+        return @resultsPage["resultsPage"]["results"]["artist"][0]["id"]
     end
 
     private
