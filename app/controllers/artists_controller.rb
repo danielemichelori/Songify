@@ -79,7 +79,7 @@ class ArtistsController < ApplicationController
         tracks = lastfm.artist.get_similar(artist: name)
     end
 
-    private 
+    private
     def get_tags(name)
         lastfm = Lastfm.new(ENV["LASTFM_API_KEY"], ENV["LASTFM_API_SECRET"])
         token = lastfm.auth.get_token

@@ -1,48 +1,93 @@
+<script>
+$('#carouselExample').on('slide.bs.carousel', function (e) {
+
+    var $e = $(e.relatedTarget);
+    var idx = $e.index();
+    var itemsPerSlide = 4;
+    var totalItems = $('.carousel-item').length;
+
+    if (idx >= totalItems-(itemsPerSlide-1)) {
+        var it = itemsPerSlide - (totalItems - idx);
+        for (var i=0; i<it; i++) {
+            // append slides to end
+            if (e.direction=="left") {
+                $('.carousel-item').eq(i).appendTo('.carousel-inner');
+            }
+            else {
+                $('.carousel-item').eq(0).appendTo('.carousel-inner');
+            }
+        }
+    }
+});
+
+
+  $('#carouselExample').carousel({
+                interval: 2000
+        });
+
+
+  $(document).ready(function() {
+/* show lightbox when clicking a thumbnail */
+    $('a.thumb').click(function(event){
+      event.preventDefault();
+      var content = $('.modal-body');
+      content.empty();
+        var title = $(this).attr("title");
+        $('.modal-title').html(title);
+        content.html($(this).html());
+        $(".modal-profile").modal({show:true});
+    });
+
+  });
+</script>
+<%= @topAlbums[0]['name'] %>
+
 <%= @albums %>
 <h3><strong><%= link_to @artist['name'], @artist['url'] %></strong></h3>
   <blockquote>
       <p><i class='fa fa-chevron-circle-right' title="playcount."></i> <%= @artist['playcount'] %></p>
-      <p><i class='fa fa-microphone' title="listeners."></i> <%= @artist['listeners'] %></p> <small><cite>TAGs <br>
-      <% @tags.each do |tag| %>
-      <% @href = tag["url"] %>
-      <button type="button" onclick="window.open('<%= @href %>','blank');" class="btn btn-outline-secondary"><%= tag["name"] %></button>
-      <% end %>
-      </cite></small>
+      <p><i class='fa fa-microphone' title="listeners."></i> <%= @artist['listeners'] %></p>
   </blockquote>
-  <div class="row" style="margin-left: inherit; margin-top: 40px; margin-bottom: 40px">
-    <div class="col">
-      <% @imgj = "https://images.sk-static.com/images/media/profile_images/artists/" + @id.to_s + "/huge_avatar" %>
-      <img style="border-radius: 6px;" src = <%= @imgj %> alt="No image" />
-    </div>
-    <div class="col-8" style="text-align: justify;">
+  <div style="margin-left: inherit; margin-bottom: 4%">
+    <% @imgar = "https://images.sk-static.com/images/media/profile_images/artists/" + @id.to_s + "/huge_avatar" %>
+    <img style="border-radius: 6px; float:left; margin-right: 25px; margin-bottom: 20px;" src = "<%= @imgar %>" alt="No image" />
+    <div style="text-align: justify;">
       <h3 style="margin-top: inherit;">Biography</h3>
       <%= @bio['bio']['content'].html_safe %>
     </div>
   </div>
-      <h3><%= @artist['name'] %>'albums</h3>
+
+  <h3><%= @artist['name'] %>'albums</h3>
+  <div class="container-fluid">
+      <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="9000">
+          <div class="carousel-inner col w-100 mx-auto" role="listbox">
+              <div class="carousel-item row-md-3 active">
+                <% @topAlbums.each do |album| %>
+                  <% @imgal = album['image'][2]['content'] %>
+                  <% @tital = album['name']%>
+                    <div class="row float-left">
+                      <img class="img-fluid" style="weight: 160px; height: 160px; margin-left: 40px; border-radius: 2px;" title= "<%= @tital %>." src= "<%= @imgal %>"></img>
+                    </div>
+                <% end %>
+              </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+          </a>
+      </div>
+  </div>
 
 
-<div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
-        <div class="carousel-inner w-100" role="listbox">
-            <div class="carousel-item row no-gutters active">
-                <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/222/fff?text=1"></div>
-                <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/444?text=2"></div>
-                <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/888?text=3"></div>
-                <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/111/fff?text=4"></div>
-            </div>
-            <div class="carousel-item row no-gutters">
-                <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280?text=5"></div>
-                <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/555?text=6"></div>
-                <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/333/fff?text=7"></div>
-                <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/bbb?text=8"></div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#recipeCarousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-</div>
+  <small style="text-align: justify;"><cite> - TAGs <br>
+  <% @tags.each do |tag| %>
+    <% @href = tag["url"] %>
+    <button type="button" onclick="window.open('<%= @href %>','blank');" class="btn btn-outline-secondary"><%= tag["name"] %></button>
+  <% end %>
+  </cite></small>
+  <br/>
+  <br/>
