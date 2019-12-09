@@ -2,7 +2,12 @@
 <h3><strong><%= link_to @artist['name'], @artist['url'] %></strong></h3>
   <blockquote>
       <p><i class='fa fa-chevron-circle-right' title="playcount."></i> <%= @artist['playcount'] %></p>
-      <p><i class='fa fa-microphone' title="listeners."></i> <%= @artist['listeners'] %></p> <small><cite>TAG</cite></small>
+      <p><i class='fa fa-microphone' title="listeners."></i> <%= @artist['listeners'] %></p> <small><cite>TAGs <br>
+      <% @tags.each do |tag| %>
+      <% @href = tag["url"] %>
+      <button type="button" onclick="window.open('<%= @href %>','blank');" class="btn btn-outline-secondary"><%= tag["name"] %></button>
+      <% end %>
+      </cite></small>
   </blockquote>
   <div class="row" style="margin-left: inherit; margin-top: 40px; margin-bottom: 40px">
     <div class="col">
@@ -15,3 +20,29 @@
     </div>
   </div>
       <h3><%= @artist['name'] %>'albums</h3>
+
+
+<div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+        <div class="carousel-inner w-100" role="listbox">
+            <div class="carousel-item row no-gutters active">
+                <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/222/fff?text=1"></div>
+                <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/444?text=2"></div>
+                <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/888?text=3"></div>
+                <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/111/fff?text=4"></div>
+            </div>
+            <div class="carousel-item row no-gutters">
+                <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280?text=5"></div>
+                <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/555?text=6"></div>
+                <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/333/fff?text=7"></div>
+                <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/bbb?text=8"></div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#recipeCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+</div>
