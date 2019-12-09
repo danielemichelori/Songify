@@ -20,6 +20,10 @@ class ArtistsController < ApplicationController
         @artist = get_artist_by_name(@artists,params[:id])
         @bio = get_artist_bio(params[:id])
         @id = get_id_by_name(params[:id])
+        @topAlbums = get_top_albums_by_artist_name(params[:id])
+        @topTracks = get_top_tracks_by_artist_name(params[:id])
+        @similarArtists = get_similar_artists(params[:id])
+        @tags = get_tags(params[:id])
     end
 
     private
@@ -52,6 +56,34 @@ class ArtistsController < ApplicationController
         response = HTTParty.get('https://api.songkick.com/api/3.0/search/artists.json?apikey='+ ENV['SONGKICK_API_KEY'] + '&query='+name+'')
         @resultsPage = JSON.parse(response.body)
         return @resultsPage["resultsPage"]["results"]["artist"][0]["id"]
+    end
+
+    private
+    def get_top_albums_by_artist_name(name)
+        lastfm = Lastfm.new(ENV["LASTFM_API_KEY"], ENV["LASTFM_API_SECRET"])
+        token = lastfm.auth.get_token
+        albums = lastfm.artist.get_top_albums(artist: name)
+    end
+
+    private
+    def get_top_tracks_by_artist_name(name)
+        lastfm = Lastfm.new(ENV["LASTFM_API_KEY"], ENV["LASTFM_API_SECRET"])
+        token = lastfm.auth.get_token
+        tracks = lastfm.artist.get_top_tracks(artist: name)
+    end
+
+    private
+    def get_similar_artists(name)
+        lastfm = Lastfm.new(ENV["LASTFM_API_KEY"], ENV["LASTFM_API_SECRET"])
+        token = lastfm.auth.get_token
+        tracks = lastfm.artist.get_similar(artist: name)
+    end
+
+    private 
+    def get_tags(name)
+        lastfm = Lastfm.new(ENV["LASTFM_API_KEY"], ENV["LASTFM_API_SECRET"])
+        token = lastfm.auth.get_token
+        tracks = lastfm.artist.get_top_tags(artist: name)
     end
 
     private
