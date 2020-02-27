@@ -1,5 +1,6 @@
 class User < ApplicationRecord
   has_many :favorites
+  mount_uploader :avatar, AvatarUploader
 
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
@@ -8,7 +9,12 @@ class User < ApplicationRecord
          :confirmable, :lockable, :timeoutable,
          :omniauthable, omniauth_providers: [:twitter]
 
-  enum gender: [:undisclosed, :female, :male, :other]
+  #attr_accessor :email, :password, :remember_me, :avatar, :avatar_cache, :remove_avatar
+
+#  enum gender: {undisclosed: 0, female:1, male:2, other:3}
+  validates_presence_of   :username
+  validates_integrity_of  :avatar
+  validates_processing_of :avatar
 
   def profile_image_uri(size = :mini)
   parse_encoded_uri(insecure_uri(profile_image_uri_https(size))) unless @attrs[:profile_image_url_https].nil?
@@ -30,5 +36,13 @@ class User < ApplicationRecord
 
   def email_required?
     super && provider.blank?
+  end
+
+  def active_for_authentication? 
+    super && !ban? 
+  end 
+  
+  def inactive_message 
+    !ban? ? super : :not_ban
   end
 end

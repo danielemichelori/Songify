@@ -1,5 +1,49 @@
-<% @users = User.all %>
-<% @users.each do |user| %>
-  <%= user.name %><br/>
-  <%= user.email %><br/>
-<% end %>
+<%if current_user && (current_user.admin? || current_user.mod?)%>	
+	<% @users = User.all %>
+	<% @users.each do |user| %>
+	
+	<% if user != current_user %>
+	<div class="field">
+		<%= link_to user.username , user_show_user_path(user) %>
+		<%= user.email %>
+	</div>
+
+	<% if !user.admin? %>
+	<div class="field">
+		<% if user.ban? %>
+		<%= link_to 'Unban', user_ban_path(user), method: :put, data: { confirm: 'This user will be unbanned. Proceed?' } %>
+		<% else %>
+		<%= link_to 'Ban', user_ban_path(user), method: :put, data: { confirm: 'This user will be banned. Proceed?' } %>
+		<% end %>
+	</div>
+	<%end%>
+
+	<% if !user.admin? %>
+	<div class="field">
+		<% if user.mod? %>
+		<%= link_to 'Unmod', user_mod_path(user), method: :put, data: { confirm: 'This user will be unmoded. Proceed?' } %>
+		<% else %>
+		<%= link_to 'Mod', user_mod_path(user), method: :put, data: { confirm: 'This user will be moded. Proceed?' } %>
+		<% end %>
+	</div>
+	<%end%>
+
+	<% if current_user.admin? %>
+	<div class="field">
+		<% if user.admin? %>
+		<% else %>
+		<%= link_to 'Admin', user_admin_path(user), method: :put, data: { confirm: 'This user will be moded. Proceed?' } %> 
+		<% end %>
+	</div>
+	<%end%>
+
+	<% if (current_user.admin? || current_user.mod )&& !current_user?(user) && !user.admin%>
+	<div class="field">
+    <%= link_to "delete", user, method: :delete, data: { confirm: "You sure?" } %>
+	</div>
+    <%end%>
+    <%end%>
+<%end%>
+<%else%>
+YOU CAN'T SEE ME!!
+<%end%>
