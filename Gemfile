@@ -14,6 +14,8 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem  'songkickr'
 # Use Bing maps gem
 gem 'bing-location', '~> 0.0.2b'
+# Use lastfm
+gem 'lastfm', '>= 1.27.3'
 
 gem 'rake', '~> 13.0.1'
 # twitter api
