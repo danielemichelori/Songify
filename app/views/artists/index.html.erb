@@ -1,0 +1,15 @@
+<h3 style="margin-bottom: 3%;">Top Artists</h3>
+<div class="list-group">
+    <% @topArtists.each do |artist| %>
+        <a class="list-group-item clearfix" style="margin-bottom: 0.5%; border-radius: 6px" href= <%= artist_path(artist['name'])%>>
+            <div>
+                <strong><%= artist['name'] %></strong>
+                <br>
+                <br>
+                <span class="pull-right">
+                    <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+                </span>
+            </div>
+        </a>
+    <% end %>
+</div>
