@@ -4,7 +4,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.6.5'
 
 # Gemme applicazioni esterne
+gem 'rubyzip', '~> 2.0.0'
 
+gem 'carrierwave', '~> 2.0'
 # Use for bootstrap
 gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
@@ -26,7 +28,7 @@ gem 'omniauth-twitter', '~> 1.2', '>= 1.2.1'
 gem 'bcrypt-ruby', '3.1.1.rc1', :require => 'bcrypt'
 
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.2'
+gem 'coffee-rails', '~> 5.0.0'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'

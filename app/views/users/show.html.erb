@@ -1,4 +1,7 @@
 <div class="container message">
+  <% if current_user.email == nil  %>
+  <p>Since you have logged in with twitter you have to <%= link_to "Update your e-mail", edit_user_registration_path %> to comment or review concerts. </p></br>
+  <%end%>
   <h3>Welcome to Songify's profile</h3>
   <p>show your informations <%= current_user.username%></p>
   <br/>
@@ -8,17 +11,23 @@
     <div class="card cardpr">
         <div class="row stylerow" style="border-bottom: 1px solid #E5E5E5;">
             <div class="col-sm-2 col-md-2" style="margin-left: 4%;">
-                <img style="width: 85%; height: 65%; margin-top: 20%;" src="<%= current_user.profile_image_url %>" alt="No Image" class="img-raised rounded-circle img-fluid">
+                <% if current_user.provider == "twitter" %>
+                <img style="width: 100%; height: 65%; margin-top: 20%;" src="<%= current_user.profile_image_url %>" alt="No Image" class="img-raised rounded-circle img-fluid">
+                <%else%>
+                <img style="width: 100%; height: 65%; margin-top: 20%;" src="<%= current_user.avatar.url %>" alt="No Image" class="img-raised rounded-circle img-fluid">
+                <%end%>
+                <br/><%= link_to "Edit Account", edit_user_registration_path %>
             </div>
             <div class="col-sm-4 col-md-4">
                 <blockquote>
-                    <p><%= current_user.first_name%></p> <small><cite> <%= current_user.location%> <i class="glyphicon glyphicon-map-marker"></i></cite></small>
+                    <p><%= current_user.first_name%></p> <small><cite> <%= current_user.location%>, Italy <i class="glyphicon glyphicon-map-marker"></i></cite></small>
                 </blockquote>
                 <p> Email: <%= current_user.email %>
                     <br/> Username: <%= current_user.username %>
                     <br/> Date of birth: <%= current_user.date_of_birth %>
-                    <br/> User id: <%= current_user.uid %>
-                    <br/> Gender: <%= current_user.gender%>
+                    <br/> User id:<% if current_user.provider != "twitter" %> <%= current_user.id %> <%else%> <%=current_user.uid%><%end%>
+                    <br/> Gender: <%= current_user.gender %>
+                    <br/> Bio: <%=current_user.bio %>
                 </p>
             </div>
         </div>
