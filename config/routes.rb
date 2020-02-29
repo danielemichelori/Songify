@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-Rails.application.routes.draw do  
-  
-=======
 Rails.application.routes.draw do
->>>>>>> master
+
   get 'favorites/update'
   resources :music_events
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
@@ -31,7 +27,6 @@ Rails.application.routes.draw do
 
   mount ActionCable.server => '/cable'
 
-<<<<<<< HEAD
   resources :tweets, :concerts
   resources :users do
     patch :ban
@@ -51,8 +46,6 @@ Rails.application.routes.draw do
     get :show_user
   end
   resources :users, :only =>[:show, :index, :edit, :update, :ban, :unban]
-=======
   resources :tweets, :concerts, :artists
-  resources :users, :only =>[:show, :index]
->>>>>>> master
+
 end
