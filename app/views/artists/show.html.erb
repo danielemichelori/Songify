@@ -40,24 +40,23 @@ $('#carouselExample').on('slide.bs.carousel', function (e) {
 
   });
 </script>
-<%= @topAlbums[0]['name'] %>
 
 <%= @albums %>
 <h3><strong><%= link_to @artist['name'], @artist['url'] %></strong></h3>
   <blockquote>
-      <p><i class='fa fa-chevron-circle-right' title="playcount."></i> <%= @artist['playcount'] %></p>
-      <p><i class='fa fa-microphone' title="listeners."></i> <%= @artist['listeners'] %></p>
+      <p style="color: gray;"><i class='fa fa-chevron-circle-right' title="playcount."></i> <%= @artist['playcount'] %></p>
+      <p style="color: gray;"><i class='fa fa-microphone' title="listeners."></i> <%= @artist['listeners'] %></p>
   </blockquote>
-  <div style="margin-left: inherit; margin-bottom: 4%">
+  <div style="margin-left: inherit; margin-bottom: 4%; color: gray">
     <% @imgar = "https://images.sk-static.com/images/media/profile_images/artists/" + @id.to_s + "/huge_avatar" %>
     <img style="border-radius: 6px; float:left; margin-right: 25px; margin-bottom: 20px;" src = "<%= @imgar %>" alt="No image" />
     <div style="text-align: justify;">
-      <h3 style="margin-top: inherit;">Biography</h3>
+      <h3 style="margin-top: inherit; color: darksalmon;">Biography</h3>
       <%= @bio['bio']['content'].html_safe %>
     </div>
   </div>
 
-  <h3><%= @artist['name'] %>'albums</h3>
+  <h3 style="color: darksalmon;"><%= @artist['name'] %>'albums</h3>
   <div class="container-fluid">
       <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="9000">
           <div class="carousel-inner col w-100 mx-auto" role="listbox">
@@ -81,9 +80,9 @@ $('#carouselExample').on('slide.bs.carousel', function (e) {
           </a>
       </div>
   </div>
+  <br/>
 
-
-  <small style="text-align: justify;"><cite> - TAGs <br>
+  <small style="text-align: justify; color: darksalmon;"><cite> - TAGs <br>
   <% @tags.each do |tag| %>
     <% @href = tag["url"] %>
     <button type="button" onclick="window.open('<%= @href %>','blank');" class="btn btn-outline-secondary"><%= tag["name"] %></button>
