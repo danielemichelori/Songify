@@ -1,9 +1,9 @@
 <div class="container message">
   <% if current_user.email == nil  %>
-  <p>Since you have logged in with twitter you have to <%= link_to "Update your e-mail", edit_user_registration_path %> to comment or review concerts. </p></br>
+    <p>Since you have logged in with twitter you have to <%= link_to "Update your e-mail", edit_user_registration_path %> to comment or review concerts. </p></br>
   <%end%>
-  <h3>Welcome to Songify's profile</h3>
-  <p>show your informations <%= current_user.username%></p>
+  <h3 style="color: gray;">Welcome to Songify's profile</h3>
+  <p style="color: gray;">show your informations <%= current_user.username%></p>
   <br/>
 </div>
 
@@ -16,7 +16,7 @@
                 <%else%>
                 <img style="width: 100%; height: 65%; margin-top: 20%;" src="<%= current_user.avatar.url %>" alt="No Image" class="img-raised rounded-circle img-fluid">
                 <%end%>
-                <br/><%= link_to "Edit Account", edit_user_registration_path %>
+                <br/>
             </div>
             <div class="col-sm-4 col-md-4">
                 <blockquote>
@@ -28,6 +28,7 @@
                     <br/> User id:<% if current_user.provider != "twitter" %> <%= current_user.id %> <%else%> <%=current_user.uid%><%end%>
                     <br/> Gender: <%= current_user.gender %>
                     <br/> Bio: <%=current_user.bio %>
+                    <br/><br/> <%= link_to "Edit your account", edit_user_registration_path %>
                 </p>
             </div>
         </div>

@@ -1,8 +1,8 @@
-<h3><strong><%= @event.type %></strong></h3>
+<h3 style="color: gray;"><strong><%= @event.type %></strong></h3>
 <% @event.performances.each do |performance| %>
   <blockquote>
-      <p>Artist: <strong><%= link_to performance.display_name %></strong></p>
-      <p>Date: <strong><%= @event.start.to_formatted_s(:long) %></strong></p> <small><cite> <%= @event.venue.display_name %> - <%= @event.venue.metro_area.display_name %> <i class="glyphicon glyphicon-map-marker"></i></cite></small>
+      <p style="color: gray;">Artist: <strong><%= link_to performance.display_name %></strong></p>
+      <p style="color: gray;">Date: <strong><%= @event.start.to_formatted_s(:long) %></strong></p> <small><cite> <%= @event.venue.display_name %> - <%= @event.venue.metro_area.display_name %> <i class="glyphicon glyphicon-map-marker"></i></cite></small>
   </blockquote>
   <div class="row" style="margin-left: inherit; margin-top: 40px; margin-bottom: 40px">
     <% @imgj = "https://images.sk-static.com/images/media/profile_images/artists/" + performance.artist.id.to_s + "/huge_avatar" %>
@@ -11,16 +11,16 @@
 <% end %>
 <div style="margin-bottom: 5%">
   <% if @event.type == "Concert"%>
-      <h5><strong>Put in yours <%= link_to favorite_text, favorites_update_path(musicevent_id: @music_event), id:"favorite_link", remote: true %> and share this concert</strong></h5>
+      <h5 style="color: gray;"><strong>Put in yours <%= link_to favorite_text, favorites_update_path(musicevent_id: @music_event), id:"favorite_link", remote: true %> and share this concert</strong></h5>
   <%else%>
-      <h5><strong>Put in yours <%= link_to favorite_text, favorites_update_path(musicevent_id: @music_event), id:"favorite_link", remote: true %> and share this festival</strong></h5>
+      <h5 style="color: gray;"><strong>Put in yours <%= link_to favorite_text, favorites_update_path(musicevent_id: @music_event), id:"favorite_link", remote: true %> and share this festival</strong></h5>
   <% end %>
   <p class="btn-social btn-twitter">
     <% @mes = "https://twitter.com/intent/tweet?url=" + @event.uri %>
       <%= link_to @mes, class: "btn btn-primary" do %><i class="fa fa-twitter"></i> on Twitter
     <% end %>
   </p>
-  <div class="row" style="margin-left: inherit; margin-top: 5%;">
+  <div class="row" style="margin-left: inherit; margin-top: 5%; color: gray;">
     <%= image_tag @location , alt: "Map" %>
     <p style="margin-left: 20px;">
       <strong><%= @venue.display_name %></strong><br/>
