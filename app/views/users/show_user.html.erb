@@ -1,9 +1,52 @@
 <div class="container message">
-  <h3>Welcome to Songify's profile</h3>
-  <p>show your informations <%= @user.username%></p>
+  <h3 style="color: gray;">Welcome to Songify's profile</h3>
+  <p style="color: gray;">show your informations <%= @user.username%></p>
   <br/>
 </div>
 
+<div class="container">
+    <div class="card cardpr" style="background-color: rgba(255,255,255,0.65);">
+        <div class="row stylerow" style="border-bottom: 1px solid #E5E5E5; width: 100%; margin-left: 0%;">
+            <div class="col-sm-2 col-md-2" style="margin-left: 4%;">
+                <% if @user.provider == "twitter" %>
+                <img style="width: 90%; height: 55%; margin-top: 30%; color: black;" src="<%= @user.profile_image_url %>" alt="No Image" class="img-raised rounded-circle img-fluid">
+                <%else%>
+                <img style="width: 90%; height: 55%; margin-top: 30%; color: black;" src="<%= @user.avatar.url %>" alt="No Image" class="img-raised rounded-circle img-fluid">
+                <%end%>
+                <br/>
+            </div>
+            <div class="col-sm-4 col-md-4" style="color: black;">
+                <blockquote>
+                    <p><%= @user.first_name%></p> <small><cite> <%= @user.location%>, Italy <i class="glyphicon glyphicon-map-marker"></i></cite></small>
+                </blockquote>
+                <p> Email: <%= @user.email %>
+                    <br/> Username: <%= @user.username %>
+                    <br/> Date of birth: <%= @user.date_of_birth %>
+                    <br/> User id:<% if @user.provider != "twitter" %> <%= @user.id %> <%else%> <%=@user.uid%><%end%>
+                    <br/> Gender: <%= @user.gender %>
+                    <br/> Bio: <%=@user.bio %>
+
+                    <%if current_user.id == @user.username %>
+                    <%= link_to "Edit your account", edit_user_registration_path %>
+                    <%end%>
+                </p>
+            </div>
+        </div>
+        <div style="margin-left: 4%; margin-bottom: 1%; margin-top: -2%">
+          <h4 style="color: black">Favorite music events:</h4>
+          <p>
+            <% @user.favorites.each do |favorite| %>
+            [<%= favorite.created_at.strftime("%I:%M %p")%>] You favorited this post:
+              <%= link_to favorite.music_event.title, favorite.music_event %>
+            <br>
+            <% end %>
+          </p>
+        </div>
+    </div>
+</div>
+
+
+<!--
 <div class="container">
     <div class="card cardpr">
         <div class="row stylerow" style="border-bottom: 1px solid #E5E5E5;">
@@ -44,3 +87,4 @@
         </div>
     </div>
 </div>
+-->

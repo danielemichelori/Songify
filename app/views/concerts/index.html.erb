@@ -1,13 +1,18 @@
-<h3 style="margin-bottom: 3%; color: gray;">Upcoming Concerts</h3>
+<div class="container message" style="color: gray;">
+  <h3>Upcoming Concerts</h3>
+  <p>choose your favorite</p>
+  <br/>
+</div>
+
 <div class="list-group">
     <% @results.each do |result| %>
-        <a class="list-group-item clearfix" style="margin-bottom: 0.5%; border-radius: 6px" href= <%= concert_path(result.id) %>>
+        <a class="list-group-item clearfix" style="border-style: none; margin-bottom: 0.5%; width: 50%; left: 25%; border-radius: 6px; background-color: rgba(255,255,255,0.65);" href= <%= concert_path(result.id) %>>
             <div>
-                <strong><%= result.display_name %></strong>
+                <strong style="color: black"><%= result.display_name %></strong>
                 <br>
                 <br>
                 <span style="background-color: darksalmon;" class="badge badge-light"><%= result.type %></span>
-                <span class="pull-right">
+                <span class="pull-right" style="margin-top: -3%;">
                     <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
                 </span>
             </div>

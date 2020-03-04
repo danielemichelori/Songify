@@ -4,7 +4,7 @@
   <div class="row">
 		<div class="col-md-5 mx-auto">
 		  <div id="first">
-			  <div class="myform form ">
+			  <div class="myform form" style="background-color: rgba(255,255,255,0.65);">
 				   <div class="logo mb-3">
 				      <div class="col-md-12 text-center">
 				         <h1>Edit <%= resource_name.to_s.humanize %></h1>
@@ -14,25 +14,25 @@
              <%= render "devise/shared/error_messages", resource: resource %>
 
              <div class="field">
-             <% if current_user.avatar.url.present? %>
-               <%= image_tag(current_user.avatar.url, size: "400x400") %><br/>
-               <%= f.label :Remove_Avatar %>
-               <%= f.check_box :remove_avatar %> <br/>
-             <% end %>
-             <%= f.label :Add_Avatar %>
-             <%= f.file_field :avatar %>
-             <%= f.hidden_field :avatar_cache %>
+               <% if current_user.avatar.url.present? %>
+                 <%= image_tag(current_user.avatar.url, size: "400x400") %><br/>
+                 <%= f.label :Remove_Avatar %>
+                 <%= f.check_box :remove_avatar %> <br/>
+               <% end %>
+               <%= f.label :Add_Avatar %>
+               <%= f.file_field :avatar %>
+               <%= f.hidden_field :avatar_cache %>
              </div>
              <br/>
 
              <div class="field">
                <%= f.label :username %><br />
-               <%= f.text_field :username, autofocus: true, autocomplete: "username", class: "form-control", placeholder: "Enter username" %>
+               <%= f.text_field :username, autofocus: true, autocomplete: "username", class: "form-control", placeholder: "Enter username", style: "background-color: rgba(255,255,255,0.6);" %>
              </div>
              <br/>
              <div class="field">
                <%= f.label :email %><br />
-               <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control", placeholder: "Enter email" %>
+               <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control", placeholder: "Enter email", style: "background-color: rgba(255,255,255,0.6);" %>
              </div>
 
              <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
@@ -46,17 +46,17 @@
                  <em> (<%= @minimum_password_length %> characters minimum)</em>
                <% end %>
                <br/>
-               <%= f.password_field :password, autocomplete: "new-password" , class: "form-control", placeholder: "Enter new password"%>
+               <%= f.password_field :password, autocomplete: "new-password" , class: "form-control", placeholder: "Enter new password", style: "background-color: rgba(255,255,255,0.6);" %>
              </div>
              <br/>
              <div class="field">
                <%= f.label :password_confirmation %><br />
-               <%= f.password_field :password_confirmation, autocomplete: "new-password", class: "form-control", placeholder: "Confirm password" %>
+               <%= f.password_field :password_confirmation, autocomplete: "new-password", class: "form-control", placeholder: "Confirm password", style: "background-color: rgba(255,255,255,0.6);" %>
              </div>
              <br/>
              <div class="field">
                <%= f.label :current_password %> <br/><i>(we need your current password to confirm your changes)</i><br />
-               <%= f.password_field :current_password, autocomplete: "current-password", class: "form-control", placeholder: "Enter current password" %>
+               <%= f.password_field :current_password, autocomplete: "current-password", class: "form-control", placeholder: "Enter current password", style: "background-color: rgba(255,255,255,0.6);" %>
              </div>
              <br/>
              <%else%>
@@ -78,7 +78,7 @@
              <%end%>
              <div class="field">
                  <%= f.label :Bio %><br/>
-                 <%= f.text_area :bio, style: "width: 100%", placeholder: current_user.bio %>
+                 <%= f.text_area :bio, style: "width: 100%; background-color: rgba(255,255,255,0.6);", placeholder: current_user.bio %>
              </div>
              <br/>
              <div class="actions">
