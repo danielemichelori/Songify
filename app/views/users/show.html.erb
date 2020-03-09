@@ -33,14 +33,14 @@
             </div>
         </div>
         <div style="margin-left: 4%; margin-bottom: 1%; margin-top: -2%">
-          <h4 style="color: black">Favorite music events:</h4>
-          <p>
-            <% current_user.favorites.each do |favorite| %>
-            [<%= favorite.created_at.strftime("%I:%M %p")%>] You favorited this post:
-              <%= link_to favorite.music_event.title, favorite.music_event %>
-            <br>
+
+          <h4><% if current_user.favorites.split(' ') != nil && current_user.favorites != ' ' %>
+                <%= link_to "Favorite music events" ,concert_index2_path(concert_id: current_user.favorites) %>
+            <% else %> 
+                <%= link_to "Add some events to your favorites!!" , concerts_path(concert_id: current_user.favorites) %>
+
             <% end %>
-          </p>
+            </h4>
         </div>
     </div>
 </div>

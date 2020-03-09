@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
 
+
+  resources :concerts
   get 'favorites/update'
+  post 'favorites/update'
+
   resources :music_events
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   root             'static_pages#homepage'
@@ -18,8 +22,8 @@ Rails.application.routes.draw do
   get 'sign_up' => "registrations#new", as: "new_user_registration_path" # custom path to sign_up/registration
   # rotte _header
   get 'homepage'       => 'static_pages#homepage'  #rotta homepage
-  #get 'artists'        => 'static_pages#artists'   #rotta artisti
-  #get 'tweets'         => 'static_pages#tweets'    #rotta tweets
+  get 'artists'        => 'static_pages#artists'   #rotta artisti
+  get 'tweets'         => 'static_pages#tweets'    #rotta tweets
   get 'chatroom'       => 'static_pages#chatroom'  #rotta chatroom
   # rotte _footer
   get 'about'          => 'static_pages#about'     #rotta informazioni
@@ -27,7 +31,29 @@ Rails.application.routes.draw do
 
   mount ActionCable.server => '/cable'
 
-  resources :tweets, :concerts
+
+  resources :tweets, :concerts, :artists
+  resources :concerts do
+    patch :index2
+    put :index2
+    get :index2
+  end
+  resources :concerts do
+    patch :search_id
+    put :search_id
+    get :search_id
+  end
+   resources :users do
+    patch :removeFavorite
+    put :removeFavorite
+    get :removeFavorite
+  end
+  resources :users do
+    patch :addFavorite
+    put :addFavorite
+    get :addFavorite
+  end
+
   resources :users do
     patch :ban
     put :ban
@@ -45,7 +71,5 @@ Rails.application.routes.draw do
     put :show_user
     get :show_user
   end
-  resources :users, :only =>[:show, :index, :edit, :update, :ban, :unban]
-  resources :tweets, :concerts, :artists
-
+  resources :users, :only =>[:show, :index, :edit, :update, :ban, :unban, :favorites]
 end

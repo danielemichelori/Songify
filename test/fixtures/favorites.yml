@@ -1,9 +1,9 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  musicevent: one
+  music_event: 
   user: one
 
 two:
-  musicevent: two
+  music_event: 
   user: two
