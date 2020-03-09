@@ -1,2 +1,0 @@
-class MusicEvent < ApplicationRecord
-end

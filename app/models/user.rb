@@ -1,5 +1,4 @@
 class User < ApplicationRecord
-  has_many :favorites
   mount_uploader :avatar, AvatarUploader
 
   # Include default devise modules. Others available are:
@@ -15,7 +14,6 @@ class User < ApplicationRecord
   validates_presence_of   :username
   validates_integrity_of  :avatar
   validates_processing_of :avatar
-
   def profile_image_uri(size = :mini)
   parse_encoded_uri(insecure_uri(profile_image_uri_https(size))) unless @attrs[:profile_image_url_https].nil?
   end
