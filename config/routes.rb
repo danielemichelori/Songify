@@ -44,6 +44,11 @@ Rails.application.routes.draw do
     get :search
   end
   resources :concerts do
+    patch :searchDate
+    put :searchDate
+    get :searchDate
+  end  
+  resources :concerts do
     patch :search_id
     put :search_id
     get :search_id
