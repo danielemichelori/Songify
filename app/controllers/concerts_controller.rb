@@ -21,6 +21,11 @@ class ConcertsController < ApplicationController
         @results = @@results
     end
 
+    def search
+        @results = @@results
+        @input = params[:search]
+    end
+
     def show
         @events = @@results
         @event = search_id(@events, params[:id])
@@ -37,7 +42,7 @@ class ConcertsController < ApplicationController
            
         end
         my_loc.zoom_level = '16'
-        # @bio = get_artist_bio('')
+        @bio = get_artist_bio('')
     end
 
     private
@@ -63,14 +68,14 @@ class ConcertsController < ApplicationController
     end
 
 
-    # private
-    # def get_artist_bio(artist)
-    #     lastfm = Lastfm.new(ENV["LASTFM_API_KEY"], ENV["LASTFM_API_SECRET"])
-    #     token = lastfm.auth.get_token
-    #     lastfm.session = lastfm.auth.get_session(token: token)['key']
+     private
+     def get_artist_bio(artist)
+         lastfm = Lastfm.new(ENV["LASTFM_API_KEY"], ENV["LASTFM_API_SECRET"])
+         token = lastfm.auth.get_token
+         #lastfm.session = lastfm.auth.get_session(token: token)['key']
 
-    #     return lastfm.artist.getInfo(artist: artist)
-    # end
+         #return lastfm.artist.getInfo(artist: artist)
+     end
 
     # Only allow a list of trusted parameters through.
     def concert_params
