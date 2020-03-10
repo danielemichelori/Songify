@@ -23,7 +23,13 @@ class ConcertsController < ApplicationController
 
     def search
         @results = @@results
+        @artists = show_top_artists
         @input = params[:search]
+    end
+
+    def searchDate
+        @results = @@results
+        @date = params[:date]
     end
 
     def show
@@ -67,6 +73,12 @@ class ConcertsController < ApplicationController
         return @venue
     end
 
+    private
+    def show_top_artists
+        lastfm = Lastfm.new(ENV["LASTFM_API_KEY"], ENV["LASTFM_API_SECRET"])
+        token = lastfm.auth.get_token
+        return lastfm.chart.get_top_artists
+    end
 
      private
      def get_artist_bio(artist)
