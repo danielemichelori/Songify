@@ -1,6 +1,4 @@
 <div class="container message" style="color: gray;">
- 
-
   <h3>Top Artists</h3>
   <p>the best artists of the moment</p>
   <br/>
@@ -8,14 +6,15 @@
 
 <div class="list-group">
     <% @topArtists.each do |artist| %>
-        <a class="list-group-item clearfix" style="border-style: none; margin-bottom: 0.5%; width: 50%; left: 25%; border-radius: 6px; background-color: rgba(255,255,255,0.65);" href= <%= artist_path(artist['name'])%>>
+        <a class="list-group-item clearfix" style="border-style: none; margin-bottom: 2%; width: 50%; left: 25%; border-radius: 6px; background-color: rgba(255,255,255,0.65);" href= <%= artist_path(artist['name'])%>>
             <div>
                 <strong style="color: black;"><%= artist['name'] %></strong>
                 <br>
                 <br>
-                <span class="pull-right" style="margin-top: -5%;">
+                <span class="pull-right" style="margin-top: -3%;">
                     <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
                 </span>
+                <br/>
             </div>
         </a>
     <% end %>
