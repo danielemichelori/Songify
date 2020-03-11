@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
 
-
   resources :concerts
   get 'favorites/update'
   post 'favorites/update'
@@ -32,7 +31,26 @@ Rails.application.routes.draw do
   mount ActionCable.server => '/cable'
 
 
-  resources :tweets, :concerts, :artists
+  resources :tweets, :concerts, :artists, :comments
+
+  resources :comments do
+    post :create
+    patch :create
+    put :create
+    get :create
+  end
+  resources :comments do
+    post :like
+    patch :like
+    put :like
+    get :like
+  end
+  resources :comments do
+    post :dislike
+    patch :dislike
+    put :dislike
+    get :dislike
+  end
   resources :concerts do
     patch :index2
     put :index2

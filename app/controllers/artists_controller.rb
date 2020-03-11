@@ -18,12 +18,14 @@ class ArtistsController < ApplicationController
     def show
         @artists = show_top_artists
         @artist = get_artist_by_name(@artists,params[:id])
+        @name = params[:id]
         @bio = get_artist_bio(params[:id])
         @id = get_id_by_name(params[:id])
         @topAlbums = get_top_albums_by_artist_name(params[:id])
         @topTracks = get_top_tracks_by_artist_name(params[:id])
         @similarArtists = get_similar_artists(params[:id])
         @tags = get_tags(params[:id])
+        @comments =Comment.all
     end
 
     private
