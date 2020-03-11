@@ -103,7 +103,7 @@ ul {
 
 .comments-container {
 	margin: 60px auto 15px;
-	width: 800px;
+	width: 640px;
 }
 
 .comments-container h1 a {
@@ -121,15 +121,15 @@ ul {
 
 .comment-box .comment-content {
 	background: #FFF;
-	padding: 200px;
+	padding: 160px;
 	border-radius: 0 0 0 0;  //0 0 6px 6px
 }
 
 .scrollbar {
     background-color: #F5F5F5;
     float: left;
-    height: 300px;
-    width: 800px;
+    height: 200px;
+    width: 640px;
     overflow-y: scroll;
     overflow-x: hidden;
 }

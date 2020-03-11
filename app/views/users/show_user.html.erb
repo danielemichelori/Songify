@@ -24,7 +24,7 @@
                     <br/> Date of birth: <%= @user.date_of_birth %>
                     <br/> User id:<% if @user.provider != "twitter" %> <%= @user.id %> <%else%> <%=@user.uid%><%end%>
                     <br/> Gender: <%= @user.gender %>
-                    <br/> Bio: <%=@user.bio %>
+                    <br/> Bio: <%= @user.bio %>
 
                     <%if current_user.id == @user.username %>
                     <%= link_to "Edit your account", edit_user_registration_path %>
@@ -35,10 +35,9 @@
         <div style="margin-left: 4%; margin-bottom: 1%; margin-top: -2%">
           <h4 style="color: black"><% if @user.favorites != nil && @user.favorites.split(' ') != nil && @user.favorites != ' ' %>
                 <%= link_to "Favorite music events" ,concert_index2_path(concert_id: @user.favorites) %>
-            <% else %> 
+            <% else %>
                 No favorites.
             <% end %></h4>
         </div>
     </div>
 </div>
-
