@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_03_09_102910) do
+ActiveRecord::Schema.define(version: 2020_03_11_115922) do
 
   create_table "active_storage_attachments", force: :cascade do |t|
     t.string "name", null: false
@@ -35,10 +35,13 @@ ActiveRecord::Schema.define(version: 2020_03_09_102910) do
 
   create_table "comments", force: :cascade do |t|
     t.text "body"
-    t.integer "commentable_id"
-    t.string "commentable_type"
+    t.integer "user_id", null: false
+    t.string "artist"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "like", default: 0
+    t.integer "dislike", default: 0
+    t.index ["user_id"], name: "index_comments_on_user_id"
   end
 
   create_table "concerts", force: :cascade do |t|
@@ -130,6 +133,7 @@ ActiveRecord::Schema.define(version: 2020_03_09_102910) do
   end
 
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
+  add_foreign_key "comments", "users"
   add_foreign_key "favorites", "musicevents"
   add_foreign_key "favorites", "users"
 end

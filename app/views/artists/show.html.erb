@@ -57,7 +57,6 @@ $('#carouselExample').on('slide.bs.carousel', function (e) {
       <%= @bio['bio']['content'].html_safe %>
     </div>
   </div>
-
   <h3 style="color: darksalmon;"><%= @artist['name'] %>'albums</h3>
   <div class="container-fluid">
     <div style="width: 100%; height: 170px; overflow-x: scroll;">
@@ -82,3 +81,30 @@ $('#carouselExample').on('slide.bs.carousel', function (e) {
   </small>
   <br/>
   <br/>
+
+
+
+  <div class="container message" style="color: gray;" >
+    <h4 ><%= form_tag comment_create_path(user_id: current_user.id, comment_id:'1', artist: @name), local: true do %>
+      <%= text_area_tag :body, params[:body] %>
+      <%= submit_tag "Comment" %>
+    <% end %>
+    </h4>
+  </div>
+
+<div class="container message" style="color: gray;" >
+    <h4>
+        <% @comments.each do |comment| %>
+        <%if comment.artist == @name %>
+        <%= comment.like%><%=link_to " Like", comment_like_path(id:comment.id, comment_id:comment.id, artist: @name) %>
+        <%= comment.dislike%><%=link_to " Dislike", comment_dislike_path(id:comment.id, comment_id:comment.id, artist: @name) %>
+        <%= comment.body %>
+        <% @us = User.find(comment.user_id) %>
+        <%= link_to @us.username, user_show_user_path(@us) %>    
+        <% if current_user.admin? || current_user.mod? %>
+        <%= link_to "Remove comment", comment, method: :delete , data: { confirm: "You sure?" }, style: "color: white;"   %><% end %>
+        <br/>
+        <%end%>
+        <%end%>
+    </h4>
+</div>
