@@ -3,6 +3,8 @@ require 'httparty'
 
 class ArtistsController < ApplicationController
     before_action :require_login
+     respond_to :js, :json, :html
+
 
     def require_login
       unless current_user != nil
@@ -13,6 +15,17 @@ class ArtistsController < ApplicationController
 
     def index
         @topArtists = show_top_artists
+    end
+
+    def rank
+        @revec=''
+        @arvec='' 
+        @topArtists = show_top_artists
+        @topArtists.each do |artist|
+            @arvec << artist['name']+'+'
+            @revec << get_avg(artist['name']).to_s+' '
+        end
+        @c = @revec.split(' ').zip(@arvec.split('+')).sort.reverse
     end
 
     def show
@@ -26,9 +39,27 @@ class ArtistsController < ApplicationController
         @similarArtists = get_similar_artists(params[:id])
         @tags = get_tags(params[:id])
         @comments =Comment.all
+        @val = Valuation.all
+        @avg = get_avg(params[:id])
     end
 
     private
+
+    def get_avg(name)
+        @sum = 0.0
+            @n = 0.0
+            @val = Valuation.all
+            @val.each do |val|
+                if(val.artist ==  name)
+                    @sum =@sum + val.value.to_f
+                    @n=@n+1
+                end
+            end
+            if @sum != 0.0
+                @sum = @sum/@n
+            end
+            return @sum
+    end
     def show_top_artists
         lastfm = Lastfm.new(ENV["LASTFM_API_KEY"], ENV["LASTFM_API_SECRET"])
         token = lastfm.auth.get_token

@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'valuations/create'
+  post 'valuations/create'
   resources :concerts
   get 'favorites/update'
   post 'favorites/update'
@@ -31,25 +33,34 @@ Rails.application.routes.draw do
   mount ActionCable.server => '/cable'
 
 
-  resources :tweets, :concerts, :artists, :comments
-
-  resources :comments do
+  resources :tweets, :concerts, :artists, :comments, :valuations
+  resources :artists do
+    post :rank
+    patch :rank
+    put :rank
+    get :rank
+  end
+  resources :valuations do
     post :create
     patch :create
     put :create
     get :create
   end
   resources :comments do
-    post :like
-    patch :like
-    put :like
-    get :like
+    member do
+      put "like" => "comments#like"
+    end
   end
   resources :comments do
-    post :dislike
-    patch :dislike
-    put :dislike
-    get :dislike
+    member do
+      put "dislike" => "comments#dislike"
+    end
+  end
+  resources :comments do
+    post :create
+    patch :create
+    put :create
+    get :create
   end
   resources :concerts do
     patch :index2

@@ -1,0 +1,22 @@
+<div class="container message" style="color: gray;">
+  <h3>Top Artists</h3>
+  <p>the best artists of the moment</p>
+  <br/>
+</div>
+
+<div class="list-group">
+    <% n=1 %>
+    <% @c.each do |record| %>
+    <a class="list-group-item clearfix" style="border-style: none; margin-bottom: 0.5%; width: 50%; left: 25%; border-radius: 6px; background-color: rgba(255,255,255,0.65);" href= <%= artist_path(record[1])%>>
+            <div>
+                <strong style="color: black;"><%= "#"+n.to_s+"  " %><%= record[1] %></strong>
+                
+                <br>
+                Average: <%= record[0]%>
+                <% n = n+1 %>
+                <span class="pull-right" style="margin-top: -5%;">
+                    <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+                </span>
+            </div>
+        <% end %>
+</div>

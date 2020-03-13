@@ -1,5 +1,5 @@
 <div class="container message" style="color: gray;">
-  <h3>Top Artists</h3>
+  <h3>Top Artists</h3><h3><%= link_to "Ranking", artist_rank_path(artist_id: 0) %></h3>
   <p>the best artists of the moment</p>
   <br/>
 </div>
@@ -11,6 +11,21 @@
                 <strong style="color: black;"><%= artist['name'] %></strong>
                 <br>
                 <br>
+                <% @sum = 0.0 %>
+                <% @n = 0.0 %>
+                <% @val = Valuation.all %>
+                <% @val.each do |val| %>
+                <% if(val.artist ==  artist['name']) %>
+                <% @sum =@sum + val.value.to_f %>
+                <% @n=@n+1 %>
+                <% end %>
+                <% end %>
+                <% @sum = @sum/@n %>
+                <% if @sum.to_s == 'NaN' %>
+                No reviews.
+                <%else%>
+                <%= @sum %>
+                <%end%>
                 <span class="pull-right" style="margin-top: -3%;">
                     <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
                 </span>
