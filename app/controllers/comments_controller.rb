@@ -1,5 +1,6 @@
 class CommentsController < ApplicationController
  before_action :authenticate_user!
+ respond_to :js, :json, :html
 
   def new
   	super
@@ -18,25 +19,32 @@ class CommentsController < ApplicationController
   	@comments =Comment.all
   end
 
+  def like
+  	@comment = Comment.find(params[:id])
+  	if !current_user.liked? @comment
+  		@comment.liked_by current_user
+  	elsif current_user.liked? @comment
+  		@comment.unliked_by current_user
+  	end
+  	redirect_to artist_path(@comment.artist)
+  end
+  def dislike
+  	@comment = Comment.find(params[:id])
+  	if !current_user.disliked? @comment
+  		@comment.disliked_by current_user
+  	elsif current_user.disliked? @comment
+  		@comment.undisliked_by current_user
+  	end
+    redirect_to artist_path(@comment.artist)
+  end
+
+  
+
   def destroy
     @comment = Comment.find(params[:id])
     @artist = @comment.artist 
     @comment.destroy
   	redirect_to artist_path(id: @artist), :notice => "Comment removed."
-  end
-
-  def like
-  	@comment = Comment.find(params[:id])
-  	x = @comment.like.to_i + 1
-    @comment.update_attribute(:like, x)
-  	redirect_to artist_path(id: params[:artist]), :notice => "Comment liked."
-  end
-
-  def dislike
-  	@comment = Comment.find(params[:comment_id])
-  	c = @comment.dislike.to_i + 1
-    @comment.update_attribute(:dislike, c)
-  	redirect_to artist_path(id: params[:artist]), :notice => "Comment disliked."
   end
 
   private

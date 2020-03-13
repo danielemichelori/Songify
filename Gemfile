@@ -16,7 +16,7 @@ gem  'songkickr'
 gem 'bing-location', '~> 0.0.2b'
 # Use lastfm
 gem 'lastfm', '>= 1.27.3'
-
+gem 'acts_as_votable'
 gem 'rake', '~> 13.0.1'
 # twitter api
 gem 'twitter'

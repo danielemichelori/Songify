@@ -1,5 +1,19 @@
 <%= @albums %>
-<h3><strong><%= link_to @artist['name'], @artist['url'] %></strong></h3>
+<h3><strong><%= link_to @artist['name'], @artist['url'] %>  <%= @avg %></strong></h3>
+  <% @i=true %>
+  <% @val.each do |val| %>
+      <%if(val.user_id ==  current_user.id && val.artist == @name)%>
+        <% @i = false %>
+      <%end%>
+  <%end%>
+  <%if @i == true %>
+  <h5><%= form_tag valuations_create_path(user_id:current_user.id,artist: @name, value: @value, valuation_id: current_user.id), local: true do %>
+      <%= number_field_tag :value, params[:value], in: 1..5 %>
+      <%= submit_tag "Review" %>
+    <% end %></h5>
+  <%else%>
+  You've already reviewed this artist.<%= link_to "Edit your review", "#" %>
+  <%end%>
   <blockquote>
       <p style="color: gray;"><i class='fa fa-chevron-circle-right' title="playcount."></i> <%= @artist['playcount'] %></p>
       <p style="color: gray;"><i class='fa fa-microphone' title="listeners."></i> <%= @artist['listeners'] %></p>
@@ -54,15 +68,26 @@
     <h4>
         <% @comments.each do |comment| %>
         <%if comment.artist == @name %>
-          <%= comment.like%><%=link_to " Like", comment_like_path(id:comment.id, comment_id:comment.id, artist: @name) %>
-          <%= comment.dislike%><%=link_to " Dislike", comment_dislike_path(id:comment.id, comment_id:comment.id, artist: @name) %>
-          <%= comment.body %>
-          <% @us = User.find(comment.user_id) %>
-          <%= link_to @us.username, user_show_user_path(@us) %>
-          <% if current_user.admin? || current_user.mod? %>
-          <%= link_to "Remove comment", comment, method: :delete , data: { confirm: "You sure?" }, style: "color: white;"   %><% end %>
-          <br/>
-          <%end%>
+        <div class="container message" style="color: gray;"> 
+        <%= link_to like_comment_path(comment.id), class:"like-btn", method: :put, remote: :true do%>
+          <i class="fa fa-thumbs-up fa"></i>
+          <span class="likes-count"><%= comment.get_upvotes.size %> </span>
+       
+        <%end%>
+        <%= link_to dislike_comment_path(comment.id), class:"unlike-btn", method: :put, remote: :true do%>
+        
+          <i class="fa fa-thumbs-down fa"></i>
+          <span class="likes-count"><%= comment.get_downvotes.size %> </span>
+      
+        <%end%>
+        <%= comment.body %>
+        <% @us = User.find(comment.user_id) %>
+        <%= link_to @us.username, user_show_user_path(@us) %>    
+        <% if current_user.admin? || current_user.mod? %>
+        <%= link_to "Remove comment", comment, method: :delete , data: { confirm: "You sure?" }, style: "color: white;"   %><% end %>
+        <br/>
+        <%end%>
+          </div>
         <%end%>
     </h4>
 </div>
