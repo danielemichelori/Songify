@@ -5,7 +5,7 @@
 <div class="list-group">
     <% @results.each do |result| %>
         <% if current_user.favorites.split(' ').include?(result.id.to_s) %>
-        <a class="list-group-item clearfix" style="border-style: none; margin-bottom: 0.5%; width: 50%; left: 25%; border-radius: 6px; background-color: rgba(255,255,255,0.65);" href= <%= concert_path(result.id) %>>
+        <a class="list-group-item clearfix" style="border-style: none; margin-bottom: 2%; width: 50%; left: 25%; border-radius: 6px; background-color: rgba(255,255,255,0.65);" href= <%= concert_path(result.id) %>>
             <div>
                 <strong style="color: black"><%= result.display_name %></strong>
                 <br>
