@@ -18,9 +18,35 @@
           <% end %>
         </ul>
     </div>
- <%= form_tag concert_search_path(concert_id: 0), :method => 'get' do %>
+<!--
+    <%= form_tag concert_search_path(concert_id: 0), :method => 'get' do %>
       <%= text_field_tag :search, params[:search] %>
       <%= submit_tag "Search" %>
     <% end %>
+-->
+
+<div>
+  <h4><div>
+    <%= form_tag concert_search_path(concert_id: current_user), :method => 'get' do %>
+      <div class="input-group">
+        <%= text_field_tag :search, params[:search], class: 'form-control', placeholder: "Search", style: "border-color: black" %>
+        <div class="input-group-btn">
+            <button class="btn btn-default" style="background-color: rgba(255,255,255,0.65); border: none;" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+          </div>
+      </div>
+    <% end %>
+  <div/></h4>
+  <h4><div>
+    <%= form_tag concert_searchDate_path(concert_id: current_user), :method => 'get' do %>
+        <div class="input-group">
+        <%= date_field_tag :date, params[:date], style: "padding: 7.2px 36.2px; border: none; border-radius: 3px 0px 0px 3px; color: gray; font-size: 16px" %>
+        <div class="input-group-btn">
+            <button class="btn btn-default" style="background-color: rgba(255,255,255,0.65); border: none;" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+          </div>
+      </div>
+    <% end %>
+  <div/></h4>
+</div>
+
   </div>
 </nav>
