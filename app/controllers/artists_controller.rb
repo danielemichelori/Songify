@@ -151,7 +151,7 @@ end
     end
 
     private
-    def get_tags(name)
+    def self.get_tags(name)
         lastfm = Lastfm.new(ENV["LASTFM_API_KEY"], ENV["LASTFM_API_SECRET"])
         token = lastfm.auth.get_token
         tracks = lastfm.artist.get_top_tags(artist: name)
