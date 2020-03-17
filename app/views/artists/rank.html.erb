@@ -2,6 +2,10 @@
   <h3>Top Artists</h3>
   <p>the best artists of the moment</p>
   <br/>
+  <h4><%= form_tag artists_star_path, local: true do %>
+      <h4>Search based on reviews.<%= number_field_tag :stars, params[:stars], in: 0..5 %>
+      <%= submit_tag "Search" %></h4>
+    <% end %></h4>
 </div>
 
 <div class="list-group">

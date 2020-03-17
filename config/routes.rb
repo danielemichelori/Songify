@@ -1,10 +1,13 @@
 Rails.application.routes.draw do
-
+  get 'valuations/update'
+  post 'valuations/update'
   get 'valuations/create'
   post 'valuations/create'
   resources :concerts
   get 'favorites/update'
   post 'favorites/update'
+  get 'artists/star'
+  post 'artists/star'
 
   resources :music_events
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
@@ -33,18 +36,36 @@ Rails.application.routes.draw do
   mount ActionCable.server => '/cable'
 
 
-  resources :tweets, :concerts, :artists, :comments, :valuations
+  resources :tweets, :concerts, :artists, :comments, :valuations, :reports
   resources :artists do
     post :rank
     patch :rank
     put :rank
     get :rank
   end
+  resources :artists do
+    post :star
+    patch :star
+    put :star
+    get :star
+  end
+  resources :reports do
+    post :create
+    patch :create
+    put :create
+    get :create
+  end
   resources :valuations do
     post :create
     patch :create
     put :create
     get :create
+  end
+  resources :valuations do
+    post :update
+    patch :update
+    put :update
+    get :update
   end
   resources :comments do
     member do
@@ -61,6 +82,12 @@ Rails.application.routes.draw do
     patch :create
     put :create
     get :create
+  end
+  resources :comments do
+    post :update
+    patch :update
+    put :update
+    get :update
   end
   resources :concerts do
     patch :index2

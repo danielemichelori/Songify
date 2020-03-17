@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
 skip_before_action :verify_authenticity_token
 
+
   def index
     @users = User.all
   end
@@ -29,7 +30,7 @@ skip_before_action :verify_authenticity_token
   redirect_to users_path, :alert => "Unable to update user."
  end
 end
- 
+ public
  def ban
     @user = User.find(params[:user_id])
     if @user.ban?
@@ -37,7 +38,9 @@ end
       redirect_to users_path, :notice => "User unbanned."
     else
       @user.update_attribute(:ban, true)
+      ReportsController.destroy_ut(@user.id)
       redirect_to users_path, :notice => "User banned."
+
     end	
 end
 

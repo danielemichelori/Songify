@@ -1,19 +1,22 @@
+
+
 <%= @albums %>
 <h3><strong><%= link_to @artist['name'], @artist['url'] %>  <%= @avg %></strong></h3>
-  <% @i=true %>
-  <% @val.each do |val| %>
-      <%if(val.user_id ==  current_user.id && val.artist == @name)%>
-        <% @i = false %>
-      <%end%>
-  <%end%>
-  <%if @i == true %>
+  <% @v =ArtistsController.has_reviewed(current_user.id.to_i,@artist['name'].to_s) %>
+  <% if @v.value == 0 %>
+  <%= @v.artist %>
   <h5><%= form_tag valuations_create_path(user_id:current_user.id,artist: @name, value: @value, valuation_id: current_user.id), local: true do %>
       <%= number_field_tag :value, params[:value], in: 1..5 %>
       <%= submit_tag "Review" %>
     <% end %></h5>
+
   <%else%>
-  You've already reviewed this artist.<%= link_to "Edit your review", "#" %>
+  <h5><%= form_tag valuations_update_path(user_id:current_user.id,artist: @name, value: @value, valuation_id: @v.id, id:@v.id), local: true do %>
+      <%= number_field_tag :value, params[:value], in: 1..5,value:@v.value %>
+      <%= submit_tag "Edit" %>
+    <% end %></h5>    
   <%end%>
+
   <blockquote>
       <p style="color: gray;"><i class='fa fa-chevron-circle-right' title="playcount."></i> <%= @artist['playcount'] %></p>
       <p style="color: gray;"><i class='fa fa-microphone' title="listeners."></i> <%= @artist['listeners'] %></p>
@@ -66,28 +69,57 @@
 
 <div class="container message" style="color: gray;" >
     <h4>
+
         <% @comments.each do |comment| %>
-        <%if comment.artist == @name %>
-        <div class="container message" style="color: gray;"> 
-        <%= link_to like_comment_path(comment.id), class:"like-btn", method: :put, remote: :true do%>
+        <% if comment.artist == @artist['name'] %>
+
+          <% if comment.user_id.to_i != current_user.id.to_i %>
+            
+            <% if ArtistsController.has_reported_comment(current_user.id, comment.id) == true %>
+              
+              You've reported this comment.
+            <%else%>
+              <%= link_to "Report comment", report_create_path(user_id:current_user.id, comment:comment, ut:comment.user_id, artist: @name, report_id:0, verif:false) %>
+              
+            <%end%>
+
+            <% if ArtistsController.has_reported_user(current_user.id, comment.user_id) == true %>
+              You've reported this user.
+            <%else%>
+
+              <%= link_to "Report user", report_create_path(user_id:current_user.id, comment:comment, ut:comment.user_id, artist: @name, report_id:0, verif:true) %>
+
+            <%end%>
+          <%end%>
+          
+          <%= link_to like_comment_path(comment.id), class:"like-btn", method: :put, remote: :true do%>
           <i class="fa fa-thumbs-up fa"></i>
           <span class="likes-count"><%= comment.get_upvotes.size %> </span>
-       
-        <%end%>
-        <%= link_to dislike_comment_path(comment.id), class:"unlike-btn", method: :put, remote: :true do%>
-        
+          <%end%>
+
+          <%= link_to dislike_comment_path(comment.id), class:"unlike-btn", method: :put, remote: :true do%>
           <i class="fa fa-thumbs-down fa"></i>
-          <span class="likes-count"><%= comment.get_downvotes.size %> </span>
-      
-        <%end%>
-        <%= comment.body %>
-        <% @us = User.find(comment.user_id) %>
-        <%= link_to @us.username, user_show_user_path(@us) %>    
-        <% if current_user.admin? || current_user.mod? %>
-        <%= link_to "Remove comment", comment, method: :delete , data: { confirm: "You sure?" }, style: "color: white;"   %><% end %>
+          <span class="likes-count"><%= comment.get_downvotes.size %> </span>      
+          <%end%>
+        
+          <% @us = User.find(comment.user_id) %>
+          <%if @us.id.to_s != current_user.id.to_s %>
+            <%= comment.body %>
+            <%= link_to @us.username, user_show_user_path(@us) %>    
+          <%else%>
+            <%= link_to "You", user_path %>
+            <%= form_tag comment_update_path(user_id: current_user.id, comment_id:comment.id, artist: @name, id:comment.id), local: true do %>
+              <%= text_field_tag :body, params[:body], value:comment.body  %>
+              <%= submit_tag "Edit" %>
+            <%end%>
+          <%end%>
+
+            <% if current_user.admin? || current_user.mod? || current_user.id == comment.user_id%>
+            <%= link_to "Remove comment", comment, method: :delete , data: { confirm: "You sure?" }, style: "color: white;"   %><% end %>
         <br/>
+
         <%end%>
-          </div>
+
         <%end%>
     </h4>
 </div>

@@ -1,5 +1,7 @@
 class User < ApplicationRecord
   mount_uploader :avatar, AvatarUploader
+  has_many :comments, dependent: :destroy
+  has_many :reports, dependent: :destroy
   acts_as_voter
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable

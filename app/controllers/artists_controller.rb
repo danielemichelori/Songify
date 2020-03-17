@@ -17,13 +17,18 @@ class ArtistsController < ApplicationController
         @topArtists = show_top_artists
     end
 
+    def star
+        @topArtists = show_top_artists
+        @star = params[:stars]
+    end
+
     def rank
         @revec=''
         @arvec='' 
         @topArtists = show_top_artists
         @topArtists.each do |artist|
             @arvec << artist['name']+'+'
-            @revec << get_avg(artist['name']).to_s+' '
+            @revec << ArtistsController.get_avg(artist['name']).to_s+' '
         end
         @c = @revec.split(' ').zip(@arvec.split('+')).sort.reverse
     end
@@ -40,12 +45,11 @@ class ArtistsController < ApplicationController
         @tags = get_tags(params[:id])
         @comments =Comment.all
         @val = Valuation.all
-        @avg = get_avg(params[:id])
     end
 
-    private
+public
 
-    def get_avg(name)
+def self.get_avg(name)
         @sum = 0.0
             @n = 0.0
             @val = Valuation.all
@@ -58,8 +62,42 @@ class ArtistsController < ApplicationController
             if @sum != 0.0
                 @sum = @sum/@n
             end
-            return @sum
+            if @sum == 'NaN'
+                return 0.to_i
+            else
+                return @sum
+            end
     end
+
+    def self.has_reviewed(user,name)
+        @val = Valuation.all
+        @val.each do |val|
+            if val.user_id.to_i == user && val.artist.to_s == name
+                return val
+            end
+        end
+        return Valuation.new
+    end
+
+    def self.has_reported_comment(user,comment)
+    @rep = Report.all
+    @rep.each do |r|
+      if r.user_id.to_i == user.to_i && r.comment.id.to_i == comment.to_i && !r.verif
+        return true
+      end
+    end
+    return false
+end
+   
+   def self.has_reported_user(user,us)
+    @rep = Report.all
+    @rep.each do |r|
+      if r.user_id.to_i == user.to_i && r.ut.to_i == us.to_i && r.verif
+        return true
+      end
+    end
+    return false
+end 
     def show_top_artists
         lastfm = Lastfm.new(ENV["LASTFM_API_KEY"], ENV["LASTFM_API_SECRET"])
         token = lastfm.auth.get_token
