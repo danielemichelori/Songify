@@ -37,8 +37,7 @@
           <h4><% if current_user.favorites != nil && current_user.favorites.split(' ') != nil && current_user.favorites != ' ' %>
                 <%= link_to "Favorite music events" ,concert_index2_path(concert_id: current_user.favorites), style: "color: black;" %>
             <% else %>
-                <%= link_to "Add some events to your favorites!" , concerts_path(concert_id: current_user.favorites), style: "color: black;"  %>
-
+                <%= link_to "Add some events to your favorites!" , concerts_path(concert_id: current_user.favorites), style: "color: black;" %>
             <% end %>
             </h4>
         </div>
