@@ -42,7 +42,7 @@ class ArtistsController < ApplicationController
         @topAlbums = get_top_albums_by_artist_name(params[:id])
         @topTracks = get_top_tracks_by_artist_name(params[:id])
         @similarArtists = get_similar_artists(params[:id])
-        @tags = get_tags(params[:id])
+        @tags = ArtistsController.get_tags(params[:id])
         @comments =Comment.all
         @val = Valuation.all
     end
