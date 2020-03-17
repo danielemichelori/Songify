@@ -27,7 +27,7 @@ Rails.application.routes.draw do
   # rotte _header
   get 'homepage'       => 'static_pages#homepage'  #rotta homepage
   get 'artists'        => 'artists#index'   #rotta artisti
-  get 'tweets'         => 'static_pages#tweets'    #rotta tweets
+  get 'tweet'         => 'tweet#index'    #rotta tweets
   get 'chatroom'       => 'static_pages#chatroom'  #rotta chatroom
   # rotte _footer
   get 'about'          => 'static_pages#about'     #rotta informazioni
@@ -103,7 +103,7 @@ Rails.application.routes.draw do
     patch :searchDate
     put :searchDate
     get :searchDate
-  end  
+  end
   resources :concerts do
     patch :search_id
     put :search_id
