@@ -24,7 +24,7 @@ class ArtistsController < ApplicationController
 
     def rank
         @revec=''
-        @arvec='' 
+        @arvec=''
         @topArtists = show_top_artists
         @topArtists.each do |artist|
             @arvec << artist['name']+'+'
@@ -88,7 +88,7 @@ def self.get_avg(name)
     end
     return false
 end
-   
+
    def self.has_reported_user(user,us)
     @rep = Report.all
     @rep.each do |r|
@@ -97,7 +97,7 @@ end
       end
     end
     return false
-end 
+end
     def show_top_artists
         lastfm = Lastfm.new(ENV["LASTFM_API_KEY"], ENV["LASTFM_API_SECRET"])
         token = lastfm.auth.get_token

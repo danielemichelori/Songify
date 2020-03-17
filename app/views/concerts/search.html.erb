@@ -1,4 +1,3 @@
-<div class="list-group">
 <div class="container message" style="color: gray;">
   <h3>Results</h3>
   <h4>You searched for this events</h4>
@@ -27,7 +26,7 @@
 <% end %>
 <%if @index == 0 %>
 <div class="container message" style="color: gray;">
-<h4>No results found.</h4>
+  <h4>No results found.</h4>
 </div>
 <br/>
 <%end%>
@@ -57,10 +56,11 @@
 
 <%if @index == 0 %>
 <div class="container message" style="color: gray;">
-<h4>No results found.</h4>
+  <h4>No results found.</h4>
 </div>
 <br/>
 <%end%>
+
 <%@index = 0 %>
 <div class="container message" style="color: gray;">
   <h4>Artists inherent to: #<%=@input.to_s%></h4>
@@ -84,7 +84,7 @@
 <% end %>
 <% if @index == 0%>
 <div class="container message" style="color: gray;">
-<h4>No results found.</h4>
+  <h4>No results found.</h4>
 </div>
 <br/>
 <% end %>

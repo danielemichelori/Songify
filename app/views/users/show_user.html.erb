@@ -34,7 +34,7 @@
         </div>
         <div style="margin-left: 4%; margin-bottom: 1%; margin-top: -2%">
           <h4 style="color: black"><% if @user.favorites != nil && @user.favorites.split(' ') != nil && @user.favorites != ' ' %>
-                <%= link_to "Favorite music events" ,concert_index2_path(concert_id: @user.favorites) %>
+                <%= link_to "Favorite music events" ,concert_index2_path(concert_id: @user.favorites), style: "color: black;" %>
             <% else %>
                 No favorites.
             <% end %></h4>
