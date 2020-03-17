@@ -1,8 +1,25 @@
+
 <div class="container message">
   <h3 style="color: gray;">Administers Songify's users</h3>
   <br/>
-</div>
+    
+    <h3 style="color: gray;"><% @reps = Report.all %>
+        <% @reps.each do |report| %>
+            <% @us = User.find(report.user_id) %>
+            <% @u = User.find(report.ut.to_i) %>
 
+            <%= @us.username%> just reported 
+            <%if report.verif == false%> the comment: <% @c = report.comment %><%= @c.body%> of <%end%>
+            <%=link_to @u.username, user_show_user_path(@u) %> for <%=report.reason%> 
+            <%if report.verif == false%> <%= link_to "Remove comment", @c, method: :delete , data: { confirm: "You sure?" }, style: "color: white;"   %><%end%> 
+            <%= link_to 'Ban User', user_ban_path(@u), method: :put, data: { confirm: 'This user will be banned. Proceed?' }, style: "color: black;" %> 
+            <%= link_to "Delete User", @u, method: :delete, data: { confirm: "You sure?" }, style: "color: black;" %>
+                <br><br>
+        <%end%>
+    </h3>
+
+
+</div>
 
 <div class="row">
     <div class="col-lg-4">

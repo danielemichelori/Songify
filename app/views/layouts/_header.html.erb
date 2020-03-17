@@ -10,7 +10,7 @@
             <li><%= link_to "Tweets", tweets_path %></li>
             <li><%= link_to "Chat", chatroom_path %></li>
             <% if current_user.admin || current_user.mod%>
-            <li><%= link_to "Manage Users", users_index_path %></li>
+            <li><%= link_to "Administration", users_index_path %></li>
             <%end%>
             <li><%= link_to "Logout", destroy_user_session_path, method: :delete %></li>
           <% else %>

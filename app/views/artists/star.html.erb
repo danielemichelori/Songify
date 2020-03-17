@@ -1,0 +1,28 @@
+<div class="container message" style="color: gray;">
+  <h3>Top Artists</h3><h3><%= link_to "Ranking", artist_rank_path(artist_id: 0) %></h3>
+    <h4><%= form_tag artists_star_path, local: true do %>
+      <h4>Search based on reviews.<%= number_field_tag :stars, params[:stars], in: 0..5 %>
+      <%= submit_tag "Search" %></h4>
+    <% end %></h4>
+  <p>the best artists of the moment</p>
+  <br/>
+</div>
+
+<div class="list-group">
+    <% @topArtists.each do |artist| %>
+        <% if ArtistsController.get_avg(artist['name']).to_f >= @star.to_f && ArtistsController.get_avg(artist['name']) < @star.to_f+1.0 %>
+        <a class="list-group-item clearfix" style="border-style: none; margin-bottom: 2%; width: 50%; left: 25%; border-radius: 6px; background-color: rgba(255,255,255,0.65);" href= <%= artist_path(artist['name'])%>>
+            <div>
+                <strong style="color: black;"><%= artist['name'] %></strong>
+                <br>
+                <%=  ArtistsController.get_avg(artist['name']) %>
+                <br>
+                <span class="pull-right" style="margin-top: -3%;">
+                    <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+                </span>
+                <br/>
+            </div>
+        </a>
+        <% end %>
+    <% end %>
+</div>

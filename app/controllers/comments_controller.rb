@@ -15,6 +15,15 @@ class CommentsController < ApplicationController
   	redirect_to artist_path(id: params[:artist]), :notice => "Commented."
   end
 
+    def update
+    @comment = Comment.find(params[:id])
+ if @comment.update_attributes(body: params[:body])
+  redirect_to artist_path(@comment.artist), :notice => "Comment updated."
+ else
+  redirect_to artist_path(@comment.artist), :alert => "Unable to update comment."
+ end
+end
+
   def show 
   	@comments =Comment.all
   end
