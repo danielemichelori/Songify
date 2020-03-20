@@ -6,6 +6,10 @@ ruby '2.6.5'
 # Gemme applicazioni esterne
 gem 'rubyzip', '~> 2.0.0'
 
+#Sweetalert
+gem 'rails-assets-sweetalert2', '~> 5.1.1', source: 'https://rails-assets.org'
+gem 'sweet-alert2-rails'
+
 gem 'carrierwave', '~> 2.0'
 # Use for bootstrap
 gem 'bootstrap', '~> 4.3.1'
