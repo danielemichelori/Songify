@@ -1,6 +1,7 @@
 <div class="container message">
-  <% if current_user.email == nil  %>
-    <p>Since you have logged in with twitter you have to <%= link_to "Update your e-mail", edit_user_registration_path %> to comment or review concerts. </p></br>
+  <% if current_user.email == nil %>
+    <p style="color: white;">Since you have logged in with twitter you have to <%= link_to "Update your e-mail", edit_user_registration_path %> to comment or review concerts. </p>
+    <br/>
   <%end%>
   <h3 style="color: gray;">Welcome to Songify's profile</h3>
   <p style="color: gray;">show your informations <%= current_user.username%></p>
@@ -8,7 +9,7 @@
 </div>
 
 <div class="container">
-    <div class="card cardpr" style="background-color: rgba(255,255,255,0.65);">
+    <div class="card cardpr" style="background-color: rgba(255,255,255,0.65); margin-bottom: 10%">
         <div class="row stylerow" style="border-bottom: 1px solid #E5E5E5; width: 100%; margin-left: 0%;">
             <div class="col-sm-2 col-md-2" style="margin-left: 4%;">
                 <% if current_user.provider == "twitter" %>
