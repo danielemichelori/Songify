@@ -6,12 +6,13 @@ class Users::RegistrationsController < Devise::RegistrationsController
 # /resource/sign_up
    def new
      super
+    UserMailer.welcome_email(self).deliver_now
    end
 
   # POST /resource
    def create
-     super
-   end
+    super
+  end
 
   # GET /resource/edit
   def edit
