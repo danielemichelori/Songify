@@ -11,7 +11,6 @@
 <% end %>
 <div style="margin-bottom: 5%">
   <% if current_user.favorites != nil && current_user.favorites.split(' ').include?(@event.id.to_s) %>
-
 	  	<% if @event.type == "Concert"%>
 	      <h5 style="color: gray;"><strong><%= link_to "Unfavorite", user_removeFavorite_path(id: @event.id,user_id: current_user.id) %> this concert, share</strong></h5>
 	  	<%else%>
@@ -25,7 +24,6 @@
 	  <%else%>
 	      <h5 style="color: gray;"><strong>Put in yours <%= link_to "favorite", user_addFavorite_path(id: @event.id,user_id: current_user.id) %> and share this festival</strong></h5>
 	  <% end %>
-
   <% end %>
 
   <p class="btn-social btn-twitter">
@@ -34,7 +32,7 @@
     <% end %>
   </p>
   <div class="row" style="margin-left: inherit; margin-top: 5%; color: gray;">
-    <%= image_tag @location , alt: "Map" %>
+    <%= image_tag @location , alt: "Map", style: "border-radius: 6px 6px 6px 6px;" %>
     <p style="margin-left: 20px;">
       <strong><%= @venue.display_name %></strong><br/>
       <%= @venue.street %><br/>
