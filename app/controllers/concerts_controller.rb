@@ -32,6 +32,11 @@ class ConcertsController < ApplicationController
         @date = params[:date]
     end
 
+    def searchZone
+        @results = @@results
+        @zone = params[:zone]
+    end
+
     def show
         @events = @@results
         @event = search_id(@events, params[:id])
@@ -84,9 +89,9 @@ class ConcertsController < ApplicationController
      def get_artist_bio(artist)
          lastfm = Lastfm.new(ENV["LASTFM_API_KEY"], ENV["LASTFM_API_SECRET"])
          token = lastfm.auth.get_token
-         #lastfm.session = lastfm.auth.get_session(token: token)['key']
+         lastfm.session = lastfm.auth.get_session(token: token)['key']
 
-         #return lastfm.artist.getInfo(artist: artist)
+         return lastfm.artist.getInfo(artist: artist)
      end
 
     # Only allow a list of trusted parameters through.

@@ -105,6 +105,11 @@ Rails.application.routes.draw do
     get :searchDate
   end
   resources :concerts do
+    patch :searchZone
+    put :searchZone
+    get :searchZone
+  end
+  resources :concerts do
     patch :search_id
     put :search_id
     get :search_id
