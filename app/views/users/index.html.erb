@@ -1,6 +1,5 @@
 <div class="container message">
   <h3 style="color: gray;">Administers Songify's users</h3>
-  <br/>
   <p style="color: white;"><% @reps = Report.all %>
       <% @reps.each do |report| %>
           <% @us = User.find(report.user_id) %>
@@ -21,7 +20,7 @@
 
 <div class="row">
     <div class="col-lg-4">
-        <% if current_user && (current_user.admin? || current_user.mod?) %>  <!-- -1-->
+        <% if current_user && (current_user.admin? || current_user.mod?) %>
           <% @users = User.all %>
           <% @users.each do |user| %>
           <div class="timeline-panel">

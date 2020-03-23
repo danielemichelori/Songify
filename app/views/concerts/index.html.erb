@@ -16,15 +16,19 @@
 </div>
 -->
 <div class="container message" style="color: gray;">
-  <h3>Upcoming Concerts</h3><br>
-  <div class="container message" style="color: gray;" >
-    <h4 ><%= form_tag concert_searchZone_path(concert_id: current_user), :method => 'get' do %>
-      <%= select_tag "zone", raw("<option>Roma nord</option><option>Roma ovest</option><option>Roma est</option><option>Roma sud</option>") %>
-      <%= submit_tag "Search zone" %>
+  <h3>Upcoming Concerts</h3>
+  <p>choose your favorite or discover according to the area</p>
+  <br/>
+  <h4><div>
+    <%= form_tag concert_searchZone_path(concert_id: current_user), :method => 'get' do %>
+      <div class="input-group">
+        <%= select_tag "zone", raw("<option>Roma nord</option><option>Roma ovest</option><option>Roma est</option><option>Roma sud</option>"), class: 'form-control', style: "color: gray; left: 24.5%; width: 48.5%; height: 20%; border-color: black" %>
+        <div class="input-group-btn">
+            <button class="btn btn-default" style="left: -290px; background-color: rgba(255,255,255,0.65); border: none;" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+          </div>
+      </div>
     <% end %>
-    </h4>
-</div>
-  <p>choose your favorite</p>
+  <div/></h4>
   <br/>
 </div>
 
