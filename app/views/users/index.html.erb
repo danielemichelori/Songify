@@ -8,11 +8,12 @@
 
           <%= @us.username%> just reported
           <% if report.verif == false%> the comment: <% @c = report.comment %><%= @c.body %> of <% end %>
-          <%=link_to @u.username, user_show_user_path(@u) %> for <%=report.reason%>
+          <%=link_to @u.username, user_show_user_path(@u) %>
           <% if report.verif == false%> <%= link_to "Remove comment", @c, method: :delete , data: { confirm: "You sure?" }, style: "color: white;" %>
           <%end%>
           <%= link_to 'Ban user', user_ban_path(@u), method: :put, data: { confirm: 'This user will be banned. Proceed?' } %>
           <%= link_to 'Delete user', @u, method: :delete, data: { confirm: "This user will be deleted. Proceed?" } %>
+          <br>
       <%end%>
   </p>
   <br/>
