@@ -15,9 +15,15 @@
     </h4>
 </div>
 -->
-
 <div class="container message" style="color: gray;">
-  <h3>Upcoming Concerts</h3>
+  <h3>Upcoming Concerts</h3><br>
+  <div class="container message" style="color: gray;" >
+    <h4 ><%= form_tag concert_searchZone_path(concert_id: current_user), :method => 'get' do %>
+      <%= select_tag "zone", raw("<option>Roma nord</option><option>Roma ovest</option><option>Roma est</option><option>Roma sud</option>") %>
+      <%= submit_tag "Search zone" %>
+    <% end %>
+    </h4>
+</div>
   <p>choose your favorite</p>
   <br/>
 </div>
