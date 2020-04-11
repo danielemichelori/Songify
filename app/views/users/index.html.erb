@@ -18,56 +18,48 @@
   <br/>
 </div>
 
-
 <% if current_user && (current_user.admin? || current_user.mod?) %>
-  <% @users = User.all %>
-  <div class="row">
-
-      <div class="col-lg-4">
-        <% @users.each do |user| %>
-        <% if user != current_user %>
-          <div class="container blockquote-twitter-tweet card" style="background-color: rgba(255,255,255,0.65); margin-bottom: 7%; border-radius: 6px;">
-
-              <div class="card-body" style="text-align: center;">
-
-
-                  <!-- Show user name -->
-                  <div class="row stylerow" style="border-bottom: 1px solid #E5E5E5; width: 100%; margin-left: 0%;">
-                        <h4><%= link_to user.username , user_show_user_path(user), style: "font-size: 16px;" %></h4>
-                        </div>
-
-                        <% if !user.admin? %>
-                            <% if user.ban? %>
-                              <%= link_to 'Unban', user_ban_path(user), method: :put, data: { confirm: 'This user will be unbanned. Proceed?' }, style: "color: black;" %>
-                              <% else %>
-                                <%= link_to 'Ban', user_ban_path(user), method: :put, data: { confirm: 'This user will be banned. Proceed?' }, style: "color: black;" %>
-                              <% end %>
-                              <br/>
-                            <% end %>
-
-                            <% if user.mod? %>
-                              <%= link_to 'Unmod', user_mod_path(user), method: :put, data: { confirm: 'This user will be unmoded. Proceed?' }, style: "color: black;" %>
-                              <% else %>
-                                <%= link_to 'Mod', user_mod_path(user), method: :put, data: { confirm: 'This user will be moded. Proceed?' }, style: "color: black;" %>
-                              <% end %>
-                              <br/>
-                            <% end %>
-
-                        <% if current_user.admin? %>
-                            <% if user.admin? %>
-                              <% else %>
-                                <%= link_to 'Admin', user_admin_path(user), method: :put, data: { confirm: 'This user will be moded. Proceed?' }, style: "color: black;" %>
-                              <% end %>
-                            <% end %>
-
-                        <% if (current_user.admin? || current_user.mod )&& !current_user?(user) && !user.admin%>
-                            <%= link_to "Delete", user, method: :delete, data: { confirm: "This user will be deleted. Proceed?" }, style: "color: black;" %>
-                            <br/>
-                        <% else %>
-                      <% end %>
+    <% @users = User.all %>
+    <div class="row">
+        <div class="col-lg-4">
+          <% @users.each do |user| %>
+          <% if user != current_user %>
+            <div class="container blockquote-twitter-tweet card" style="background-color: rgba(255,255,255,0.65); width: 50%; margin-bottom: 2%; border-radius: 6px;">
+                <div class="card-body" style="text-align: center;">
+                    <div style="border-bottom: 1px solid #E5E5E5; width: 111%; margin-left: -5.5%;">
+                          <h4><%= link_to user.username , user_show_user_path(user), style: "font-size: 16px;" %></h4>
                     </div>
-              </div>
-              <% end %>
-        <% end %>
-      </div>
-</div>
+                    <% if !user.admin? %>
+                        <% if user.ban? %>
+                          <%= link_to 'Unban', user_ban_path(user), method: :put, data: { confirm: 'This user will be unbanned. Proceed?' }, style: "color: black;" %>
+                          <% else %>
+                            <%= link_to 'Ban', user_ban_path(user), method: :put, data: { confirm: 'This user will be banned. Proceed?' }, style: "color: black;" %>
+                          <% end %>
+                          <br/>
+                        <% end %>
+
+                        <% if user.mod? %>
+                          <%= link_to 'Unmod', user_mod_path(user), method: :put, data: { confirm: 'This user will be unmoded. Proceed?' }, style: "color: black;" %>
+                          <% else %>
+                            <%= link_to 'Mod', user_mod_path(user), method: :put, data: { confirm: 'This user will be moded. Proceed?' }, style: "color: black;" %>
+                          <% end %>
+                          <br/>
+                        <% end %>
+
+                    <% if current_user.admin? %>
+                        <% if user.admin? %>
+                          <% else %>
+                            <%= link_to 'Admin', user_admin_path(user), method: :put, data: { confirm: 'This user will be moded. Proceed?' }, style: "color: black;" %>
+                          <% end %>
+                        <% end %>
+
+                    <% if (current_user.admin? || current_user.mod )&& !current_user?(user) && !user.admin%>
+                        <%= link_to "Delete", user, method: :delete, data: { confirm: "This user will be deleted. Proceed?" }, style: "color: black;" %>
+                        <br/>
+                  <% end %>
+                  </div>
+            </div>
+            <% end %>
+        </div>
+    </div>
+<% end %>
