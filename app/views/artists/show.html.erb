@@ -1,5 +1,5 @@
 <%= @albums %>
-<h3><strong><%= link_to @artist['name'], @artist['url'] %>  <%= @avg %></strong></h3>
+<h3><strong><%= link_to @artist['name'], @artist['url'] %>  <%= ArtistsController.get_avg(@artist['name']) %></strong></h3>
   <blockquote>
       <p style="color: gray;"><i class='fa fa-chevron-circle-right' title="playcount."></i> <%= @artist['playcount'] %></p>
       <p style="color: gray;"><i class='fa fa-microphone' title="listeners."></i> <%= @artist['listeners'] %></p>
@@ -43,7 +43,7 @@
     <% if @v.value == 0 %>
     <%= @v.artist %>
     <%= form_tag valuations_create_path(user_id:current_user.id,artist: @name, value: @value, valuation_id: current_user.id), local: true do %>
-      <div class="input-group">
+      <div class="input-group" >
           <%= number_field_tag :value, params[:value], in: 1..5, placeholder: "Review here!", class: 'form-control', style: "height: 34px; border-color: black; color: black; background-color: rgba(255,255,255,0.65);" %>
           <div class="input-group-btn">
             <button class="btn btn-default" style="background-color: gray; border: none;" type="submit">Commit review</button>
@@ -70,7 +70,7 @@
       <div class="input-group">
           <%= text_area_tag :body, params[:body], placeholder: "Write here!", class: 'form-control', style: "height: 33px; border-color: black; color: black; background-color: rgba(255,255,255,0.65);" %>
           <div class="input-group-btn">
-            <button class="btn btn-default" style="background-color: gray; border: none;" type="submit">Commit review</button>
+            <button class="btn btn-default" style="background-color: gray; border: none;" type="submit">Commit comment</button>
           </div>
       </div>
     <% end %>
@@ -78,50 +78,62 @@
   <br/>
 
   <div class="container message" style="color: gray;" >
+    
       <% @comments.each do |comment| %>
-        <% if comment.artist == @artist['name'] %>
-          <% if comment.user_id.to_i != current_user.id.to_i %>
-          <% @us = User.find(comment.user_id) %>
-        <h5>
-          <%if @us.id.to_s != current_user.id.to_s %>
-          <%= link_to @us.username, user_show_user_path(@us) %>
-          <%else%>
-            <%= link_to "You", user_path %>
-            <%= form_tag comment_update_path(user_id: current_user.id, comment_id:comment.id, artist: @name, id:comment.id), local: true do %>
-              <%= text_field_tag :body, params[:body], value:comment.body  %>
-              <%= submit_tag "Edit" %>
+            <% if comment.artist.to_s == @artist['name'].to_s %>
+                  <h4>
+                  <% if comment.user_id.to_i != current_user.id.to_i %>
+                      <% @us = User.find(comment.user_id) %>
+                      <%= link_to @us.username, user_show_user_path(@us) %>
+                      <br>
+                   
+                      <h3><%= comment.body %></h3>
+                      <h4><%= link_to like_comment_path(comment.id), class:"like-btn", method: :put, remote: :true do%>
+                    <i class="fa fa-thumbs-up fa" style="margin-left: 1%;"></i>
+                    <span class="likes-count"><%= comment.get_upvotes.size %> </span>
+                  <%end%>
+                  <%= link_to dislike_comment_path(comment.id), class:"unlike-btn", method: :put, remote: :true do%>
+                  <i class="fa fa-thumbs-down fa" style="margin-left: 1%;"></i>
+                  <span class="likes-count" style="margin-right: 1%;"><%= comment.get_downvotes.size %></span>
+                  <%end%></h4>
+                  <%else%>
+                      <%= link_to "You", user_path %>
+                   
+                  
+                  <h3><%= form_tag comment_update_path(user_id: current_user.id, comment_id:comment.id, artist: @name, id:comment.id), local: true do %>
+                      <%= text_field_tag :body, params[:body], value:comment.body  %>
+                      <%= submit_tag "Edit" %>
+                      <%end%></h3><h4>
+                      <%= link_to like_comment_path(comment.id), class:"like-btn", method: :put, remote: :true do%>
+                    <i class="fa fa-thumbs-up fa" style="margin-left: 1%;"></i>
+                    <span class="likes-count"><%= comment.get_upvotes.size %> </span>
+                  <%end%>
+                  <%= link_to dislike_comment_path(comment.id), class:"unlike-btn", method: :put, remote: :true do%>
+                  <i class="fa fa-thumbs-down fa" style="margin-left: 1%;"></i>
+                  <span class="likes-count" style="margin-right: 1%;"><%= comment.get_downvotes.size %></span>
+                  <%end%></h4>
+                  <%end%>
+                  
+                  <h5>
+                  <% if comment.user_id.to_i != current_user.id.to_i %>
+                    <% if ArtistsController.has_reported_comment(current_user.id, comment.id) == true %>
+                      You've reported this comment!
+                    <%else%>
+                      <%= link_to "Report comment", report_create_path(user_id:current_user.id, comment:comment, ut:comment.user_id, artist: @name, report_id:0, verif:false) %>
+                    <%end%>
+                    <% if ArtistsController.has_reported_user(current_user.id, comment.user_id) == true %>
+                      You've reported this user!
+                    <%else%>
+                      <%= link_to "Report user", report_create_path(user_id:current_user.id, comment:comment, ut:comment.user_id, artist: @name, report_id:0, verif:true), style:"margin-left: 1%;" %>
+                    <%end%>
+                  <%end%>
+                    </h5>
+                  <h5 style="margin-bottom: 50px;">
+                  <% if current_user.admin? || current_user.mod? || current_user.id == comment.user_id%>
+                  <%= link_to "Remove comment", comment, method: :delete , data: { confirm: "You sure?" }, style: "color: white;" %>
+                  <% end %>
+                  </h5>
+                  </h4>
             <%end%>
-          <%end%>
-        </h5>
-        <h4><%= comment.body %></h4>
-        <h5>
-          <%= link_to like_comment_path(comment.id), class:"like-btn", method: :put, remote: :true do%>
-            <i class="fa fa-thumbs-up fa" style="margin-left: 1%;"></i>
-            <span class="likes-count"><%= comment.get_upvotes.size %> </span>
-          <%end%>
-          <%= link_to dislike_comment_path(comment.id), class:"unlike-btn", method: :put, remote: :true do%>
-          <i class="fa fa-thumbs-down fa" style="margin-left: 1%;"></i>
-          <span class="likes-count" style="margin-right: 1%;"><%= comment.get_downvotes.size %></span>
-          <%end%>
-        </h5>
-        <h5>
-          <% if ArtistsController.has_reported_comment(current_user.id, comment.id) == true %>
-            You've reported this comment!
-          <%else%>
-            <%= link_to "Report comment", report_create_path(user_id:current_user.id, comment:comment, ut:comment.user_id, artist: @name, report_id:0, verif:false) %>
-          <%end%>
-          <% if ArtistsController.has_reported_user(current_user.id, comment.user_id) == true %>
-            You've reported this user!
-          <%else%>
-            <%= link_to "Report user", report_create_path(user_id:current_user.id, comment:comment, ut:comment.user_id, artist: @name, report_id:0, verif:true), style:"margin-left: 1%;" %>
-          <%end%>
-        <%end%>
-        </h5>
-        <h5 style="margin-bottom: 50px;">
-            <% if current_user.admin? || current_user.mod? || current_user.id == comment.user_id%>
-            <%= link_to "Remove comment", comment, method: :delete , data: { confirm: "You sure?" }, style: "color: white;" %>
-            <% end %>
-        </h5>
-        <%end%>
-        <%end%>
+      <%end%>
   </div>
