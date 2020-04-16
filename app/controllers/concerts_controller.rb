@@ -53,7 +53,6 @@ class ConcertsController < ApplicationController
            
         end
         my_loc.zoom_level = '16'
-        @bio = get_artist_bio('')
     end
 
     private
@@ -84,15 +83,6 @@ class ConcertsController < ApplicationController
         token = lastfm.auth.get_token
         return lastfm.chart.get_top_artists
     end
-
-     private
-     def get_artist_bio(artist)
-         lastfm = Lastfm.new(ENV["LASTFM_API_KEY"], ENV["LASTFM_API_SECRET"])
-         token = lastfm.auth.get_token
-         lastfm.session = lastfm.auth.get_session(token: token)['key']
-
-         return lastfm.artist.getInfo(artist: artist)
-     end
 
     # Only allow a list of trusted parameters through.
     def concert_params
