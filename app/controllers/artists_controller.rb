@@ -65,7 +65,7 @@ def self.get_avg(name)
             if @sum == 'NaN'
                 return 0.to_i
             else
-                return @sum
+                return @sum.truncate(1)
             end
     end
 

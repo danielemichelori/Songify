@@ -24,7 +24,7 @@
                 <br>
                 <br>
                 <span style="background-color: darksalmon;" class="badge badge-light">
-                  <%= @avg = ArtistsController.get_avg(artist['name']) %> <i class="fa fa-star"></i>
+                  <%= @avg = ArtistsController.get_avg(artist['name']).truncate(1) %> <i class="fa fa-star"></i>
                 </span>
                 <span class="pull-right" style="margin-top: -3%;">
                     <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
